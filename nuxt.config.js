@@ -1,4 +1,6 @@
 export default {
+
+  target: 'server',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'virnect-ssr',
@@ -30,11 +32,35 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
   ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-  ],
+    // Doc: https://http.nuxtjs.org
+    [
+      "@nuxtjs/i18n",
+      {
+        //서버사이드랜더링 한번 다시쭉살펴보기  seo:true,를 여기에다 하는게 맞는건지?
+        seo: true,
+        //prefix_except_default <= 기존 no_prefix로바꾸고 호출문  setLocale(locale) 이거구현하니까 원하는모습나옴 대박
+        strategy: "no_prefix",
+        defaultLocale: "ko",
+        lazy: true,
+        langDir: "lang/",
+        locales: [
+          {
+            code: "en",
+            name: "English",
+            file: "en.json"
+          },
+          {
+            code: "ko",
+            name: "korean",
+            file: "ko.json"
+          }
+        ]
+      }
 
+    ],
+
+  ],
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
