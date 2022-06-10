@@ -1,0 +1,16 @@
+[
+  {
+    "name": "energy-energy",
+    "path": "/energy/energy",
+    "component": "/Users/majeongheum/virnect_test/pages/energy/energy.vue",
+    "chunkName": "pages/energy/energy",
+    "_name": "_bfada3d0"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/majeongheum/virnect_test/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c029530a"
+  }
+]
