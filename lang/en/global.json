@@ -1,0 +1,37 @@
+{
+  "global": {
+    "myUrl": "https://virnect.com",
+    "videoBtnText": "Introduction video",
+    "shortcut": "Shortcut",
+    "totalBtnText": "View all",
+    "listText": "View contents",
+    "demoText": "View demo",
+    "ROIText": "Measure ROI",
+    "subscribeFormText": "I agree to the privacy policy. (Required)",
+    "emailInput": "Please input your email address.",
+    "subscribeText": "Subscribe",
+    "detail": "More",
+    "productsInto": "Product Details",
+    "boardText": {
+      "num": "Number",
+      "title": "Subject",
+      "date": "Date",
+      "nodata": "There are no recent posts.",
+      "sourceView": "See original article",
+      "sourceTitle": "Article title",
+      "prev": "Prev",
+      "next": "Next",
+      "prevNodata": "Previous content does not exist",
+      "nextNodata": "Next content does not exist",
+      "attachedFiles": "Attach Files",
+      "downloadAll": "Download All"
+    },
+    "galleryText": {
+      "more": "View more"
+    },
+    "serviceIntoBtn": "Use service",
+    "downloadIntoBtn": "Download service",
+    "inquiryText": "Inquiry",
+    "agree": "I agree."
+  }
+}

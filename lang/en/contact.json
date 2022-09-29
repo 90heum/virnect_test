@@ -1,0 +1,251 @@
+{
+  "contactText": {
+    "getDirections": "Where to find us",
+    "visualText": {
+      "title": "CONTACT",
+      "contents": "Are you looking for solutions or trying to advance your worksite? <br class='mobile-hidden'>VIRNECT is prepared to solve the problem."
+    },
+    "contactTitle": {
+      "title": "Visit our VIRNECT Experience Center",
+      "contents": "Check out VIRNECT's past AR projects and experience for yourself what kind of <br class='mobile-hidden'>AR technology can be applied to your business. Sign up for a tour and discover the AR insights you need."
+    },
+    "inquiryTitle": {
+      "title": "We always welcome inquiries on AR and DT.",
+      "contents": "We will provide the right solution based on our technology. <br class='mobile-hidden'>Please select your inquiry type below and submit your inquiry so that we can provide a reply more quickly."
+    },
+    "inquiryCategoryContents": {
+      "title": "Type of inquiry",
+      "array": [
+        "Product inquiry",
+        "Visit Center",
+        "Apply for an seminar",
+        "Two-week trial",
+        "Training inquiry",
+        "Recruitment inquiry",
+        "Marketing/Alliance",
+        "Other"
+      ]
+    },
+    "inquiryCustomerInfo": {
+      "title": "Client information",
+      "array": [
+        "Name",
+        "Company/Organization",
+        "Department",
+        "Position",
+        "Email",
+        "Telephone no."
+      ]
+    },
+    "other": "Other",
+    "inquiryIndustry": {
+      "title": "Industry",
+      "array": [
+        {
+          "text": "Please select your industry.",
+          "value": 0,
+          "disabled": true
+        }, {
+          "text": "EPC(Construction, Energy)",
+          "value": 1
+        }, {
+          "text": "Manufacturing(Electronics, Batteries, Automotive, Parts)",
+          "value": 2
+        }, {
+          "text": "Shipbuilding/Heavy industry",
+          "value": 3
+        }, {
+          "text": "Transportation/Logistics (Traffic/Aviation/Railway)",
+          "value": 4
+        }, {
+          "text": "Distribution industry",
+          "value": 5
+        }, {
+          "text": "Telecommunications industry",
+          "value": 6
+        }, {
+          "text": "Defense industry",
+          "value": 7
+        }, {
+          "text": "Educational/Research institute",
+          "value": 8
+        }, {
+          "text": "SI(System Integration)​",
+          "value": 9
+        }, {
+          "text": "Other",
+          "value": 10
+        }  
+      ]
+    },
+    "industryEtc": "Please leave any other comments.",
+    "inquiryIssue": {
+      "title": "Are you currently facing any current concerns?",
+      "array": [
+        {
+          "text": "Please select your answer.",
+          "value": 0,
+          "disabled": true
+        }, {
+          "text": "The complex working manual consumes a lot of working time.",
+          "value": 1
+        }, {
+          "text": "Frequent business trips lead to major time and financial expenses.",
+          "value": 2
+        }, {
+          "text": "I do not specifically know how to apply the latest technologies.",
+          "value": 3
+        }, {
+          "text": "I want to apply the latest technologies of industry 4.0.",
+          "value": 4
+        }, {
+          "text": "I want to test the application according to the maturity of technology.",
+          "value": 5
+        }, {
+          "text": "I am looking for partnerships for conducting our projects.",
+          "value": 6
+        }, {
+          "text": "I want to know more about industry 4.0 technologies.",
+          "value": 7
+        }, {
+          "text": "Other",
+          "value": 8
+        }
+      ]
+    },
+    "inquirySolution": {
+      "title": "In what fields do you need improvement?",
+      "array": [
+        {
+          "text": "Please select your answer.",
+          "value": 0,
+          "disabled": true
+        }, {
+          "text": "Remote business support (providing real-time solutions through remote access to worker computers)",
+          "value": 1
+        }, {
+          "text": "Inspection (improvement of real-time status information of equipment/facilities)",
+          "value": 2
+        }, {
+          "text": "Safety management (safety management of equipment/facilities and field workers)",
+          "value": 3
+        }, {
+          "text": "Production of manuals (improvement of operation/maintenance manuals)",
+          "value": 4
+        }, {
+          "text": "Virtualization and simulation of equipment/facilities",
+          "value": 5
+        }, {
+          "text": "Education and training",
+          "value": 6
+        }, {
+          "text": "Other",
+          "value": 7
+        }
+      ]
+    },
+    "inquiryExperience": {
+      "title": "Have you experienced AR technology?",
+      "array": [
+        {
+          "text": "Please select your answer.",
+          "value": 0,
+          "disabled": true
+        }, {
+          "text": "Yes, I have. I have sufficient knowledge of AR solutions.",
+          "value": 1
+        }, {
+          "text": "Yes, I have, but I do not know much about AR solutions.",
+          "value": 2
+        }, {
+          "text": "No, I have not, but I have sufficient knowledge on AR solutions.",
+          "value": 3
+        }, {
+          "text": "No, I have not. I do not know much about AR solutions.",
+          "value": 4
+        }
+      ]
+    },
+    "inquiryBudget": {
+      "title": "Budget",
+      "array": [
+        {
+          "text": "Select your answer.",
+          "value": 0,
+          "disabled": true
+        }, {
+          "text": "I do not have a budget for this.",
+          "value": 1
+        }, {
+          "text": "Less than KRW 10 million,",
+          "value": 2
+        }, {
+          "text": "KRW 10 million - KRW 50 million",
+          "value": 3
+        }, {
+          "text": "KRW 50 million - KRW 100 million",
+          "value": 4
+        }, {
+          "text": "KRW 100 million - KRW 500 million",
+          "value": 5
+        }, {
+          "text": "KRW 500 million - KRW 1 billion",
+          "value": 6
+        }, {
+          "text": "Over KRW 1 billion",
+          "value": 7
+        }
+      ]
+    },
+    "inquiryWish": {
+      "title": "When to apply",
+      "text": "Year/Month"
+    },
+    "inquiryTitleText": {
+      "title": "Inquiry subject",
+      "text": "Subject"
+    },
+    "inquiryContents": {
+      "title": "Inquiry content",
+      "text": "Please input details."
+    },
+    "policyText": {
+      "title": "Privacy policy",
+      "agreeText": "Consent to collection and use of personal information",
+      "purposeText": "Purpose of collection and use of personal information",
+      "collectText": "Items collected",
+      "periodText": "Retention period",
+      "subscribe": {
+				"agree":	"Your valuable personal information is collected and used based on the following policy. VIRNECT collects only the information required for the mentioned purposes, and will transparently and safely manage all collected information. In this regard, we request your consent to the collection and use of your personal information.",
+				"purpose": ["Subscribe/Unsubscribe to our newsletter, Send newsletter to subscribers"],
+				"forms": "Required information: Email",
+				"period": {
+					"text": "Until request for cancellation of newsletter (information will be deleted within 10 business days upon cancellation request)"
+				}
+			},
+			"purpose": {
+				"agree":	"Your valuable personal information is collected and used based on the following policy. VIRNECT collects only the information required for the mentioned purposes, and will transparently and safely manage all collected information. In this regard, we request your consent to the collection and use of your personal information.",
+				"purpose": [
+					"Inquiry information including quotation, period, development method, etc. are collected to provide a more accurate answer.",
+					"We collect applicants' personal information to maintain a talent pool for recruitment."
+				],
+				"forms": "Required information: Name, Email, Contact details, Content of inquiry, Company name",
+				"period": {
+					"text": "In principle, all personal information is deleted immediately after the purpose of collection and use is accomplished. However, the following information items are retained for the times and reasons stated below.",
+					"array": [
+						"Reason for retention: Retention of resumes by consent of applicants",
+						"Retention period: Until request of deletion by the applicant"
+					]
+				}
+			}
+    },
+    "popupText": {
+      "done": "VIRNECT의 뉴스레터를 구독해주셔서 감사합니다.",
+      "error": "Please fill out all the blanks and agree to the privacy policy.​"
+    },
+    "thanksText": {
+      "subscribe": "Thank you for subscribing to VIRNECT's newsletter.",
+      "inquiry": "Thank you for your inquiry. <br>A VIRNECT AR specialist will answer your inquiry soon."
+    }
+  }
+}

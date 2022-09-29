@@ -1,0 +1,162 @@
+{
+  "supportText": {
+    "location": {
+      "title": "Global Virnect",
+      "text1": "VIRNECT HeadQuarter",
+      "contents1": "10-15, Hanging-daero 7-gil, Yongsan-Gu, Seoul, Republic of Korea",
+      "text2": "VIRNECT R&D Center,",
+      "contents2": "3F Central Park Tower, Sebinggo- ro 17, Yongsan-Gu, Seoul, Republic of Korea",
+      "text3": "VIRNECT Experience Center",
+      "contents3": "VIRNECT Experience Center 1F KY Bldg, Hangang-daero 31, Yongsan-Gu, Seoul, Republic of Korea",
+      "text4": "VIRNECT Europe GmbH",
+      "contents4": "5th floor, Austria Campus 2 , Jakov-Lind-Straße 2/2, 1020 Wien",
+      "text5": "VIRNECT U.S.",
+      "contents5": "3003 N First St #221, San Jose CA95134, United States",
+      "title6": "Business Support",
+      "text6": "Email : contact@virnect.com",
+      "contents6": "Tel : +82-2-749-1004"
+    },
+    "inquiries": {
+      "sub1": "Inquiries",
+      "sub2": "location"
+    },
+    "subMenuText": {
+      "learn": "LEARNING CENTER",
+      "Inquiries": "INQUIRIES"
+    },
+    "headBannerText": {
+      "title": "How can we help you?",
+      "contents": "We will do our best to assist with issues related to the service.",
+      "text": "More",
+      "title2": "Product Notice",
+      "contents2": "Check the notices regarding our products and services.",
+      "title3": "FAQ",
+      "contents3": "Check out frequently asked questions and answers.",
+      "title4": "Learning Center",
+      "contents4": "Guides you through tutorials, manuals, tips, and more."
+    },
+    "FAQText": {
+      "title": "Check out frequently asked questions and answers.",
+      "con1": "Account",
+      "con2": "Product",
+      "con3": "Purchase",
+      "con4": "Services",
+      "con5": "Device",
+      "con6": "Others",
+      "text": "View all"
+    },
+    "LearnText": {
+      "title": "Learning Center",
+      "contents": "Guides you through tutorials, manuals, tips, and more.",
+      "middletext": " VIRNECT products make safer and more efficient industrial worksites by applying XR solutions and digital twin technologies.",
+      "text": "View all",
+      "text1": "Product",
+      "text2": "FAQ"
+    },
+    "supModule": {
+      "title": "We always welcome various inquiries from customers.",
+      "subtitle": "The AR/DT solution for industrial problems. VIRNECT can show you.",
+      "subtitle2": "We always welcome inquiries on AR and DT.",
+      "btnText1": "Free Trials",
+      "btnText2": "Contact",
+      "now": "inquiry"
+    },
+    "contactBannerText": {
+      "contents1": "Are you looking for solutions or trying to advance your worksite?",
+      "contents2": "VIRNECT is prepared to solve the problem."
+    },
+    "visualText": {
+      "title": "We will do our best to assist with<p> issues related to the service.</p>",
+      "contents": ""
+    },
+    "menuList": {
+      "productNotice": {
+        "title": "Product Notice",
+        "url": "",
+        "list": [
+          {
+            "title": "Release note",
+            "url": "/support/notice?type=2"
+          },
+          {
+            "title": "Notice",
+            "url": "/support/notice?type=1"
+          }
+        ]
+      },
+      "faq": {
+        "title": "FAQ",
+        "url": "",
+        "list": [
+          {
+            "title": "Member",
+            "url": "/support/faq?category=1"
+          },
+          {
+            "title": "Product",
+            "url": "/support/faq?category=3"
+          },
+          {
+            "title": "Purchase",
+            "url": "/support/faq?category=4"
+          },
+          {
+            "title": "Service",
+            "url": "/support/faq?category=2"
+          },
+          {
+            "title": "Device",
+            "url": "/support/faq?category=5"
+          },
+          {
+            "title": "Others",
+            "url": "/support/faq?category=6"
+          }
+        ]
+      },
+      "Leaning Center": {
+        "title": "Leaning Center",
+        "url": "",
+        "list": [
+          {
+            "title": "Remote",
+            "url": "/support/learning-center?category=1"
+          },
+          {
+            "title": "Make",
+            "url": "/support/learning-center?category=2"
+          },
+          {
+            "title": "View",
+            "url": "/support/learning-center?category=3"
+          }
+        ]
+      },
+      "Inquiries": {
+        "title": "Inquiries",
+        "url": ""
+      }
+    },
+    "contactText": {
+      "contact": {
+        "title": "We always welcome various inquiries from customers.",
+        "subTitle": "Please select your inquiry type below and submit your inquiry so that we can provide a reply more quickly.",
+        "buy": "Purchase Inquiry",
+        "productQ": "Product inquiry",
+        "other": "Other",
+        "myproduct": "관심제품 *",
+        "email": "E-mail *",
+        "name": "Name *",
+        "company": "Company *",
+        "department": "Industry",
+        "level": "Position",
+        "contents": "nquiry *"
+      }
+    },
+    "noticeList": {
+      "title1": "Class",
+      "title2": "Title",
+      "title3": "Update date"
+    }
+  }
+}

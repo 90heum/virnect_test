@@ -1,0 +1,314 @@
+//@import url(../common.scss);
+
+.brand {
+  width: 100%;
+}
+
+.brand .brandInner {
+  display: block;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.brand .brandInner span {
+  display: block;
+}
+
+.brand .brandInner span.brandTitle {
+  /* padding-top: 180px; */
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.brand .brandInner span.brandTitle h2 {
+  margin-bottom: 16px;
+  color: #222;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.41;
+}
+
+.brand .brandInner span.brandTitle p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.78;
+}
+
+.brand .brandInner span.brandCi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 108px;
+}
+
+.brand .brandInner span.brandCi dl {
+  display: block;
+  padding-top: 28px;
+  padding-bottom: 20px;
+  text-align: left;
+  border-top: 1px solid #ced3dc;
+}
+
+.brand .brandInner span.brandCi dl dt {
+  float: left;
+  width: 280px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.brand .brandInner span.brandCi dl dd {
+  float: left;
+  width: calc(100% - 280px);
+  margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.brand .brandInner span.brandCi ul {
+  display: flex;
+  gap: 15px;
+}
+
+.brand .brandInner span.brandCi ul li {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: calc((100% - 30px) / 3);
+  vertical-align: top;
+}
+
+.brand .brandInner span.brandCi ul li div:first-child {
+  background: #f8f9fb;
+}
+
+.brand .brandInner span.brandCi ul li div:first-child img {
+  max-width: 100%;
+}
+
+.brand .brandInner span.brandCi ul li div:last-child {
+  padding: 24px 20px;
+}
+
+.brand .brandInner span.brandCi ul li div:last-child p:first-child {
+  margin-bottom: 8px;
+  color: #08286a;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.brand .brandInner span.brandCi ul li div:last-child p:last-child {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.brand .brandInner span.brandCi .fontStyle1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand .brandInner span.brandCi .fontStyle1 p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 25px 0;
+}
+
+.brand .brandInner span.brandCi .fontStyle1 span {
+  background: #f8f9fb;
+}
+
+.brand .brandInner span.brandCi .fontStyle1 span img {
+  display: block;
+  margin: 0 auto;
+  max-width: 920px;
+  width: 100%;
+}
+
+.brand .brandInner span.brandCi .fontStyle2 {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.brand .brandInner span.brandCi .fontStyle2>span p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 25px 0;
+}
+
+.brand .brandInner span.brandCi .fontStyle2>span span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 240px;
+  background: #f8f9fb;
+}
+
+.brand .brandInner span.brandCi .fontStyle2>span span img {
+  width: 100%;
+}
+
+.brand .brandInner span.brandCi .branding-notice {
+  position: relative;
+  padding-right: 240px;
+  padding-bottom: 40px;
+  display: block;
+}
+
+.brand .brandInner span.brandCi .branding-notice p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.brand .brandInner span.brandCi .branding-notice a {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 124px;
+  height: 40px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 39px;
+  text-align: center;
+  background: #333;
+}
+
+.brand .brandInner span.brrandBi {
+  margin-top: 108px;
+  width: 100%;
+  display: flex;
+}
+
+.brand .brandInner span.brrandBi dl {
+  padding-top: 28px;
+  padding-bottom: 20px;
+  text-align: left;
+  border-top: 1px solid #ced3dc;
+}
+
+.brand .brandInner span.brrandBi dl dt {
+  float: left;
+  width: 280px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.brand .brandInner span.brrandBi dl dd {
+  float: left;
+  width: calc(100% - 280px);
+  margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.brand .brandInner span.brrandBi dl dd div {
+  display: block;
+  margin-top: 36px;
+  margin-bottom: 120px;
+  background: #f8f9fb;
+}
+
+.brand .brandInner span.brrandBi dl dd div img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .brand .brandInner span.brandTitle {
+    padding-top: 72px;
+    padding-bottom: 40px;
+  }
+
+  .brand .brandInner span.brandTitle h2 {
+    font-size: 26px;
+  }
+
+  .brand .brandInner span.brandTitle p {
+    font-size: 15px;
+  }
+
+  .brand .brandInner span.brandCi {
+    margin-top: 24px;
+  }
+
+  .brand .brandInner span.brandCi dl {
+    padding-top: 15px;
+  }
+
+  .brand .brandInner span.brandCi dl dt {
+    float: none;
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+
+  .brand .brandInner span.brandCi dl dd {
+    float: none;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .brand .brandInner span.brandCi .fontStyle2>span p,
+  .brand .brandInner span.brandCi .fontStyle1 p {
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  .brand .brandInner span.brandCi .branding-notice {
+    padding: 0;
+  }
+
+  .brand .brandInner span.brandCi .branding-notice a {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: inline-block;
+    height: 40px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+    padding: 0 28px;
+    line-height: 40px;
+  }
+
+  .brand .brandInner span.brrandBi {
+    margin-top: 24px;
+  }
+
+  .brand .brandInner span.brrandBi dl {
+    padding-top: 12px;
+  }
+
+  .brand .brandInner span.brrandBi dl dt {
+    float: none;
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+
+  .brand .brandInner span.brrandBi dl dd {
+    float: none;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .brand .brandInner span.brandCi .branding-notice p {
+    font-size: 13px;
+  }
+
+  .brand .brandInner {
+    padding: 0 24px;
+  }
+
+  .brand .brandInner span.brandCi .fontStyle2 {
+    flex-direction: column;
+  }
+
+  .brand .brandInner span.brandCi .fontStyle2>span span {
+    min-height: 0;
+  }
+}

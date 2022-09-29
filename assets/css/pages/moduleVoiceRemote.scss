@@ -1,0 +1,201 @@
+.moduleVoiceRemote {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    // background-image: url('https://velog.velcdn.com/images/kyj0206/post/0a222264-b3d0-4459-9d40-6c1ffad70ab2/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // height: 560px;
+    // border-bottom: solid 1px #9a9da3;
+    padding: 0 30px;
+
+    .VoiceInner {
+        max-width: 1348px;
+        width: 100%;
+        position: relative;
+
+        .voiceSlider {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+
+            .voiceSliderInner {
+                width: 100%;
+
+                >span {
+                    align-items: center;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+
+                    &:first-child {
+                        display: none;
+
+                        i {
+                            margin-bottom: 52px;
+
+                            img {
+                                max-width: 208px;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+
+                        // display: none;
+                        i {
+                            img {
+                                max-width: 81px;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        display: none;
+
+                        i {
+                            img {
+                                max-width: 172px;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        display: none;
+
+                        i {
+                            img {
+                                max-width: 150px;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    i {
+                        display: block;
+                        margin-bottom: 56px;
+                    }
+
+                    >span {
+                        display: block;
+                        font-size: 28px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.55;
+                        letter-spacing: -0.35px;
+                        text-align: center;
+                        color: #000;
+                        margin-bottom: 45px;
+
+                        p {
+                            display: block;
+                            font-size: 28px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.55;
+                            letter-spacing: -0.35px;
+                            text-align: center;
+                            color: #000;
+                        }
+                    }
+
+                    >p {
+                        display: block;
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1;
+                        letter-spacing: -0.2px;
+                        text-align: center;
+                        color: #0a51b7;
+                    }
+                }
+            }
+
+            .preNextButton {
+                .pre {
+                    position: absolute;
+                    z-index: 99;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    display: block;
+
+                    img {
+                        cursor: pointer;
+                        max-width: 42px;
+                        width: 100%;
+                    }
+                }
+
+                .next {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    display: block;
+
+                    img {
+                        cursor: pointer;
+                        max-width: 42px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1094px) {
+    .moduleVoiceRemote .VoiceInner .voiceSlider .voiceSliderInner>span span {
+        font-size: 20px;
+        margin-bottom: 43px;
+    }
+
+    .moduleVoiceRemote .VoiceInner .voiceSlider .voiceSliderInner>span span p {
+        font-size: 20px;
+    }
+}
+
+@media screen and(max-width:821px) {
+    .moduleVoiceRemote {
+        // height: 488px;
+        padding: 0 24px;
+    }
+
+    .moduleVoiceRemote .VoiceInner .voiceSlider .voiceSliderInner>span i {
+        margin-bottom: 43px;
+    }
+
+    .moduleVoiceRemote .VoiceInner .voiceSlider .preNextButton .next,
+    .moduleVoiceRemote .VoiceInner .voiceSlider .preNextButton .pre {
+        top: unset;
+        bottom: -66%;
+    }
+}
+
+@media screen and(max-width: 700px) {
+    .moduleVoiceRemote {
+        /* min-width: 600px; */
+        min-height: 488px;
+        width: 100vw;
+    }
+}
+
+@media screen and(max-width: 659px) {
+    .moduleVoiceRemote .VoiceInner .voiceSlider .voiceSliderInner>span span p {
+        display: inline;
+    }
+}

@@ -1,0 +1,365 @@
+@charset "utf-8";
+
+.contact-company-visual {
+  @include area-flex(1200px);
+  height: 460px;
+  margin-top: 162px;
+  margin-bottom: -108px;
+  background: url("https://image.virnect.com/images/pages/contact/img-contact@2x.png");
+  background-size: cover;
+  @media (max-width: $mobile) {
+    height: 220px;
+    margin-top: 72px;
+    margin-bottom: -68px;
+    background: url("https://image.virnect.com/images/pages/contact/img-contact@2x-m.png");
+    background-size: cover;
+  }
+}
+.contact-address {
+  display: none;
+}
+@media (max-width: $mobile) {
+  .contact-address {
+    display: block;
+    margin: -20px 26px 44px;
+    color: #1655bf;
+    font-weight: 500;
+    img {
+      width: 20px;
+      margin-right: 6px;
+      margin-bottom: 3px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.contact-address-wrap {
+  @include area-flex(1032px);
+  position: relative;
+  margin-bottom: 380px;
+  text-align: center;
+
+  #headingModule {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    background: #fff;
+  }
+  .virnect-location {
+    height: 540px;
+    iframe {
+      width: 100%;
+      height: 540px;
+    }
+  }
+  .map-wrap {
+    position: relative;
+  }
+  .overlay-box {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 2;
+    padding: 12px 16px;
+    font-weight: 500;
+    font-family: $noto;
+    text-align: left;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    .title {
+      margin-bottom: 2px;
+      color: $point;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 3px 4px 4px 22px;
+      font-weight: 500;
+      background: url("~assets/images/common/ic-open-in-new@2x.png") no-repeat
+        left;
+      background-size: 16px;
+      // border: 1px solid rgba(13, 42, 88, 0.15);
+    }
+  }
+  @media (max-width: $mobile) {
+    margin-bottom: 140px;
+    #headingModule {
+      padding-top: 18px;
+      padding-bottom: 16px;
+    }
+    .virnect-location {
+      height: 220px;
+      iframe {
+        height: 220px;
+      }
+    }
+    .overlay-box {
+      display: none;
+    }
+  }
+}
+
+.contact-form-section {
+  position: relative;
+  form {
+    border-top: 2px solid #0d2a58;
+    @include area-flex(1080px);
+  }
+  @media (max-width: $mobile) {
+    form {
+      border: 0;
+    }
+    fieldset {
+      border-top: 1px solid #0d2a58;
+    }
+  }
+}
+
+h3,
+.contact-heading {
+  float: left;
+  width: 208px;
+  font-weight: 500;
+  font-size: 18px;
+  & + div {
+    float: left;
+    width: calc(100% - 208px);
+  }
+  &.must-check {
+    &:after {
+      color: #ff4646;
+      content: "*";
+    }
+  }
+}
+
+.contact-if-check {
+  margin-bottom: 32px;
+  margin-left: 208px;
+  .contact-heading {
+    // float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .single-wrap {
+    width: 100%;
+    margin-bottom: 8px;
+    &.float-none {
+      float: none;
+    }
+
+    &.add-form input {
+      margin-top: -10px;
+    }
+  }
+}
+
+.contact-wrap {
+  padding: 27px 24px;
+  @include clearfix();
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.border-wrap {
+  padding-top: 0;
+  border-bottom: 1px solid #d4d9e1;
+}
+.contact-category-wrap {
+  margin-bottom: -24px;
+  li {
+    width: 25%;
+    margin-bottom: 24px;
+    // &:nth-child(1),
+    // &:nth-child(5) {
+    //     width: 16%;
+    // }
+    // &:nth-child(2),
+    // &:nth-child(6) {
+    //     width: 36%;
+    // }
+  }
+}
+
+@media (max-width: $mobile) {
+  .border-wrap {
+    margin-top: 28px;
+    border: 0;
+  }
+  h3,
+  .contact-heading {
+    float: none;
+    width: 100%;
+    margin-bottom: 12px;
+    & + div {
+      float: none;
+      width: 100%;
+    }
+  }
+  .contact-if-check {
+    margin-top: -28px;
+    margin-left: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #d4d9e1;
+    border-bottom: 1px solid #d4d9e1;
+  }
+  .contact-category-wrap {
+    float: none;
+    width: 100%;
+    margin-bottom: 0;
+    li {
+      width: 50%;
+      margin-bottom: 12px;
+      &:nth-child(3) {
+        width: 100%;
+      }
+    }
+  }
+  .contact-wrap {
+    padding: 12px 0;
+    // margin-bottom: 28px;
+  }
+}
+
+.double-wrap {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  li {
+    width: calc(50% - 10px);
+  }
+  select {
+    width: 100%;
+    background-position: 96% center;
+  }
+}
+
+.solo {
+  select {
+    width: calc(50% - 10px);
+    background-position: 96% center;
+  }
+}
+
+.agree-wrap {
+  width: fit-content;
+  margin: auto;
+  padding-top: 47px;
+  font-size: 16px;
+}
+@media (max-width: $mobile) {
+  .double-wrap {
+    li {
+      width: 100%;
+    }
+  }
+
+  .solo {
+    select {
+      width: 100%;
+      background: none;
+    }
+  }
+
+  .agree-wrap {
+    width: 100%;
+    margin-top: -8px;
+    padding-top: 0;
+  }
+}
+
+.checkbox-container {
+  @include checkbox(16px);
+  display: flex;
+  justify-items: center;
+  white-space: nowrap;
+  input {
+    color: #000;
+  }
+  @media (max-width: $mobile) {
+    label {
+      font-size: 14px;
+    }
+  }
+}
+
+input[type="text"],
+textarea,
+select {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 11px 20px;
+  font-size: 15px;
+  font-family: $noto;
+  line-height: 28px;
+  border: 1px solid #d4d9e1;
+  &::placeholder {
+    color: #8b96a8;
+  }
+  &:active {
+    border: 1px solid $point;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  &:focus {
+    border: 1px solid $point;
+    outline: none;
+    -webkit-appearance: none;
+  }
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+.inquiry-btn {
+  @include default-btn(200px);
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 180px;
+  color: #fff;
+  font-weight: 500;
+  background: $point;
+}
+
+select {
+  background-image: url("~assets/images/common/table-arrow-close.png");
+  background-repeat: no-repeat;
+  background-position: 98% center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@media (max-width: $mobile) {
+  input[type="text"],
+  textarea,
+  select {
+    margin-bottom: 10px;
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  textarea {
+    height: 140px;
+  }
+  select {
+    background: none;
+  }
+  .inquiry-btn {
+    width: 100%;
+    height: 48px;
+  }
+}

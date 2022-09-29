@@ -1,0 +1,37 @@
+{
+  "global": {
+    "myUrl": "https://virnect.com",
+    "videoBtnText": "소개영상",
+    "shortcut": "바로가기",
+    "totalBtnText": "전체보기",
+    "listText": "목록보기",
+    "demoText": "DEMO 확인",
+    "ROIText": "ROI 측정",
+    "subscribeFormText": "<u>개인정보보호정책</u>에 동의합니다.",
+    "emailInput": "이메일을 입력해 주세요",
+    "subscribeText": "구독하기",
+    "detail": "자세히 보기",
+    "productsInto": "제품 자세히 보기",
+    "boardText": {
+      "num": "번호",
+      "title": "제목",
+      "date": "등록일",
+      "nodata": "최근 등록된 글이 없습니다.",
+      "sourceView": "기사 원문보기",
+      "sourceTitle": "기사타이틀",
+      "prev": "이전",
+      "next": "다음",
+      "prevNodata": "이전 컨텐츠가 존재하지 않습니다.",
+      "nextNodata": "다음 컨텐츠가 존재하지 않습니다.",
+      "attachedFiles": "첨부파일",
+      "downloadAll": "전체 다운로드"
+    },
+    "galleryText": {
+      "more": "더보기"
+    },
+    "serviceIntoBtn": "서비스 바로가기",
+    "downloadIntoBtn": "다운로드 바로가기",
+    "inquiryText": "문의하기",
+    "agree": "동의합니다."
+  }
+}

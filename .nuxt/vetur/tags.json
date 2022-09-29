@@ -1,0 +1,464 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "GnbHeader": {
+    "description": "Auto imported from components/gnbHeader.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/header.vue"
+  },
+  "ApiAxios": {
+    "description": "Auto imported from components/api/axios.js"
+  },
+  "DummyAward": {
+    "description": "Auto imported from components/dummy/award.js"
+  },
+  "DummyAwardEn": {
+    "description": "Auto imported from components/dummy/awardEn.js"
+  },
+  "MainBannerModule": {
+    "description": "Auto imported from components/main/bannerModule.vue"
+  },
+  "MainCompany": {
+    "description": "Auto imported from components/main/company.vue"
+  },
+  "MainCompanyAwards": {
+    "description": "Auto imported from components/main/companyAwards.vue"
+  },
+  "MainCtaModule": {
+    "description": "Auto imported from components/main/ctaModule.vue"
+  },
+  "MainBanner": {
+    "description": "Auto imported from components/main/mainBanner.vue"
+  },
+  "MainSlider": {
+    "description": "Auto imported from components/main/mainSlider.vue"
+  },
+  "MainProducts": {
+    "description": "Auto imported from components/main/products.vue"
+  },
+  "MainSlideCarousel": {
+    "description": "Auto imported from components/main/slideCarousel.vue"
+  },
+  "MainSuppoert": {
+    "description": "Auto imported from components/main/suppoert.vue"
+  },
+  "MainUseCase": {
+    "description": "Auto imported from components/main/useCase.vue"
+  },
+  "MixinsMixin": {
+    "description": "Auto imported from components/mixins/mixin.js"
+  },
+  "NewsCommonBaner": {
+    "description": "Auto imported from components/news/CommonBaner.vue"
+  },
+  "Paging": {
+    "description": "Auto imported from components/paging/paging.vue"
+  },
+  "ModulesBanner": {
+    "description": "Auto imported from components/modules/Banner.vue"
+  },
+  "ModulesBoard": {
+    "description": "Auto imported from components/modules/Board.vue"
+  },
+  "ModulesBoardView": {
+    "description": "Auto imported from components/modules/BoardView.vue"
+  },
+  "ModulesCalculatorPopup": {
+    "description": "Auto imported from components/modules/CalculatorPopup.vue"
+  },
+  "ModulesDialogMobile": {
+    "description": "Auto imported from components/modules/Dialog-Mobile.vue"
+  },
+  "ModulesDropdown": {
+    "description": "Auto imported from components/modules/Dropdown.vue"
+  },
+  "ModulesGallery": {
+    "description": "Auto imported from components/modules/Gallery.vue"
+  },
+  "ModulesHeading": {
+    "description": "Auto imported from components/modules/Heading.vue"
+  },
+  "ModulesLibrary": {
+    "description": "Auto imported from components/modules/Library.vue"
+  },
+  "ModulesLibraryView": {
+    "description": "Auto imported from components/modules/LibraryView.vue"
+  },
+  "ModulesNewsletter": {
+    "description": "Auto imported from components/modules/Newsletter.vue"
+  },
+  "ModulesPopup": {
+    "description": "Auto imported from components/modules/Popup.vue"
+  },
+  "ModulesPopupConfirm": {
+    "description": "Auto imported from components/modules/PopupConfirm.vue"
+  },
+  "ModulesPopupVideo": {
+    "description": "Auto imported from components/modules/PopupVideo.vue"
+  },
+  "ModulesRequiredPopup": {
+    "description": "Auto imported from components/modules/RequiredPopup.vue"
+  },
+  "ModulesSnb": {
+    "description": "Auto imported from components/modules/Snb.vue"
+  },
+  "ModulesSubSolutionMenu": {
+    "description": "Auto imported from components/modules/SubSolutionMenu.vue"
+  },
+  "ModulesSupportModule": {
+    "description": "Auto imported from components/modules/SupportModule.vue"
+  },
+  "ModulesYoutubeFullscreen": {
+    "description": "Auto imported from components/modules/YoutubeFullscreen.vue"
+  },
+  "ProductsNewBgPartData": {
+    "description": "Auto imported from components/products/NewBgPartData.js"
+  },
+  "ProductsNewEffectPartData": {
+    "description": "Auto imported from components/products/newEffectPartData.js"
+  },
+  "ProductsNewEffectPartDataEn": {
+    "description": "Auto imported from components/products/newEffectPartData_en.js"
+  },
+  "ProductsNewModuleData": {
+    "description": "Auto imported from components/products/newModuleData.js"
+  },
+  "ProductsNewModuleDataEn": {
+    "description": "Auto imported from components/products/newModuleData_en.js"
+  },
+  "PolicySubMenuPayment": {
+    "description": "Auto imported from components/policy/subMenuPayment.vue"
+  },
+  "PolicySubMenuPolicy": {
+    "description": "Auto imported from components/policy/subMenuPolicy.vue"
+  },
+  "PolicySubMenuTerms": {
+    "description": "Auto imported from components/policy/subMenuTerms.vue"
+  },
+  "SubscriptionComForm": {
+    "description": "Auto imported from components/subscription/comForm.vue"
+  },
+  "SubscriptionComModal": {
+    "description": "Auto imported from components/subscription/comModal.vue"
+  },
+  "SubscriptionForm": {
+    "description": "Auto imported from components/subscription/form.vue"
+  },
+  "SubscriptionModal": {
+    "description": "Auto imported from components/subscription/modal.vue"
+  },
+  "SubscriptionProForm": {
+    "description": "Auto imported from components/subscription/proForm.vue"
+  },
+  "SubscriptionProModal": {
+    "description": "Auto imported from components/subscription/proModal.vue"
+  },
+  "SupportSubMenu": {
+    "description": "Auto imported from components/support/SubMenu.vue"
+  },
+  "SupportFaq": {
+    "description": "Auto imported from components/support/faq.vue"
+  },
+  "SupportFaqBanner": {
+    "description": "Auto imported from components/support/faqBanner.vue"
+  },
+  "SupportHeadBanner": {
+    "description": "Auto imported from components/support/headBanner.vue"
+  },
+  "SupportHeadBannerCENTER": {
+    "description": "Auto imported from components/support/headBannerCENTER.vue"
+  },
+  "SupportHeadBannerProduct": {
+    "description": "Auto imported from components/support/headBannerProduct.vue"
+  },
+  "SupportInquiry": {
+    "description": "Auto imported from components/support/inquiry.vue"
+  },
+  "SupportInquiryBanner": {
+    "description": "Auto imported from components/support/inquiryBanner.vue"
+  },
+  "SupportLearnBanner": {
+    "description": "Auto imported from components/support/learnBanner.vue"
+  },
+  "SupportLearningCenter": {
+    "description": "Auto imported from components/support/learning-center.vue"
+  },
+  "SupportNotice": {
+    "description": "Auto imported from components/support/notice.vue"
+  },
+  "CompanyPagesRecruit": {
+    "description": "Auto imported from components/company/pages/Recruit.vue"
+  },
+  "CompanyPagesBrand": {
+    "description": "Auto imported from components/company/pages/brand.vue"
+  },
+  "CompanyValue": {
+    "description": "Auto imported from components/company/pages/companyValue.vue"
+  },
+  "CompanyPagesIntroduce": {
+    "description": "Auto imported from components/company/pages/introduce.vue"
+  },
+  "CompanyPartialsContactModule": {
+    "description": "Auto imported from components/company/partials/contactModule.vue"
+  },
+  "CompanyPartialsSubMenu": {
+    "description": "Auto imported from components/company/partials/subMenu.vue"
+  },
+  "CompanyPartialsSubMenuBrand": {
+    "description": "Auto imported from components/company/partials/subMenuBrand.vue"
+  },
+  "CompanyPartialsSubMenuIr": {
+    "description": "Auto imported from components/company/partials/subMenuIr.vue"
+  },
+  "GnbCompany": {
+    "description": "Auto imported from components/Gnb/Company/index.vue"
+  },
+  "GnbContact": {
+    "description": "Auto imported from components/Gnb/Contact/index.vue"
+  },
+  "GnbFreeTrials": {
+    "description": "Auto imported from components/Gnb/FreeTrials/index.vue"
+  },
+  "GnbPricing": {
+    "description": "Auto imported from components/Gnb/Pricing/index.vue"
+  },
+  "GnbProducts": {
+    "description": "Auto imported from components/Gnb/Products/index.vue"
+  },
+  "GnbSolution": {
+    "description": "Auto imported from components/Gnb/Solution/index.vue"
+  },
+  "GnbHeaderPartialMobileHeader": {
+    "description": "Auto imported from components/Gnb/headerPartial/mobileHeader.vue"
+  },
+  "ProductsPagesMS": {
+    "description": "Auto imported from components/products/pages/MS.vue"
+  },
+  "ProductsPagesMake": {
+    "description": "Auto imported from components/products/pages/Make.vue"
+  },
+  "ProductsPagesPmain": {
+    "description": "Auto imported from components/products/pages/Pmain.vue"
+  },
+  "ProductsPagesRemote": {
+    "description": "Auto imported from components/products/pages/Remote.vue"
+  },
+  "ProductsPagesTrack": {
+    "description": "Auto imported from components/products/pages/Track.vue"
+  },
+  "ProductsPagesTwin": {
+    "description": "Auto imported from components/products/pages/Twin.vue"
+  },
+  "ProductsPagesView": {
+    "description": "Auto imported from components/products/pages/View.vue"
+  },
+  "ProductsPartialsBenefitPart": {
+    "description": "Auto imported from components/products/partials/BenefitPart.vue"
+  },
+  "ProductsPartialsBgSlidePart": {
+    "description": "Auto imported from components/products/partials/BgSlidePart.vue"
+  },
+  "ProductsPartialsEffectPart": {
+    "description": "Auto imported from components/products/partials/EffectPart.vue"
+  },
+  "ProductsPartialsExamplePart": {
+    "description": "Auto imported from components/products/partials/ExamplePart.vue"
+  },
+  "ProductsPartialsFunctionPart": {
+    "description": "Auto imported from components/products/partials/FunctionPart.vue"
+  },
+  "ProductsPartialsFunctionPart2": {
+    "description": "Auto imported from components/products/partials/FunctionPart2.vue"
+  },
+  "ProductsPartialsIntroducePart": {
+    "description": "Auto imported from components/products/partials/IntroducePart.vue"
+  },
+  "ProductsPartialsNewBgSlide": {
+    "description": "Auto imported from components/products/partials/NewBgSlide.vue"
+  },
+  "ProductsPartialsNewBgSlideEnter": {
+    "description": "Auto imported from components/products/partials/NewBgSlideEnter.vue"
+  },
+  "ProductsPartialsNewBgSlideEpc": {
+    "description": "Auto imported from components/products/partials/NewBgSlideEpc.vue"
+  },
+  "ProductsPartialsNewBgSlideMake": {
+    "description": "Auto imported from components/products/partials/NewBgSlideMake.vue"
+  },
+  "ProductsPartialsNewBgSlideMotor": {
+    "description": "Auto imported from components/products/partials/NewBgSlideMotor.vue"
+  },
+  "ProductsPartialsNewBgSlideOil": {
+    "description": "Auto imported from components/products/partials/NewBgSlideOil.vue"
+  },
+  "ProductsPartialsNewBgSlideRemote": {
+    "description": "Auto imported from components/products/partials/NewBgSlideRemote.vue"
+  },
+  "ProductsPartialsNewBgSlideTrack": {
+    "description": "Auto imported from components/products/partials/NewBgSlideTrack.vue"
+  },
+  "ProductsPartialsNewBgSlideTwin": {
+    "description": "Auto imported from components/products/partials/NewBgSlideTwin.vue"
+  },
+  "ProductsPartialsNewBgSlideView": {
+    "description": "Auto imported from components/products/partials/NewBgSlideView.vue"
+  },
+  "ProductsPartialsNewBgSlideinfra": {
+    "description": "Auto imported from components/products/partials/NewBgSlideinfra.vue"
+  },
+  "ProductsPartialsNewEffectPart": {
+    "description": "Auto imported from components/products/partials/NewEffectPart.vue"
+  },
+  "ProductsPartialsNewEffectPartMake": {
+    "description": "Auto imported from components/products/partials/NewEffectPartMake.vue"
+  },
+  "ProductsPartialsNewEffectRemote": {
+    "description": "Auto imported from components/products/partials/NewEffectRemote.vue"
+  },
+  "ProductsPartialsNewEffectTrack": {
+    "description": "Auto imported from components/products/partials/NewEffectTrack.vue"
+  },
+  "ProductsPartialsNewEffectTwin": {
+    "description": "Auto imported from components/products/partials/NewEffectTwin.vue"
+  },
+  "ProductsPartialsNewEffectView": {
+    "description": "Auto imported from components/products/partials/NewEffectView.vue"
+  },
+  "ProductsMainBanner": {
+    "description": "Auto imported from components/products/partials/ProductsMainBanner.vue"
+  },
+  "ProductsPartialsSupportPart": {
+    "description": "Auto imported from components/products/partials/SupportPart.vue"
+  },
+  "ProductsPartialsXRSolution": {
+    "description": "Auto imported from components/products/partials/XRSolution.vue"
+  },
+  "ProductsPartialsBottomBannerRemote": {
+    "description": "Auto imported from components/products/partials/bottomBannerRemote.vue"
+  },
+  "ProductsPartialsDataModule": {
+    "description": "Auto imported from components/products/partials/dataModule.vue"
+  },
+  "ProductsPartialsNavi": {
+    "description": "Auto imported from components/products/partials/navi.vue"
+  },
+  "ProductsPartialsNewModule": {
+    "description": "Auto imported from components/products/partials/newModule.vue"
+  },
+  "ProductsPartialsProductProperty": {
+    "description": "Auto imported from components/products/partials/productProperty.vue"
+  },
+  "ProductsPartialsSubBanner": {
+    "description": "Auto imported from components/products/partials/subBanner.vue"
+  },
+  "ProductsPartialsSubBannerMake": {
+    "description": "Auto imported from components/products/partials/subBannerMake.vue"
+  },
+  "ProductsPartialsSubBannerTrack": {
+    "description": "Auto imported from components/products/partials/subBannerTrack.vue"
+  },
+  "ProductsPartialsSubBannerTwin": {
+    "description": "Auto imported from components/products/partials/subBannerTwin.vue"
+  },
+  "ProductsPartialsSubBannerView": {
+    "description": "Auto imported from components/products/partials/subBannerView.vue"
+  },
+  "ProductsPartialsSubMenuMake": {
+    "description": "Auto imported from components/products/partials/subMenuMake.vue"
+  },
+  "ProductsPartialsSubMenuMs": {
+    "description": "Auto imported from components/products/partials/subMenuMs.vue"
+  },
+  "ProductsPartialsSubMenuProduct": {
+    "description": "Auto imported from components/products/partials/subMenuProduct.vue"
+  },
+  "ProductsPartialsSubMenuTrack": {
+    "description": "Auto imported from components/products/partials/subMenuTrack.vue"
+  },
+  "ProductsPartialsSubMenuTwin": {
+    "description": "Auto imported from components/products/partials/subMenuTwin.vue"
+  },
+  "ProductsPartialsSubMenuView": {
+    "description": "Auto imported from components/products/partials/subMenuView.vue"
+  },
+  "SolutionsPagesAirline": {
+    "description": "Auto imported from components/solutions/pages/Airline.vue"
+  },
+  "SolutionsPagesEPC": {
+    "description": "Auto imported from components/solutions/pages/EPC.vue"
+  },
+  "SolutionsPagesEnergy": {
+    "description": "Auto imported from components/solutions/pages/Energy.vue"
+  },
+  "SolutionsPagesMotor": {
+    "description": "Auto imported from components/solutions/pages/Motor.vue"
+  },
+  "SolutionsPagesOil": {
+    "description": "Auto imported from components/solutions/pages/Oil.vue"
+  },
+  "SolutionsPartialsBgNormalPart": {
+    "description": "Auto imported from components/solutions/partials/BgNormalPart.vue"
+  },
+  "SolutionsPartialsInfographicPart": {
+    "description": "Auto imported from components/solutions/partials/InfographicPart.vue"
+  },
+  "SolutionsPartialsIssuePart": {
+    "description": "Auto imported from components/solutions/partials/IssuePart.vue"
+  },
+  "SolutionsPartialsOfferPart": {
+    "description": "Auto imported from components/solutions/partials/OfferPart.vue"
+  },
+  "SolutionsPartialsRoiPart": {
+    "description": "Auto imported from components/solutions/partials/RoiPart.vue"
+  },
+  "SolutionsPartialsSubMenu": {
+    "description": "Auto imported from components/solutions/partials/subMenu.vue"
+  },
+  "SolutionsPartialsSubMenuAirLine": {
+    "description": "Auto imported from components/solutions/partials/subMenuAirLine.vue"
+  },
+  "SolutionsPartialsSubMenuEpc": {
+    "description": "Auto imported from components/solutions/partials/subMenuEpc.vue"
+  },
+  "SolutionsPartialsSubMenuMotor": {
+    "description": "Auto imported from components/solutions/partials/subMenuMotor.vue"
+  },
+  "SolutionsPartialsSubMenuOil": {
+    "description": "Auto imported from components/solutions/partials/subMenuOil.vue"
+  },
+  "SupportFaqAsideMenu": {
+    "description": "Auto imported from components/support/faq/AsideMenu.vue"
+  },
+  "SupportFaqContents": {
+    "description": "Auto imported from components/support/faq/FaqContents.vue"
+  },
+  "SupportFaqGoogleMap": {
+    "description": "Auto imported from components/support/faq/GoogleMap.vue"
+  },
+  "SupportLearningCenterAsideMenu": {
+    "description": "Auto imported from components/support/learning-center/AsideMenu.vue"
+  },
+  "SupportLearningCenterListTabMenu": {
+    "description": "Auto imported from components/support/learning-center/ListTabMenu.vue"
+  },
+  "SupportLearningCenterStaticModule": {
+    "description": "Auto imported from components/support/learning-center/StaticModule.vue"
+  },
+  "SupportLearningCenterUserManual": {
+    "description": "Auto imported from components/support/learning-center/userManual.vue"
+  },
+  "SupportLearningCenterVideoRealGuide": {
+    "description": "Auto imported from components/support/learning-center/videoRealGuide.vue"
+  },
+  "SupportLearningCenterVideoTutorial": {
+    "description": "Auto imported from components/support/learning-center/videoTutorial.vue"
+  },
+  "SupportNoticeAsideMenu": {
+    "description": "Auto imported from components/support/notice/AsideMenu.vue"
+  },
+  "SupportNoticeContents": {
+    "description": "Auto imported from components/support/notice/NoticeContents.vue"
+  }
+}

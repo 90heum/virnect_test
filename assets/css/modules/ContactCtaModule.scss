@@ -1,0 +1,145 @@
+// @import url(./common.css);
+@import url('~/assets/css/reset.scss');
+
+.ContactCtaModule {
+  display: flex;
+  width: 100%;
+  height: 479px;
+  background-image: url("~/assets/images/pages/epc/contactctamodulebannerimage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.ContactCtaModule .ContactCtaCont {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0px;
+}
+
+.ContactCtaModule .ContactCtaCont span:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ContactCtaModule .ContactCtaCont span:first-child h2 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 11px;
+  line-height: 1.28;
+  font-weight: 700;
+}
+
+.ContactCtaModule .ContactCtaCont span:first-child p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #bfdcff;
+}
+
+.ContactCtaModule .ContactCtaCont span:last-child {
+  display: flex;
+}
+
+.ContactCtaModule .ContactCtaCont span:last-child button a {
+  white-space: nowrap;
+  height: 100%;
+  line-height: 1.5;
+  display: block;
+  padding: 16px 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ContactCtaModule .ContactCtaCont span:last-child button:last-child {
+  background: #f7f8f9;
+}
+
+.ContactCtaModule .ContactCtaCont span:last-child button:last-child a {
+  color: #121212;
+}
+
+.ContactCtaModule .ContactCtaCont span:last-child button:last-child:hover {
+  background: #0A51B7;
+}
+
+.ContactCtaModule .ContactCtaCont span:last-child button:last-child a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+  .ContactCtaModule .ContactCtaCont {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ContactCtaModule .ContactCtaCont span:last-child {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .ContactCtaModule .ContactCtaCont {
+    padding: 0 90px;
+  }
+
+  .ContactCtaModule .ContactCtaCont span:first-child p {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ContactCtaModule .ContactCtaCont span:first-child h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+
+  .ContactCtaModule .ContactCtaCont span:first-child p {
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bfdcff;
+    margin-bottom: 73px;
+  }
+
+  .ContactCtaModule .ContactCtaCont span:last-child {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .ContactCtaModule {
+    padding: 0;
+  }
+
+  .ContactCtaModule .ContactCtaCont {
+    padding: 0 24px;
+  }
+
+  .ContactCtaModule .ContactCtaCont {
+    text-align: center;
+  }
+
+  .ContactCtaModule .ContactCtaCont span:last-child {
+    justify-content: center;
+  }
+
+  .ContactCtaModule .ContactCtaCont span:first-child p {
+    margin-bottom: 58px;
+  }
+}

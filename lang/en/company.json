@@ -1,0 +1,199 @@
+{
+	"companyText": {
+		"mainNews":{
+			"text1": "VIRNECT News",
+			"text2": "More"
+		},
+		"companySlide":{
+			"title1": "-Efficient working<br>-Effective education",
+			"title2": "-Environmental cost reduction of business travel and equipment with remote collaboration and virtual experiences",
+			"title3": "-Safe workplace<br>-Safe training"
+		},
+		"companyAwards":{
+			"title": "Awards"
+		},
+		"visualText": {
+			"title": "About VIRNECT",
+			"contents": "VIRNECT virtually connects people and info right where is needed. Using XR (extended reality),<br> we enable our customers to access knowledge anywhere, anytime."
+		},
+		"tailText": "The solution for industrial problems through Augmented Reality (AR) <br class='mobile-hidden'>and Digital Twin (DT) technologies. VIRNECT can show you.",
+		"summaryText": {
+			"summaryTitle": {
+				"title": "We create safer and more efficient <br class='mobile-hidden'>worksites with our clients.",
+				"contents": "VIRNECT looks for solutions for different problems in industrial worksites through the application of AR technology. We analyze the problems from our clients' perspectives and bring out the most advanced and necessary solution. We are client-centric, and make AR innovations together with our clients."
+			},
+			"weProudArr": [
+				{
+					"contents": "Year of <br>establishment",
+					"count": "2016"
+				},
+				{
+					"contents": "Number of <br>personnel",
+					"count": "90+ <span class='rules'>people</span>"
+				},
+				{
+					"contents": "Intellectual <br>Property rights",
+					"count": "90+ <span class='rules'>cases</span><i>(Top class of Korean AR companies)</i>"
+				},
+				{
+					"contents": "AR projects <br>performance",
+					"count": "110+ <span class='rules'>cases</span>"
+				},
+				{
+					"contents": "Certificates <br>and awards",
+					"count": "20+ <span class='rules'>cases</span>"
+				}
+			],
+			"weProudText": "* as of April 2021",
+			"missionText": {
+				"title": "Mission",
+				"contents": "Better industrial sites with AR / DT",
+				"subContents": "We strive to provide a safer industrial environment, maximized work efficacy, and the best convenience to our clients."
+			},
+			"vissionText": {
+				"title": "Vision",
+				"contents": "We are <strong>the most client-centric company</strong>, capable of finding the right solutions for our clients."
+			},
+			"businessAreaTitle": {
+				"category": "Business fields",
+				"title": "We provide the best solutions for safer <br class='mobile-hidden'>and more efficient industrial worksites through <br class='mobile-hidden'>the application of innovative Augmented Reality (AR) <br class='mobile-hidden'>and Digital Twin (DT) technologies."
+			},
+			"customers": {
+				"public": "Public",
+				"private": "Private",
+				"education": "Education"
+			}
+		},
+		"brandText": {
+			"headingTitle": {
+				"title": "VIRNECT pursues client value.",
+				"contents": "VIRNECT finds solutions by connecting virtual reality with our clients' reality."
+			},
+			"brandLogoText": {
+				"title": "Corporate Identity",
+				"contents": "VIRNECT's core values are to maintain trust, lead the market, and pursue win-win relationships. To maintain consistency in expressing our identity, our logo works as a key element in our product design and a criterion for symbolic visualization."
+			},
+			"biTextLists": [
+				{
+					"title": "Keeping Trust (Blue)",
+					"contents": "The color blue implies that VIRNECT highly values building and maintaining trust with clients and that it will work for the improvement of their working environments."
+				},
+				{
+					"title": "Leading the Market (Bold)",
+					"contents": "The bold logotype visualizes VIRNECT's will to create sustainable solutions by leading the AR/DT market."
+				},
+				{
+					"title": "Pursuing a Win-win Relationship (Vertical & Round)",
+					"contents": "Signifies the value of blending and balancing the differences in society for the prosperity of humanity, the nation, and society as a whole."
+				}
+			],
+			"ciDownload": "Download CI",
+			"biTransList": {
+				"array": [
+					{
+						"title": "Default",
+						"image": "../images/pages/company/logo-basic"
+					},
+					{
+						"title": "Korean Type",
+						"image": "../images/pages/company/logo-kor-type"
+					},
+					{
+						"title": "English Type",
+						"image": "../images/pages/company/logo-eng-type"
+					}
+				],
+				"contents": "VIRNECT's symbol mark and logotype cannot be modified or recombined. If you wish to use our signature, logotype, etc., please download our CI file and use it as is."
+			},
+			"biText": {
+				"title": "Brand Identity",
+				"contents": "VIRNECT's hexagonal motif logo represents the harmony and connection among all of the information and human resources that form the industry. It is used to distinguish VIRNECT's variety of products."
+			}
+		},
+		"mediaText": {
+			"title": "News Center",
+			"contents": "VIRNECT finds solutions for industrial problems together with our clients, aiming for a safer and more efficient worksite.",
+			"mention": "The solution for industrial problems through Augmented Reality (AR) <br class='mobile-hidden'>and Digital Twin (DT) technology. VIRNECT can show you."
+		},
+		"recruitText": {
+			"visualText": {
+				"title": "Recruitment",
+				"contents": "VIRNECT aims for a safer and more efficient industrial worksite through the application of our AR technology. <br class='mobile-hidden'>Make an AR innovation with VIRNECT's world-class experts."
+			},
+			"btnText": "VIRNECT Recruitment",
+			"headingTitle": {
+				"title": "VIRNECT's technology can change the lives of workers",
+				"contents": "VIRNECT develops AR solutions for improving safety and efficiency in worksites. AR innovations create a safer and more prosperous life for industrial workers. VIRNECT looks for progressive partners who seek ways to improve the lives of others."
+			},
+			"careerTitle": "VIRNECT welcomes passionate candidates. We wish to develop the future of global AR and VR with positive-minded applicants.",
+			"talentTextLIst": [
+				"We are self-motivated people, giving our all in our tasks.",
+				"We are self-regulated and responsible workers in a fun environment.",
+				"We value communication skills for efficient and proactive teamwork."
+			],
+			"weWork": "How We Work",
+			"welfare": "We increase work efficiency and provide a fun and wholesome workplace.",
+			"welfareTextList": [
+				{
+					"title": "Horizontal structure",
+					"contents": "show respect for our colleagues, and self-regulate for our responsibilities."
+				},
+				{
+					"title": "State-of-the-art devices",
+					"contents": "We provide state-of-the-art hardware and software devices, and have several sets of smart glasses for sharing."
+				},
+				{
+					"title": "Flexible working hours",
+					"contents": "We work in a flexible work hour system (reporting hours between 8:30 to 10:30 am), and have one early-finish day per month."
+				},
+				{
+					"title": "Sabbatical & Conveniences​",
+					"contents": "We provide sabbatical leave, convenient facilities seniority allowance (KRW 2 million for 3 years of service), allowance per division, lunch and dinner, coffee, and snacks."
+				},
+				{
+					"title": "Competency development",
+					"contents": "We support our workers' capacity-building activities external training sessions, exhibitions, academic groups, seminars, internal seminars, and book purchases."
+				},
+				{
+					"title": "Anniversary & Events​",
+					"contents": "We provide KRW 100,000 gift certificates to our workers for major family events, anniversaries, birthdays, etc. and organize cultural activities and workshops every first and second half of the year."
+				}
+			]
+		},
+		"newsletterText": {
+			"contents": "Subscribe to VIRNECT's newsletters. <br>Be informed of announcements on industrial AR including client cases, <br>training information, events, and more."
+		},
+		"recruitBoardText": {
+			"chapter": "Chapter",
+			"position": "Area of recruitment",
+			"part": "Employment Form",
+			"period": "Application period",
+			"headingTitle": {
+				"title": "The innovation of AR technology. <br>Make valuable changes with us.",
+				"contents": "VIRNECT is looking for the next leader of high technology in industrial worksites and partners who will make meaningful changes. Working for VIRNECT means you will lead innovation by technology in worksites and begin meaningful changes in your life as well."
+			}
+		},
+		"careerBenefit": {
+			"workPosition": "Responsibilities",
+			"careerType": "Employee type",
+			"recruitment": "Available position(s)",
+			"priority": "Qualifications",
+			"quality": "Preferred skills",
+			"location": "Work location",
+			"condition": "Admission Procedure",
+			"welfare": "Apply and Question",
+			"howTo": "Application form",
+			"manager": "Coordinator",
+			"mail": "Application email",
+			"call": "Phone inquiries",
+			"fullTime": "Regular employees",
+			"partTime": "Contract employees",
+			"internship": "Interns",
+			"person": "persons"
+		},
+		"banner":{
+			"text1": "VIRNECT Company Overivew",
+			"text2": "Download Company_Profile"
+		}
+	}
+}

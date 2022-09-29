@@ -1,0 +1,50 @@
+{
+  "resources": {
+    "filter": "Filter",
+    "visualText": {
+      "title": "Resource Center",
+      "contents": "Here you can find the resources relating to customers and solutions to utilize our products in more useful ways."
+    },
+    "filterArr": {
+      "type": {
+        "title": "Types",
+        "arr": {
+          "CUSTOMER": "Use Cases", 
+          "VIDEO": "Video", 
+          "BROCHURE": "Brochure", 
+          "MANUAL": "User Manual", 
+          "IR": "IR", 
+          "PR": "PR", 
+          "REPORT":"Report"
+        }
+      },
+      "product": {
+        "title": "Products",
+        "arr": {
+          "REMOTE": "VIRNECT Remote",
+          "MAKE": "VIRNECT Make",
+          "VIEW": "VIRNECT View",
+          "TWIN": "VIRNECT Twin",
+          "TRACK": "VIRNECT Track"
+        }
+      },
+      "solution": {
+        "title": "Solutions",
+        "arr": {
+          "ENERGY": "Energy/Resources",
+          "EPC": "EPC",
+          "CAR": "Automotive/Parts",
+          "AIRPLANE": "Aviation/Railway",
+          "OIL": "Refinery/Petrochemical/Battery",
+          "MICE": "Marketing",
+          "EDUCATION": "Education"
+        }
+      }
+    },
+    "filterText": "Deselect",
+    "noData": {
+      "title": "No Results Found​",
+      "contents": "Please try another keyword."
+    }
+  }
+}

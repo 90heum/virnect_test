@@ -1,0 +1,10 @@
+{
+  "policy": {
+    "title": "Policy",
+    "type": {
+      "terms": "Terms of Service",
+      "policy": "Privacy policy",
+      "payment": "Terms of Paid Service"
+    }
+  }
+}

@@ -1,0 +1,549 @@
+@charset "utf-8";
+.landing-visual-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.landing-fullscreen-box {
+  width: 100%;
+  height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+  padding-top: 160px;
+  padding-left: 140px;
+  overflow: hidden;
+  background: #fff;
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    content: "";
+  }
+  @media (max-width: $mobile) {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    video {
+      width: 300%;
+    }
+    .swiper-container {
+      height: 100%;
+    }
+    .swiper-slide {
+      background-position: right;
+    }
+  }
+}
+.news-thumbnail-wrap {
+  padding-top: 120px;
+  li {
+    margin-bottom: 32px;
+    &:nth-child(3) {
+      display: none;
+    }
+  }
+  .img-wrap {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    &:before {
+      display: block;
+      width: 100%;
+      padding-top: 55.9%;
+      content: "";
+    }
+  }
+}
+.landing-title-wrap {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: $poppins;
+  line-height: 1.72;
+
+  @media (max-width: $mobile) {
+    font-size: 30px;
+    line-height: 1.53;
+    i {
+      // display: block;
+      font-weight: 100;
+    }
+  }
+}
+
+.landing-news-container {
+  // 최상단 비쥬얼 뉴스 컨텐츠
+  position: absolute;
+  top: 0;
+  right: 180px;
+  z-index: 3;
+  width: 452px;
+  height: 100%;
+  padding: 0 52px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.4);
+
+  .news-text-wrap {
+    position: absolute;
+    bottom: 154px;
+    width: calc(100% - 52px);
+  }
+  .news-title {
+    font-weight: bold;
+    font-family: $poppins;
+  }
+
+  .news-contents {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    padding-right: 52px;
+    p {
+      position: relative;
+      width: 100%;
+      margin-bottom: 16px;
+      overflow: hidden;
+      font-weight: 400;
+      font-family: $noto;
+      line-height: 1.5;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+  }
+
+  .more-btn {
+    padding-right: 38px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: $poppins;
+    line-height: 1.87;
+    background: url("~assets/images/common/ic-arrow@2x.png") right no-repeat;
+    background-size: 30px;
+  }
+
+  @media (max-width: $mobile) {
+    right: 0;
+    width: 100%;
+    padding: 0 30px;
+    .news-text-wrap {
+      bottom: 90px;
+      left: 0;
+      width: 100%;
+      padding: 0 30px;
+    }
+
+    .news-contents {
+      margin-top: 12px;
+      margin-bottom: 16px;
+      padding-right: 0;
+      p {
+        margin-bottom: 8px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.introduce-section {
+  // 준비된 글로벌 AR 리더 VIRNECT
+  margin-bottom: 48px;
+  .insight-list {
+    overflow: hidden;
+    // 첫번째 섹션
+    @include area-flex(1260px);
+    $mg: 14px;
+    ul {
+      margin-right: -$mg;
+      margin-left: -$mg;
+      font-size: 0;
+    }
+    li {
+      position: relative;
+      display: inline-block;
+      width: calc(100% / 3 - #{$mg}* 2);
+      margin-right: $mg;
+      margin-left: $mg;
+      vertical-align: top;
+    }
+  }
+
+  .img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    background-size: cover;
+    &:before {
+      display: block;
+      width: 100%;
+      padding-top: 75%;
+      content: "";
+    }
+  }
+
+  .text-wrap {
+    position: relative;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: 30px;
+    padding: 22px 26px;
+    background: #fff;
+    @include default-text($point, 20px);
+
+    .title {
+      margin-bottom: 10px;
+    }
+    .contents {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.78;
+      word-break: keep-all;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    margin-bottom: 12px;
+    .img-box {
+      // height: 213px;
+      padding: 14px 20px;
+    }
+    .text-wrap {
+      margin-top: 180px;
+      margin-left: 24px;
+      padding: 14px 20px;
+      .title {
+        font-size: 18px;
+      }
+      .contents {
+        font-size: 14px;
+        word-break: break-all;
+      }
+    }
+  }
+}
+
+.solution-section {
+  // AR 전문가의 현장 분석을 통한 문제 해결
+  // 두번째 섹션
+  overflow: hidden;
+  .navy-infomation-list {
+    position: relative;
+    // border-top: 460px solid #202937;
+    padding-top: 460px;
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 460px;
+      background: #202937;
+      content: "";
+    }
+  }
+  .solution-benefit-list {
+    @include area-flex(1360px);
+    margin-top: -388px;
+    overflow: visible;
+
+    $height: 480px;
+
+    .img-wrap {
+      display: inline-block;
+      width: 780px;
+      margin-right: 60px;
+      vertical-align: top;
+      background: #ccc;
+      background-size: cover;
+      &:before {
+        display: block;
+        width: 100%;
+        padding-top: 61.53%;
+        content: "";
+      }
+    }
+    .text-wrap {
+      position: relative;
+      display: inline-block;
+      width: 480px;
+      min-height: $height;
+      margin-top: -2px;
+      padding-top: 32px;
+      color: #fff;
+      vertical-align: top;
+      @include default-text(inherit, 38px);
+
+      .title {
+        margin-bottom: 18px;
+        margin-left: -2px;
+        span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-weight: 500;
+          font-size: 16px;
+        }
+      }
+      .contents {
+        font-weight: 300;
+      }
+      button {
+        position: absolute;
+        bottom: 152px;
+        left: 0;
+      }
+    }
+
+    .swiper-slide {
+      opacity: 0;
+      transition: opacity 0.5s;
+      &-active {
+        opacity: 1;
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    .navy-infomation-list {
+      padding-top: 420px;
+      &:before {
+        width: calc(100% - 48px);
+        height: 420px;
+      }
+    }
+    .solution-benefit-list {
+      width: 75%;
+      margin-top: -67px;
+      margin-left: 18%;
+      padding: 0;
+      .img-wrap {
+        width: 100%;
+        margin: 0;
+      }
+      .text-wrap {
+        position: absolute;
+        top: -320px;
+        left: -14%;
+        width: 96%;
+        br {
+          display: none;
+        }
+        button {
+          bottom: 188px;
+        }
+      }
+      .swiper-slide-next {
+        opacity: 1;
+        .text-wrap {
+          opacity: 0;
+        }
+      }
+    }
+    .navy-infomation-list-pagination {
+      @include area-flex(100%);
+    }
+  }
+}
+
+.products-section {
+  margin-top: 80px;
+  padding-bottom: 200px;
+  // 최고의 AR 기술력과 고객 이해의 결합
+  // 세번째 섹션
+  overflow: hidden;
+
+  .product-benefit-list {
+    position: relative;
+    width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: visible;
+
+    $height: 480px;
+
+    .img-wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: $height;
+      background-size: cover;
+    }
+    .text-wrap {
+      position: relative;
+      z-index: 1;
+      margin: 0 60px;
+      margin-top: 380px;
+      padding: 28px 34px;
+      background: #fff;
+      @include default-text(inherit, 32px);
+      .title {
+        margin-bottom: 12px;
+      }
+      .contents {
+        font-weight: 400;
+        word-break: break-all;
+      }
+
+      .product {
+        margin-bottom: 4px;
+        color: $point;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: $poppins;
+        line-height: 1.56;
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 56px;
+    padding-bottom: 56px;
+    .product-benefit-list {
+      width: 100%;
+      padding: 0 24px;
+      .img-wrap {
+        height: auto;
+        &:before {
+          display: block;
+          width: 100%;
+          padding-top: 64.1%;
+          content: "";
+        }
+      }
+      .text-wrap {
+        margin-top: 50%;
+        margin-right: 12px;
+        margin-left: 12px;
+        padding: 14px 18px 16px;
+        .product {
+          font-size: 14px;
+        }
+      }
+    }
+    .swiper-wrapper {
+      margin: 0 24px;
+    }
+    .swiper-slide-next {
+      margin-top: -24px;
+      margin-left: -24px;
+    }
+    // .swiper-slide-prev {
+    //     margin-left: 24px;
+    // }
+  }
+}
+
+.awards-section {
+  // 수상 리스트
+  position: relative;
+  .heading-wrap {
+    height: 320px;
+    margin-bottom: 52px;
+    padding-top: 96px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: url("~assets/images/pages/landing/img-main-creditficial.png")
+      no-repeat center;
+    background-size: cover;
+    .title {
+      margin-bottom: 24px;
+      color: #aecdff;
+      font-weight: 600;
+      font-size: 18px;
+      font-family: $poppins;
+    }
+    p {
+      color: #fff;
+      font-weight: 500;
+      font-size: 28px;
+      font-family: $noto;
+      line-height: normal;
+    }
+  }
+  .awards-list-wrap {
+    @include area-flex(1040px);
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 25%;
+      margin: 20px 0;
+      vertical-align: top;
+    }
+    p {
+      margin-top: 12px;
+      font-size: 14px;
+      font-family: $noto;
+      line-height: 1.71;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    .heading-wrap {
+      height: auto;
+      margin-bottom: 24px;
+      padding-top: 46px;
+      padding-bottom: 48px;
+      background: url("~assets/images/pages/landing/img-main-creditficial-m.png")
+        right;
+      background-size: cover;
+      .title {
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      p {
+        padding: 0 62px;
+        font-size: 22px;
+      }
+    }
+
+    .awards-list-wrap {
+      li {
+        width: 50%;
+      }
+    }
+    .swiper-slide {
+      p {
+        margin-top: 0;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.news-section {
+  .titie {
+    margin-bottom: 30px;
+  }
+  .news-contents-list {
+    @include area-flex(1260px);
+  }
+  ul {
+    .category {
+      margin-bottom: 4px;
+    }
+  }
+  li {
+    margin-bottom: 0;
+  }
+  @media (max-width: $mobile) {
+    overflow: hidden;
+  }
+}
+
+#tailSection {
+  margin-top: 120px;
+}

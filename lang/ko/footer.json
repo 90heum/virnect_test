@@ -1,0 +1,35 @@
+{
+    "footer":{
+        "value":{
+            "title1": "인프라/에너지",
+            "title2": "제조/건설",
+            "title3": "공공/교육",
+            "title4": "문화/전시",
+            "title5": "헬스케어"
+        },
+        "support":{
+            "tit1": "학습센터",
+            "tit2": "문의하기"
+        },
+        "infolink":{
+            "contents1": "대표전화 :",
+            "contents2": " 070-7733-2025",
+            "contents3": "구매 및 제휴 문의 :",
+            "contents4": "contact@virnect.com",
+            "contents5": "제품 사용 및 기술 지원 :",
+            "contents6": "support@virnect.com",
+            "contents7": "문의하기",
+            "contents8": "회사소개서 (PDF)",
+            "contents9": "제품소개서 (PDF)",
+            "contents10": "VIRNECT가 전하는 최신 Digital Insight를 만나보세요",
+            "contents11": "지금 구독하세요",
+            "contents12": "제품 및 구매 문의 :",
+            "contents13": " 02-749-1004"
+        },
+        "service":{
+            "title1": "서비스 이용약관",
+            "title2": "개인정보 처리방침",
+            "title3": "유료상품 이용약관"
+        }
+    }
+}

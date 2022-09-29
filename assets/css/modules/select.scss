@@ -1,0 +1,11 @@
+@import url('~/assets/css/reset.scss');
+
+.el-dropdown-menu__item {
+    padding: 0;
+}
+
+.el-checkbox__input.is-checked {
+    &+.el-checkbox__label {
+        color: #1665d8;
+    }
+}

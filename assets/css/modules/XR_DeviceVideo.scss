@@ -1,0 +1,95 @@
+.classDeviceVideo {
+  width: 100%;
+}
+
+.classDeviceVideo .DeviceVideoWrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 150px 30px 0;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoTit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoTit i {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoTit i img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoTit h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.55px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 10px;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoTit p {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 35px;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoCont {
+  max-width: 1200px;
+  width: 100%;
+  max-height: 675px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoCont iframe {
+  margin: 0 auto;
+  min-height: 675px;
+  height: 100%;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-bottom: solid 1px #c5c8cf;
+  padding-bottom: 90px;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoButton button {
+  max-width: 206px;
+  max-height: 60px;
+  margin: 0 auto;
+  border: solid 1px #0a51b7;
+  background-color: #0a51b7;
+}
+
+.classDeviceVideo .DeviceVideoWrap .videoButton button a {
+  white-space: nowrap;
+  display: block;
+  padding: 19.5px 37px 19.5px 37px;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}

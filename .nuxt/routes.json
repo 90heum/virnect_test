@@ -1,0 +1,268 @@
+[
+  {
+    "name": "payment",
+    "path": "/payment",
+    "component": "/Users/majeongheum/virnect_test/pages/payment.vue",
+    "chunkName": "pages/payment",
+    "_name": "_35003522"
+  },
+  {
+    "name": "Policy",
+    "path": "/Policy",
+    "component": "/Users/majeongheum/virnect_test/pages/Policy.vue",
+    "chunkName": "pages/Policy",
+    "_name": "_096498f9"
+  },
+  {
+    "name": "terms",
+    "path": "/terms",
+    "component": "/Users/majeongheum/virnect_test/pages/terms.vue",
+    "chunkName": "pages/terms",
+    "_name": "_49e914b0"
+  },
+  {
+    "name": "company-about",
+    "path": "/company/about",
+    "component": "/Users/majeongheum/virnect_test/pages/company/about.vue",
+    "chunkName": "pages/company/about",
+    "_name": "_3c3e23a4"
+  },
+  {
+    "name": "company-aboutSub",
+    "path": "/company/aboutSub",
+    "component": "/Users/majeongheum/virnect_test/pages/company/aboutSub.vue",
+    "chunkName": "pages/company/aboutSub",
+    "_name": "_25a44c2c"
+  },
+  {
+    "name": "company-ir",
+    "path": "/company/ir",
+    "component": "/Users/majeongheum/virnect_test/pages/company/ir.vue",
+    "chunkName": "pages/company/ir",
+    "_name": "_6863bfa2"
+  },
+  {
+    "name": "company-ir-detail",
+    "path": "/company/ir-detail",
+    "component": "/Users/majeongheum/virnect_test/pages/company/ir-detail.vue",
+    "chunkName": "pages/company/ir-detail",
+    "_name": "_f8f88be8"
+  },
+  {
+    "name": "company-talent",
+    "path": "/company/talent",
+    "component": "/Users/majeongheum/virnect_test/pages/company/talent.vue",
+    "chunkName": "pages/company/talent",
+    "_name": "_4c2ab165"
+  },
+  {
+    "name": "news-detail",
+    "path": "/news/detail",
+    "component": "/Users/majeongheum/virnect_test/pages/news/detail.vue",
+    "chunkName": "pages/news/detail",
+    "_name": "_2d95b276"
+  },
+  {
+    "name": "news-main",
+    "path": "/news/main",
+    "component": "/Users/majeongheum/virnect_test/pages/news/main.vue",
+    "chunkName": "pages/news/main",
+    "_name": "_1f824b1e"
+  },
+  {
+    "name": "policy-Payment",
+    "path": "/policy/Payment",
+    "component": "/Users/majeongheum/virnect_test/pages/policy/Payment.vue",
+    "chunkName": "pages/policy/Payment",
+    "_name": "_1957af30"
+  },
+  {
+    "name": "policy-persnal",
+    "path": "/policy/persnal",
+    "component": "/Users/majeongheum/virnect_test/pages/policy/persnal.vue",
+    "chunkName": "pages/policy/persnal",
+    "_name": "_a417ada6"
+  },
+  {
+    "name": "policy-Terms",
+    "path": "/policy/Terms",
+    "component": "/Users/majeongheum/virnect_test/pages/policy/Terms.vue",
+    "chunkName": "pages/policy/Terms",
+    "_name": "_060b4a9e"
+  },
+  {
+    "name": "products-make",
+    "path": "/products/make",
+    "component": "/Users/majeongheum/virnect_test/pages/products/make.vue",
+    "chunkName": "pages/products/make",
+    "_name": "_2b42f63c"
+  },
+  {
+    "name": "products-ms",
+    "path": "/products/ms",
+    "component": "/Users/majeongheum/virnect_test/pages/products/ms.vue",
+    "chunkName": "pages/products/ms",
+    "_name": "_2eae179a"
+  },
+  {
+    "name": "products-productsMain",
+    "path": "/products/productsMain",
+    "component": "/Users/majeongheum/virnect_test/pages/products/productsMain.vue",
+    "chunkName": "pages/products/productsMain",
+    "_name": "_4f491cb1"
+  },
+  {
+    "name": "products-remote",
+    "path": "/products/remote",
+    "component": "/Users/majeongheum/virnect_test/pages/products/remote.vue",
+    "chunkName": "pages/products/remote",
+    "_name": "_3a76243a"
+  },
+  {
+    "name": "products-track",
+    "path": "/products/track",
+    "component": "/Users/majeongheum/virnect_test/pages/products/track.vue",
+    "chunkName": "pages/products/track",
+    "_name": "_4417fe87"
+  },
+  {
+    "name": "products-twin",
+    "path": "/products/twin",
+    "component": "/Users/majeongheum/virnect_test/pages/products/twin.vue",
+    "chunkName": "pages/products/twin",
+    "_name": "_4a64f8dc"
+  },
+  {
+    "name": "products-view",
+    "path": "/products/view",
+    "component": "/Users/majeongheum/virnect_test/pages/products/view.vue",
+    "chunkName": "pages/products/view",
+    "_name": "_2f3b8619"
+  },
+  {
+    "name": "support-demo",
+    "path": "/support/demo",
+    "component": "/Users/majeongheum/virnect_test/pages/support/demo.vue",
+    "chunkName": "pages/support/demo",
+    "_name": "_6610880a"
+  },
+  {
+    "name": "support-demo_success",
+    "path": "/support/demo_success",
+    "component": "/Users/majeongheum/virnect_test/pages/support/demo_success.vue",
+    "chunkName": "pages/support/demo_success",
+    "_name": "_39de4a64"
+  },
+  {
+    "name": "support-faq",
+    "path": "/support/faq",
+    "component": "/Users/majeongheum/virnect_test/pages/support/faq.vue",
+    "chunkName": "pages/support/faq",
+    "_name": "_9e9b3882"
+  },
+  {
+    "name": "support-inquiry",
+    "path": "/support/inquiry",
+    "component": "/Users/majeongheum/virnect_test/pages/support/inquiry.vue",
+    "chunkName": "pages/support/inquiry",
+    "_name": "_70ec9d20"
+  },
+  {
+    "name": "support-inquiry_success",
+    "path": "/support/inquiry_success",
+    "component": "/Users/majeongheum/virnect_test/pages/support/inquiry_success.vue",
+    "chunkName": "pages/support/inquiry_success",
+    "_name": "_76d58398"
+  },
+  {
+    "name": "support-learning-center",
+    "path": "/support/learning-center",
+    "component": "/Users/majeongheum/virnect_test/pages/support/learning-center.vue",
+    "chunkName": "pages/support/learning-center",
+    "_name": "_2097560d"
+  },
+  {
+    "name": "support-learning-manual-detail",
+    "path": "/support/learning-manual-detail",
+    "component": "/Users/majeongheum/virnect_test/pages/support/learning-manual-detail.vue",
+    "chunkName": "pages/support/learning-manual-detail",
+    "_name": "_9d47ada0"
+  },
+  {
+    "name": "support-learning-video-detail",
+    "path": "/support/learning-video-detail",
+    "component": "/Users/majeongheum/virnect_test/pages/support/learning-video-detail.vue",
+    "chunkName": "pages/support/learning-video-detail",
+    "_name": "_68584eca"
+  },
+  {
+    "name": "support-notice",
+    "path": "/support/notice",
+    "component": "/Users/majeongheum/virnect_test/pages/support/notice.vue",
+    "chunkName": "pages/support/notice",
+    "_name": "_6cbd96bf"
+  },
+  {
+    "name": "support-notice-detail",
+    "path": "/support/notice-detail",
+    "component": "/Users/majeongheum/virnect_test/pages/support/notice-detail.vue",
+    "chunkName": "pages/support/notice-detail",
+    "_name": "_7a3c184f"
+  },
+  {
+    "name": "support-supportSubMain",
+    "path": "/support/supportSubMain",
+    "component": "/Users/majeongheum/virnect_test/pages/support/supportSubMain.vue",
+    "chunkName": "pages/support/supportSubMain",
+    "_name": "_7a3a5131"
+  },
+  {
+    "name": "value-culture_exhibition",
+    "path": "/value/culture_exhibition",
+    "component": "/Users/majeongheum/virnect_test/pages/value/culture_exhibition.vue",
+    "chunkName": "pages/value/culture_exhibition",
+    "_name": "_48749a45"
+  },
+  {
+    "name": "value-health_care",
+    "path": "/value/health_care",
+    "component": "/Users/majeongheum/virnect_test/pages/value/health_care.vue",
+    "chunkName": "pages/value/health_care",
+    "_name": "_67e7419f"
+  },
+  {
+    "name": "value-infra_energy",
+    "path": "/value/infra_energy",
+    "component": "/Users/majeongheum/virnect_test/pages/value/infra_energy.vue",
+    "chunkName": "pages/value/infra_energy",
+    "_name": "_dde1d948"
+  },
+  {
+    "name": "value-manufacture_construction",
+    "path": "/value/manufacture_construction",
+    "component": "/Users/majeongheum/virnect_test/pages/value/manufacture_construction.vue",
+    "chunkName": "pages/value/manufacture_construction",
+    "_name": "_42016f94"
+  },
+  {
+    "name": "value-public_education",
+    "path": "/value/public_education",
+    "component": "/Users/majeongheum/virnect_test/pages/value/public_education.vue",
+    "chunkName": "pages/value/public_education",
+    "_name": "_15f51e52"
+  },
+  {
+    "name": "company-subCompany-Brand",
+    "path": "/company/subCompany/Brand",
+    "component": "/Users/majeongheum/virnect_test/pages/company/subCompany/Brand.vue",
+    "chunkName": "pages/company/subCompany/Brand",
+    "_name": "_304bd8a4"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/majeongheum/virnect_test/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c029530a"
+  }
+]

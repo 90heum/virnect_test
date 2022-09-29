@@ -1,0 +1,247 @@
+.EduChallenge {
+  width: 100%;
+}
+
+.EduChallenge .EduChallengeWrap {
+  width: 100%;
+}
+
+.EduChallenge .EduChallengeWrap .EduTit {
+  box-sizing: content-box;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 24px 0;
+}
+
+.EduChallenge .EduChallengeWrap .EduTit h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.55px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 35px;
+}
+
+.EduChallenge .EduChallengeWrap .EduTit span {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #121212;
+}
+
+.EduChallenge .EduChallengeWrap .EduTit span p {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #121212;
+}
+
+.EduChallenge .EduChallengeWrap .EduTit i {
+  display: block;
+  transform: translateY(100px);
+}
+
+.EduChallenge .EduChallengeWrap .EduTit i img {
+  display: block;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap {
+  background-color: #f7f8f9;
+  padding: 215px 24px 0;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid #0a51b7;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span {
+  display: flex;
+  gap: 65px;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span>span {
+  max-width: 240px;
+  height: 170px;
+  width: 100%;
+  background-image: linear-gradient(305deg, #1889dc, #0a51b7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span>span p {
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span ul li {
+  margin-bottom: 38px;
+  padding-bottom: 38px;
+  // border-bottom: solid 1px #c5c8cf;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 65px;
+  padding: 0;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span ul li p {
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.3px;
+  color: #092e6e;
+  margin-bottom: 28px;
+}
+
+.EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span ul li span {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.23px;
+  color: #616161;
+}
+
+@media screen and (max-width: 815px) {
+  .EduChallenge .EduChallengeWrap .EduTit span p {
+    display: inline;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit span {
+    display: block;
+    padding: 0 24px;
+    margin-bottom: 34px;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit h2 {
+    padding: 0 24px;
+    margin-bottom: 40px;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit h2,
+  .EduChallenge .EduChallengeWrap .EduTit h2 p {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: -0.45px;
+    text-align: center;
+    color: #121212;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit {
+    padding: 80px 0 0;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit i {
+    transform: translateY(0);
+  }
+
+  .EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span>span {
+    width: 100%;
+    max-width: 100%;
+    height: 90px;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduContWrap {
+    padding: 0;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span ul {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .EduChallenge .EduChallengeWrap .EduTit h2,
+  .EduChallenge .EduChallengeWrap .EduTit h2 p {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: #121212;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit h2 {
+    margin-bottom: 60px;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit span,
+  .EduChallenge .EduChallengeWrap .EduTit span p {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #121212;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduTit span {
+    margin-bottom: 19px;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span ul li p {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.25px;
+    color: #092e6e;
+  }
+
+  .EduChallenge .EduChallengeWrap .EduContWrap .EduCont>span ul li span {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: -0.18px;
+    color: #616161;
+  }
+}

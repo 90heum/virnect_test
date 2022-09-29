@@ -1,0 +1,19 @@
+{
+    "remote": {
+        "data1":{
+            "logo": "https://6181926.fs1.hubspotusercontent-na1.net/hubfs/6181926/virnectLogo/samsung.png",
+            "title": "The VIRNECT AR Solution applied<br>for worker inspections highly improved customer satisfaction.",
+            "company": "- Samsung SDS -"
+        },
+        "data2":{
+            "logo": "https://6181926.fs1.hubspotusercontent-na1.net/hubfs/6181926/virnectLogo/samsung.png",
+            "title": "With VIRNECT Solution applied to surgical operations<br>where the patient's safety is the most important factor,<br>our medical staff can now stay more focused to give better results.",
+            "company": "- Technology Innovation Researcher, Environmental Technology Development Team, Doosan Heavy Industries & Construction -"
+        },
+        "data3":{
+            "logo": "https://6181926.fs1.hubspotusercontent-na1.net/hubfs/6181926/virnectLogo/korea.png",
+            "title": "With VIRNECT Solution applied to surgical operations<br>where the patient's safety is the most important factor,<br>our medical staff can now stay more focused to give better results.",
+            "company": "- Cosmetic surgery, Korea University -"
+        }
+    }
+}

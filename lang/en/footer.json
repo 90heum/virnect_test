@@ -1,0 +1,33 @@
+{
+    "footer":{
+        "value":{
+            "title1": "infra_resource",
+            "title2": "manufacture_construction",
+            "title3": "public_education",
+            "title4": "entertainment",
+            "title5": "etc"
+        },
+        "support":{
+            "tit1": "Learning Center",
+            "tit2": "Inquiry"
+        },
+        "infolink":{
+            "contents1": "Tel :",
+            "contents2": "+82-70-7733-2025",
+            "contents3": "CS/Purchase :",
+            "contents4": "contact@virnect.com",
+            "contents5": "Email :",
+            "contents6": "support@virnect.com",
+            "contents7": "Inquiry",
+            "contents8": "Download Company_Profile",
+            "contents9": "Download Products_Leaflet",
+            "contents10": "Meet the latest Digital Insight from VIRNECT",
+            "contents11": "Subscribe to newsletter"
+        },
+        "service":{
+            "title1": "Terms of Service",
+            "title2": "Privacy policy",
+            "title3": "Terms of Paid Service"
+        }
+    }
+}

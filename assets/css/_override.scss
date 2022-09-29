@@ -1,0 +1,392 @@
+@charset "utf-8";
+@import url('~/assets/css/reset.scss');
+
+button {
+  border: 0;
+}
+
+.dark {
+  color: #fff;
+
+  button,
+  a {
+    color: #fff;
+  }
+}
+
+.header-section {
+  &.sticky-pushup {
+    top: -100px;
+
+    .hover-box {
+      display: none;
+    }
+  }
+}
+
+.swiper-pagination-progressbar {
+  .swiper-pagination-progressbar-fill {
+    height: 3px;
+    margin-top: -1px;
+    background: #1655bf;
+  }
+}
+
+.swiper-container-3d {
+  .swiper-slide-shadow-right {
+    background-image: linear-gradient(to right,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 1) 40%);
+  }
+
+  .swiper-slide-shadow-left {
+    background-image: linear-gradient(to left,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 1) 40%);
+  }
+}
+
+.swiper-pagination-bullet {
+  width: auto;
+  height: auto;
+  background: none;
+  border-radius: 0;
+
+  svg,
+  path {
+    opacity: 0.8;
+    fill: #fff;
+  }
+
+  &-active {
+
+    svg,
+    path {
+      // fill: #aecdff;
+      opacity: 1;
+    }
+  }
+}
+
+.bg-part {
+  .pagination li {
+    width: 100%;
+    padding: 4px 0;
+
+    @media (max-width: $mobile) {
+      display: inline-block;
+      width: auto;
+      padding: 0 6px;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+
+  .awards-section,
+  .effect-part,
+  .line-divide-list {
+    margin-bottom: 32px;
+    padding-bottom: 48px;
+
+    .pagination {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+
+      li {
+        margin: 0 8px;
+      }
+    }
+
+    .swiper-pagination-bullet {
+      opacity: 1;
+
+      svg,
+      path {
+        opacity: 1;
+        fill: #d4dae1;
+      }
+
+      &-active {
+
+        svg,
+        path {
+          fill: $point;
+        }
+      }
+    }
+  }
+}
+
+.news-contents-list {
+  ul {
+    .category {
+      margin-bottom: 4px;
+    }
+  }
+
+  #headingModule {
+    .circle-arrow-btn {
+      margin-top: 16px;
+    }
+  }
+}
+
+.news-section {
+  ul {
+    .category {
+      margin-bottom: 4px;
+    }
+  }
+
+  #headingModule {
+    .circle-arrow-btn {
+      margin-top: 16px;
+    }
+  }
+}
+
+.divide-section {
+  #headingModule {
+    .title {
+      margin-left: -2px;
+      line-height: 1.41;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .products-section {
+
+    .effect-part+.divide-section,
+    .laptop-mockup+.divide-section {
+      #headingModule {
+        text-align: center;
+      }
+    }
+  }
+
+  .virnect-potential {
+    #headingModule {
+      text-align: left;
+    }
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+// 메인 렌딩 비주얼 페이지네이션
+.visual-pagination {
+  width: 200px;
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 16px;
+
+  li {
+    position: relative;
+    width: 50%;
+    height: 23px;
+    background: none;
+    border-radius: 0;
+    opacity: 1;
+
+    &:after {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 80%;
+      height: 1px;
+      background: rgba(255, 255, 225, 0.3);
+      content: "";
+    }
+
+    &:last-child {
+      text-align: right;
+
+      &:after {
+        right: auto;
+        left: 0;
+      }
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    &:after {
+      background: #fff;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    width: 160px;
+    margin-top: 16px;
+  }
+}
+
+.swiper-pagination-bullet {
+  &:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+.products-list {
+  margin-bottom: 72px;
+  font-size: 0;
+  text-align: center;
+  border-bottom: 1px solid #eaedf3;
+
+  li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0 15px;
+    padding: 0 13px 20px 11px;
+    font-size: 12px;
+    background: none;
+    border-radius: 0;
+    opacity: 1;
+
+    &.swiper-pagination-bullet-active {
+      &:after {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: $point;
+        content: "";
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    margin-bottom: 24px;
+    padding: 0 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: left;
+
+    li {
+      padding: 0 8px 15px 6px;
+      opacity: 0.25;
+
+      &.swiper-pagination-bullet-active {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+address {
+  i {
+    padding-left: 12px;
+    color: #cccccc;
+  }
+}
+
+html:lang(en) {
+  .we-proud {
+    span {
+      font-size: 16px;
+    }
+
+    i {
+      display: block;
+      color: #222;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: $mobile) {
+  .coupon-section {
+    .sub-visual-section {
+      .category {
+        font-weight: 500;
+        font-size: 24px;
+        font-family: $noto;
+      }
+
+      .title {
+        font-size: 52px;
+        font-family: $noto;
+      }
+
+      .contents {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .coupon-section {
+    .sub-visual-section {
+      .title {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .el-collapse-item__header {
+    height: auto;
+    line-height: inherit;
+  }
+}
+
+@import "~element/input.css";
+@import "~element/checkbox.css";
+// @import "~element/select.css";
+@import "~element/message.css";
+@import "~element/button.css";
+@import "~element/icon.css";
+@import "~element/message-box.css";
+// editor.scss
+@import "modules/editor.scss";
+// button.scss
+@import "modules/button.scss";
+// input.scss
+@import "modules/input.scss";
+// messageBox.scss
+@import "modules/messageBox.scss";
+// select.scss
+@import "modules/select.scss";
+// dialog.scss
+@import "modules/dialog.scss";
+
+html:lang(en) {
+  .we-proud {
+    span {
+      font-size: 16px;
+    }
+
+    i {
+      display: block;
+      color: #222;
+      font-size: 12px;
+    }
+  }
+}
+
+.dropdown-wrap {
+  margin-right: 28px;
+}
+
+.el-checkbox.dropdown {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  white-space: nowrap;
+
+  .el-checkbox__label {
+    overflow: hidden;
+  }
+}

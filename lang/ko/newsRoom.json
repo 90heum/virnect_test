@@ -1,0 +1,22 @@
+{
+    "newsRoom": {
+        "topText": {
+            "text": "VIRNECT는 고객과 함께 산업 현장의 문제를 해결하고, 더 안전하고 효율적인 현장을 만들어 가고 있습니다."
+        },
+        "gnbHeaderText": {
+            "text": ""
+        },
+        "title": " 글로벌 리더로 도약하는<p>버넥트의 최신 소식을 전해드립니다.</p>",
+        "type": {
+            "terms": "서비스 이용약관",
+            "policy": "개인정보처리방침",
+            "payment": "유료상품 이용약관"
+        },
+        "menuList": [
+            {
+                "title": "News & Press",
+                "url": "/news/main"
+            }
+        ]
+    }
+}

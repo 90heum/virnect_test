@@ -1,0 +1,211 @@
+.featuresRemote {
+  max-width: 2400px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.featuresRemote .featuresWrap {
+  max-width: 1200px;
+  width: 100%;
+  height: 556px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: flex-start;
+  padding: 0 0 83px;
+  border-bottom: 1px solid #c5c8cf;
+}
+
+.featuresRemote .featuresWrap .title>p {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.23px;
+  color: #0a51b7;
+  margin-bottom: 16px;
+}
+
+.featuresRemote .featuresWrap .contents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.featuresRemote .featuresWrap .contents .featuresTit {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.featuresRemote .featuresWrap .contents .featuresTit h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.54;
+  letter-spacing: -0.43px;
+  color: #121212;
+  margin-bottom: 50px;
+}
+
+.featuresRemote .featuresWrap .contents .featuresTit h2 p {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.54;
+  letter-spacing: -0.43px;
+  color: #121212;
+}
+
+.featuresRemote .featuresWrap .contents .featuresTit ul li {
+  grid-gap: 10px;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #121212;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.featuresRemote .featuresWrap .contents .featuresTit ul li i {
+  display: flex;
+  align-items: center;
+}
+
+.featuresRemote .featuresWrap .contents .featuresTit ul li i img {
+  width: 16px;
+}
+
+.featuresRemote .featuresWrap .contents .featuresTit ul li p {
+  display: block;
+}
+
+.featuresRemote .featuresWrap .contents .featuresCont {
+  width: 50%;
+}
+
+.featuresRemote .featuresWrap .contents .featuresCont img {
+  display: block;
+  max-width: 480px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  .featuresRemote {
+    padding: 0 24px;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit {
+    margin-right: 42px;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresCont img {
+    max-width: 472px;
+  }
+
+  .featuresRemote .featuresWrap {
+    height: auto;
+    padding: 0 0 90px;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit ul li {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.71;
+    letter-spacing: normal;
+    color: #121212;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit h2,
+  .featuresRemote .featuresWrap .contents .featuresTit h2 p {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: -0.38px;
+    color: #121212;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit h2 {
+    margin-bottom: 60px;
+  }
+
+  .featuresRemote .featuresWrap .title>p {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.23px;
+    color: #0a51b7;
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .featuresRemote .featuresWrap .contents {
+    flex-direction: column;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit,
+  .featuresRemote .featuresWrap .contents .featuresCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    margin: 0 auto;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit {
+    margin-right: 0;
+    flex-direction: column;
+  }
+
+  .featuresRemote .featuresWrap .title>p {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.18px;
+    text-align: center;
+    color: #0a51b7;
+    margin-bottom: 40px;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit h2,
+  .featuresRemote .featuresWrap .contents .featuresTit h2 p {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: -0.33px;
+    text-align: center;
+    color: #121212;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit h2 {
+    margin-bottom: 65px;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit ul {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .featuresRemote .featuresWrap .contents .featuresCont img {
+    max-width: none;
+  }
+
+  .featuresRemote .featuresWrap .contents .featuresTit ul {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}

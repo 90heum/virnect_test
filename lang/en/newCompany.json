@@ -1,0 +1,111 @@
+{
+    "newCompany": {
+        "tab3king": {
+            "title1": "Public",
+            "title2": "Private",
+            "title3": "Education"
+        },
+        "AwardModuleText": {
+            "AwardText": "Awards",
+            "Award": "awarden"
+        },
+        "BrandText": {
+            "topTitleText": "VIRNECT pursues client value.",
+            "topContents1": "VIRNECT finds solutions by connecting virtual reality with our clients' reality.",
+            "topContents2": " ",
+            "companylogo": "Corporate Identity",
+            "logoContents": "VIRNECT's core values are to maintain trust, lead the market, and pursue win-win relationships. To maintain consistency in expressing our identity, our logo works as a key element in our product design and a criterion for symbolic visualization.",
+            "twinTitle1": "Leading the Market (Bold)",
+            "twinContents1": "The color blue implies that VIRNECT highly values building and maintaining trust with clients and that it will work for the improvement of their working environments.",
+            "twinTitle2": "Leading the Market (Bold)",
+            "twinContents2": "The bold logotype visualizes VIRNECT's will to create sustainable solutions by leading the AR/DT market.",
+            "twinTitle3": "Pursuing a Win-win Relationship (Vertical & Round)",
+            "twinContents3": "Signifies the value of blending and balancing the differences in society for the prosperity of humanity, the nation, and society as a whole.",
+            "basicText": "Default",
+            "hangeulText": "Korean Type",
+            "englishText": "English Type",
+            "downText": "VIRNECT's symbol mark and logotype cannot be modified or recombined. If you wish to use our signature, logotype, etc., please download our CI file and use it as is.",
+            "downTextButtonText": "Download CI",
+            "logoText2": "Brand Identity",
+            "logoContents2": "VIRNECT's hexagonal motif logo represents the harmony and connection among all of the information and human resources that form the industry. It is used to distinguish VIRNECT's variety of products."
+        },
+        "title": "We are preparing to take off as the<p> global No. 1 XR platform company.</p>",
+        "menuList": [
+            {
+                "title": "About VIRNECT",
+                "url": "/company/about"
+            },
+            {
+                "title": "Recruitment",
+                "url": ""
+            },
+            {
+                "title": "IR",
+                "url": ""
+            }
+        ]
+    },
+    "asideCompany": {
+        "title": "AR/DT innovation in worksites.<br>Make it happen now."
+    },
+    "aboutVirnectTitle": {
+        "title": " VIRNECT is a leading industrial XR solution company.",
+        "content": "VIRNECT is a leading industrial XR solution company. We connect critical data from industrial sites through virtual reality. We enable our customers to access the information they need from anywhere through XR services. We create value by linking people/robots, time/space, information/knowledge/wisdom, and we are striving to grow into the global No.1 XR platform company for a world where XR technology is used in all aspects of life."
+    },
+    "aboutVirnectContent": {
+        "mission": "Create a Smart, Convenient, and Sustainable Low-Carbon Future By connecting reality/virtuality, people/robots, time/space, and information/knowledge/wisdom.",
+        "vision": "Global No.1 XR Platform Company A world where XR technology permeate every aspect of our life"
+    },
+    "no2Content": {
+        "year": "Established in",
+        "yearValue": "2016",
+        "employee": "A team of",
+        "employeeValue": "150+ people",
+        "property": "Intellectual Property Rights Registered",
+        "propertyValue": "95+ cases",
+        "project": "successful XR projects",
+        "projectValue": "130+ cases",
+        "awards": "Certificates and awards",
+        "awardsValue": "40건+ cases"
+    },
+    "aboutHistoryTitle": {
+        "title": "History",
+        "content": "Growing together with our customers."
+    },
+    "aboutHistory2021": {
+        "title": "Industrial XR leader",
+        "list1": "• Raised USD 30 million in Series B funding",
+        "list2": "• Launched VIRNECT Track",
+        "list3": "• Received the Korea Metaverse Award & IT World Award (XR Solution Category)"
+    },
+    "aboutHistory2020": {
+        "title": "Overseas markets",
+        "list1": "• Launched VIRNECT Twin",
+        "list2": "• Established the VIRNECT Vienna Research Center"
+    },
+    "aboutHistory2019": {
+        "title": "Series A funding",
+        "list1": "• Obtained GS certification Level 1",
+        "list2": "• Received 8 awards including one from the Minister of Science and ICT of Korea",
+        "list3": "• Raised USD 9 million in Series A funding"
+    },
+    "aboutHistory2017_2018": {
+        "title": "Domestic market / Solution development ",
+        "list1": "• Launched VIRNECT Remote(17’)",
+        "list2": "• Won 1st place in KT 5G competition(17’)",
+        "list3": "• Launched SEEREAL Viewer",
+        "list4": "• Achieved the Special & Gold Awards at International Exhibition of Inventions Geneva"
+    },
+    "aboutHistory2016": {
+        "title": "Established",
+        "list1": "• Launched SEEREAL Viewer",
+        "list2": "• Achieved the Special & Gold Awards at International Exhibition of Inventions Geneva"
+    },
+    "customersContent": {
+        "content": "Growing together by putting our customers first"
+    },
+    "middleBanner": {
+        "introuduce": "Company OverView",
+        "brand": "Brand"
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "virtualConnect": {
+    "title": "VIRTUAL CONNECT",
+    "visualContents": "This VIRNECT's meet-up event is to prioritize customers' opinions. <br>We are committed to standing at our customers' side and providing better services.",
+    "headingContents": "Thank you for visiting the 1st Virtual Connect. <br>Those who could not attend this event held online/offline can watch the event via the recording below.",
+    "videos": [
+      {
+        "title": "Future Virtual Connect",
+        "speaker": "Tae-jin Ha, VIRNECT CEO",
+        "src": "5FY-kFFzfUo"
+      },
+      {
+        "title": "Combination of Google Machine Learning and VIRNECT Remote",
+        "speaker": "Gyong-mi Park, Google AE",
+        "src": "QnPbe1xfOCE"
+      },
+      {
+        "title": "Contactless business innovation, AR remote collaboration and application cases",
+        "speaker": "Jiuk Lee, VIRNECT Business Development Manager",
+        "src": "Eo6BaJFXL7E"
+      },
+      {
+        "title": "Demonstration using VIRNECT Remote",
+        "speaker": "VIRNECT",
+        "src": "OnDmhdmXnyc"
+      },
+      {
+        "title": "VIRNECT Make/View: Innovation of content creation, creation and application cases of non-coding AR content",
+        "speaker": "​Su-hwan Kim, VIRNECT Product Design Team Leader",
+        "src": "E749dMZgJEo"
+      },
+      {
+        "title": "Use of VIRNECT Make/View in Capstone Design Education",
+        "speaker": "​Gi-jin Lee, VIRNECT Business Development Manager",
+        "src": "P6dtuBBEZj8"
+      },
+      {
+        "title": "Demonstration using VIRNECT Make/View",
+        "speaker": "​Hyeon-sik Park, VIRNECT Education Manager",
+        "src": "nnkCGMwxQp8"
+      }
+    ]
+  }
+}

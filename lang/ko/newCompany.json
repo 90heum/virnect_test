@@ -1,0 +1,126 @@
+{
+    "newCompany": {
+        "tab3king": {
+            "title1": "공공",
+            "title2": "민간",
+            "title3": "교육"
+        },
+        "AwardModuleText": {
+            "AwardText": "인증 및 수상"
+        },
+        "BrandText": {
+            "topTitleText": "VIRNECT는 고객의 가치를 지향합니다",
+            "topContents1": "VIRNECT는 고객의 문제를 해결하기 위해",
+            "topContents2": "가상 현실(VIRTUAL)과 고객의 현실을 연결(Connect)합니다.",
+            "companylogo": "기업로고 (CI)",
+            "logoContents": "VIRNECT CI는 신뢰 중시 / 시장 선도 / 상생 추구의 가치를 가지고 있으며 VIRNECT의 아이덴티티를 일관성있게 표현하기 위한 핵심 디자인 요소이자 상징적으로 시각화하는 기준점입니다.",
+            "twinTitle1": "신뢰 중시 (Blue)",
+            "twinContents1": "블루 색상은 고객과의 신뢰 관계를 중요하게 생각하고, 고객의 업무 환경 개선의 청사진을 함께 만들어가는 VIRNECT를 의미합니다.",
+            "twinTitle2": "시장 선도 (Bold)",
+            "twinContents2": "볼드 타입의 로고 타이프는 AR/DT 시장을 선도하여 지속가능한 솔루션을 제공하겠다는 VIRNECT 의지를 나타냅니다.",
+            "twinTitle3": "상생 추구 (Vertical & Round)",
+            "twinContents3": "사회의 일원으로서 더불어 살아간다는 마음을 가지고 사회, 국가, 인류의 공동 번영을 위해 다름의 융화와 조화의 가치를 추구함을 의미합니다.",
+            "basicText": "기본형",
+            "hangeulText": "한글조합형",
+            "englishText": "영문조합형",
+            "downText": "버넥트의 심벌마크 및 로고타이프는 어떤 상황에서도 변형이나 재조합이 불가능합니다. 시그니처, 로고 타입 등을 사용하기 위해서는 CI 파일을 다운로드받아 활용하시기 바랍니다.",
+            "downTextButtonText": "CI 다운로드",
+            "logoText2": "제품 로고 (BI)",
+            "logoContents2": "VIRNECT 제품의 육각형 모티브 로고는 산업을 구성하는 모든 정보와 구성원의 융화와 결합을 의미합니다. VIRNECT의 다양한 제품을 사용자가 쉽게 구별하기 위한 목적으로 사용됩니다."
+        },
+        "title": "",
+        "menuList": [
+            {
+                "title": "About VIRNECT",
+                "url": "/company/about"
+            },
+            {
+                "title": "인재채용",
+                "url": "/company/talent"
+            },
+            {
+                "title": "IR",
+                "url": "/company/ir"
+            }
+        ]
+    },
+    "asideCompany": {
+        "title": "산업별 XR / DT 해답.<br>VIRNECT가 알려드립니다."
+    },
+    "aboutVirnectTitle": {
+        "title": "버넥트는 국내 최고의 산업용 XR 솔루션 전문 기업입니다.",
+        "content": "고객의 입장에서 현장의 문제를 분석하여 최고의 솔루션을 제공합니다. 항상 고객 중심으로 생각하며, 고객과 함께 XR 솔루션의 혁신을 만들어 나가고 있습니다."
+    },
+    "aboutVirnectContent": {
+        "mission": " 사람/로봇, 시간/공간, 정보/지식/지혜를 서로 연결하여 새로운 가치 창출",
+        "vision": "글로벌 No.1 XR 플랫폼 기업 - 생활 전반에 XR 기술이 스며들게 한다"
+    },
+    "no2Content": {
+        "year": "설립연도",
+        "yearValue": "2016년",
+        "employee": "임직원",
+        "employeeValue": "150명",
+        "property": "지적재산권",
+        "propertyValue": "95건 +",
+        "project": "XR 프로젝트 수행",
+        "projectValue": "130건 +",
+        "awards": "인증 및 수상",
+        "awardsValue": "40건 +"
+    },
+    "aboutHistoryTitle": {
+        "title": "연혁",
+        "content": "고객과 함께 성장해온 버넥트는 더 큰 성장으로 나아가겠습니다."
+    },
+    "aboutHistory2021": {
+        "title": "산업용 XR 리더 입지",
+        "content": "(글로벌 진출을 위한 발판 마련)",
+        "list1": "• 시리즈 B 투자 유치 (300억)",
+        "list2": "• VIRNECT Track Beta 출시",
+        "list3": "• 제 1회 VIRTUAL CONNECT 개최",
+        "list4": "• 7개사 비즈니스 파트너십 체결",
+        "list5": "• 페루 Proximity와 파트너십 체결 및 수출",
+        "list6": "• 국내 특허 15건, 해외 특허 2건 등록",
+        "list7": "• 국내외 저작권 등록 20건",
+        "list8": "• ESG팀 설립 및 활동 진행"
+    },
+    "aboutHistory2020": {
+        "title": "통합솔루션 출시",
+        "content": "(아기유니콘 선정)",
+        "list1": "• 통합솔루션 출시(AR 솔루션 v2.0)",
+        "list2": "• VIRNECT Twin 출시",
+        "list3": "• 비엔나 리서치 센터 설립",
+        "list4": "• 버넥트 익스피리언스 센터 개관",
+        "list5": "• 해외 특허 등록 (5건)",
+        "list6": "• 디지털 뉴딜 민관 협력 MOU 체결",
+        "list7": "• 생산성 본부, 삼성 멀티미디어 캠퍼스 교육"
+    },
+    "aboutHistory2019": {
+        "title": "시리즈 A 투자 유치",
+        "content": "(다양한 분야로의 사업 확장)",
+        "list1": "• VIRNECT Make 출시",
+        "list2": "• 시리즈 A 투자 유치 (90억)",
+        "list3": "• 현대HDS 외 5개사 MOU 체결",
+        "list4": "• Realwear 스마트글라스 공급사 등록"
+    },
+    "aboutHistory2017_2018": {
+        "title": "기업용 SW 시장 진출",
+        "content": "(2년 연속 매출 2배 성장)",
+        "list1": "• VIRNECT Remote 출시(17’)",
+        "list2": "• VIRNECT View 출시(18’)",
+        "list3": "• 기업 부설 연구소 설립",
+        "list4": "• 엡손 스마트글라스 기술지원업체 선정",
+        "list5": "• KAIST ARRC 파트너십 체결",
+        "list6": "• 스마트공장추진단 협력사 등록"
+    },
+    "aboutHistory2016": {
+        "title": "주식회사 VIRNECT 설립",
+        "list1": "• SEEREAL Viewer 출시"
+    },
+    "customersContent": {
+        "content": "버넥트는 항상 고객의 가치를 최우선으로 합니다."
+    },
+    "middleBanner": {
+        "introuduce": "기업소개",
+        "brand": "브랜드"
+    }
+}

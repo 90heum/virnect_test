@@ -1,0 +1,831 @@
+@import '~/assets/css/reset.scss';
+
+.productsSubMain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.productsSubMain .proSubMainList {
+  background-color: #C5C8CF;
+  padding: 150px 30px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span {
+  display: flex;
+  flex-direction: column;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote {
+  position: relative;
+  background-image: url("~/assets/images/pages/epc/productimage12azd.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  max-width: 1450px;
+  height: 774px;
+  width: 100%;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner {
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #c5c8cf;
+  background-color: #f7f8f9;
+  height: 538px;
+  max-width: 512px;
+  min-width: 512px;
+  margin-left: auto;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span i img {
+  max-width: 101px;
+  width: 100%;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span .popTit {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 65px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span span {
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 19px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span .popInfo {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 65px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* ellipsis line */
+  -webkit-box-orient: vertical;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span .popInfo p {
+  display: inline;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span button {
+  display: flex;
+  margin: 0 auto;
+  max-width: 160px;
+  height: 50px;
+  border: solid 1px #979797;
+  background-color: #121212;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner>span button a {
+  padding: 14px 31px;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubRemote .subRemoteInner::after {
+  content: "";
+  display: block;
+  width: 100%;
+  opacity: 0.7;
+  border: solid 1px #f7f8f9;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake {
+  position: relative;
+  background-image: url("~/assets/images/pages/epc/productsimageadfzx12.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  max-width: 1450px;
+  height: 774px;
+  width: 100%;
+  margin-left: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #c5c8cf;
+  background-color: #f7f8f9;
+  height: 538px;
+  min-width: 512px;
+  max-width: 512px;
+  margin-right: auto;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span i img {
+  max-width: 101px;
+  width: 100%;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span .popTit {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 27px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span span {
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 19px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span .popInfo {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* ellipsis line */
+  -webkit-box-orient: vertical;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span .popInfo p {
+  display: inline;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span button {
+  display: flex;
+  margin: 0 auto;
+  max-width: 160px;
+  height: 50px;
+  border: solid 1px #979797;
+  background-color: #121212;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner>span button a {
+  padding: 14px 31px;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubMake .subMakeInner::before {
+  content: "";
+  display: block;
+  width: 100%;
+  opacity: 0.7;
+  border: solid 1px #f7f8f9;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView {
+  position: relative;
+  background-image: url("~/assets/images/pages/epc/productsimage112z.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  max-width: 1450px;
+  height: 774px;
+  width: 100%;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #c5c8cf;
+  background-color: #f7f8f9;
+  height: 538px;
+  min-width: 512px;
+  max-width: 512px;
+  margin-left: auto;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span i img {
+  max-width: 101px;
+  width: 100%;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span .popTit {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 27px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span span {
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 19px;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span .popInfo {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* ellipsis line */
+  -webkit-box-orient: vertical;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span .popInfo p {
+  display: inline;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span button {
+  display: flex;
+  margin: 0 auto;
+  max-width: 160px;
+  height: 50px;
+  border: solid 1px #979797;
+  background-color: #121212;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner>span button a {
+  padding: 14px 31px;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.productsSubMain .proSubMainList .proSubMainListInner>div span.proSubView .subViewInner::before {
+  content: "";
+  display: block;
+  width: 100%;
+  opacity: 0.7;
+  border: solid 1px #f7f8f9;
+}
+
+.productsSubMain .xrBanner {
+  background-color: #0a51b7;
+  height: 1170px;
+}
+
+.productsSubMain .xrBanner .xrBannerInner {
+  background-image: url("~/assets/images/pages/epc/productsimage212zzzzd.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 920px;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 300px 30px 0;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 98px;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: -0.55px;
+  color: #fff;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 p {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: -0.55px;
+  color: #fff;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px #c5c8cf;
+  background-color: #f7f8f9;
+  height: 538px;
+  min-width: 512px;
+  max-width: 512px;
+  width: 100%;
+  box-shadow: 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span i img {
+  max-width: 101px;
+  width: 100%;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span .popTit {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 27px;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span span {
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 19px;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span .popInfo {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* ellipsis line */
+  -webkit-box-orient: vertical;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span .popInfo p {
+  display: inline;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #121212;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span button {
+  display: flex;
+  margin: 0 auto;
+  max-width: 160px;
+  height: 50px;
+  border: solid 1px #979797;
+  background-color: #121212;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span button a {
+  padding: 14px 31px;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span:last-child .popTit {
+  margin-bottom: 41px;
+}
+
+@media screen and (max-width: 1150px) {
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 {
+    padding: 28px 40px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span {
+    min-width: 0;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span {
+    min-width: 50%;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote {
+    height: 538px;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake {
+    height: 538px;
+    background-position: right;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner::before,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner::before,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner::after {
+    display: none;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake {
+    margin: 0;
+  }
+
+  .productsSubMain .proSubMainList {
+    padding: 100px 0 0;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span {
+    width: 50%;
+    min-width: 0;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span .popInfo p {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span span {
+    font-size: 28px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span .popInfo p,
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span .popInfo {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .productsSubMain .proSubMainList {
+    padding: 80px 0 0;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span {
+    width: 50%;
+    height: 432px;
+    padding: 0;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span {
+    height: 432px;
+    width: 100%;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote {
+    height: 432px;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span i img,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span i img,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span i img {
+    max-width: 60px;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span span {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: #0a51b7;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span .popInfo p,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span .popInfo,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span .popInfo p,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span .popInfo,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span .popInfo p,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span .popInfo,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span .popInfo p {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: -0.18px;
+    text-align: center;
+    color: #121212;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner {
+    height: 432px;
+  }
+
+  .productsSubMain .xrBanner {
+    height: 950px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap {
+    padding: 115px 0 0;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 {
+    padding: 0 0 0 40px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit {
+    margin-bottom: 95px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: -0.48px;
+    color: #fff;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span i img {
+    max-width: 60px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span {
+    padding: 0 40px;
+    justify-content: center;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 p {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: -0.48px;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont>span {
+    max-width: none;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner {
+    height: 260px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap {
+    padding: 50px 0 0;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: -0.33px;
+    color: #fff;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerCont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productsSubMain .xrBanner {
+    height: 1165px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit {
+    margin-bottom: 50px;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span {
+    max-width: none;
+    width: 100%;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner {
+    top: 170px;
+    height: 432px;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote {
+    width: 100%;
+    height: 170px;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 432px;
+  }
+
+  .productsSubMain .xrBanner .xrBannerInner .xrBannerWrap .xrBannerTit h2 p {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: -0.33px;
+    color: #fff;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  // .productsSubMain {
+  //   min-width: 600px;
+  //   width: 100vw;
+  // }
+
+  body {
+    /* min-width: 600px; */
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .proSubMainList {
+    padding: 40px 0 0;
+  }
+
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubView .subViewInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubMake .subMakeInner>span,
+  .productsSubMain .proSubMainList .proSubMainListInner div span.proSubRemote .subRemoteInner>span {
+    min-width: 0;
+    padding: 0 10px;
+    width: 100%;
+  }
+}

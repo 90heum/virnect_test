@@ -1,0 +1,251 @@
+.infraChallenge {
+  width: 100%;
+}
+
+.infraChallenge .infraChallengeWrap {
+  width: 100%;
+}
+
+.infraChallenge .infraChallengeWrap .infraTit {
+  box-sizing: content-box;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 24px 0;
+}
+
+.infraChallenge .infraChallengeWrap .infraTit h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.55px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 35px;
+}
+
+.infraChallenge .infraChallengeWrap .infraTit h2 p {
+  color: #121212;
+}
+
+.infraChallenge .infraChallengeWrap .infraTit span {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #121212;
+}
+
+.infraChallenge .infraChallengeWrap .infraTit span p {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #121212;
+}
+
+.infraChallenge .infraChallengeWrap .infraTit i {
+  display: block;
+  transform: translateY(100px);
+}
+
+.infraChallenge .infraChallengeWrap .infraTit i img {
+  display: block;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap {
+  background-color: #f7f8f9;
+  padding: 215px 24px 0;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid #0a51b7;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span {
+  display: flex;
+  gap: 65px;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span>span {
+  max-width: 240px;
+  height: 170px;
+  width: 100%;
+  background-image: linear-gradient(305deg, #1889dc, #0a51b7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span>span p {
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span ul li {
+  margin-bottom: 38px;
+  padding-bottom: 38px;
+  // border-bottom: solid 1px #c5c8cf;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 65px;
+  padding: 0;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span ul li p {
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.3px;
+  color: #092e6e;
+  margin-bottom: 28px;
+}
+
+.infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span ul li span {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.23px;
+  color: #616161;
+}
+
+@media screen and (max-width: 815px) {
+  .infraChallenge .infraChallengeWrap .infraTit span p {
+    display: inline;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit span {
+    display: block;
+    padding: 0 24px;
+    margin-bottom: 34px;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit h2 {
+    padding: 0 24px;
+    margin-bottom: 40px;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit h2,
+  .infraChallenge .infraChallengeWrap .infraTit h2 p {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: -0.45px;
+    text-align: center;
+    color: #121212;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit {
+    padding: 80px 0 0;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit i {
+    transform: translateY(0);
+  }
+
+  .infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span>span {
+    width: 100%;
+    max-width: 100%;
+    height: 90px;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraContWrap {
+    padding: 0;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span ul {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .infraChallenge .infraChallengeWrap .infraTit h2,
+  .infraChallenge .infraChallengeWrap .infraTit h2 p {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: #121212;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit h2 {
+    margin-bottom: 60px;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit span,
+  .infraChallenge .infraChallengeWrap .infraTit span p {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #121212;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraTit span {
+    margin-bottom: 19px;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span ul li p {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.25px;
+    color: #092e6e;
+  }
+
+  .infraChallenge .infraChallengeWrap .infraContWrap .infraCont>span ul li span {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: -0.18px;
+    color: #616161;
+  }
+}

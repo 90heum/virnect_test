@@ -1,0 +1,309 @@
+// @import url(./common.css);
+@import url('~/assets/css/reset.scss');
+
+.productModule {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.productModule .productModuleWrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  padding: 0 24px;
+}
+
+.productModule .productModuleWrap .proModuleTit {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+.productModule .productModuleWrap .proModuleTit h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.55px;
+  color: #121212;
+}
+
+.productModule .productModuleWrap .proModuleTit span {
+  display: flex;
+}
+
+.productModule .productModuleWrap .proModuleTit span a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.productModule .productModuleWrap .proModuleTit span a p {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  text-align: right;
+  color: #9a9da3;
+}
+
+.productModule .productModuleWrap .proModuleTit span a i img {
+  max-width: 12px;
+  width: 100%;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContTit {
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: -0.28px;
+  color: #616161;
+  margin-bottom: 30px;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox {
+  display: flex;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  width: calc((100% - 48px) / 3);
+  border: solid 1px #c5c8cf;
+  background-color: #fff;
+  margin-right: 24px;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 100%;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a span i img {
+  margin: 0 auto;
+  max-height: 44px;
+  height: 100%;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a span i img.contBoxNormal {
+  display: block;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a span i img.contBoxHover {
+  display: none;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a p {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #9a9da3;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li:hover {
+  background: #092e6e;
+  border: solid 1px #c5c8cf;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li:hover a p {
+  color: #f7f8f9;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li:hover .contBoxNormal {
+  display: none;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li:hover .contBoxHover {
+  display: block;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li:last-child {
+  margin-right: 0;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContTit {
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: -0.28px;
+  color: #616161;
+  margin-bottom: 30px;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox {
+  display: flex;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  width: calc((100% - 48px) / 3);
+  border: solid 1px #c5c8cf;
+  background-color: #fff;
+  margin-right: 24px;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a span i img {
+  max-height: 44px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a span i img.contBoxNormal {
+  display: block;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a span i img.contBoxHover {
+  display: none;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a p {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #9a9da3;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li:hover {
+  background: #092e6e;
+  border: solid 1px #c5c8cf;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li:hover a p {
+  color: #f7f8f9;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li:hover .contBoxNormal {
+  display: none;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li:hover .contBoxHover {
+  display: block;
+}
+
+.productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li:last-child {
+  margin-right: 0;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .productModule .productModuleWrap {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .productModule .productModuleWrap .proModuleTit {
+    margin-bottom: 30px;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 {
+    margin-bottom: 57px;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContTit,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContTit {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .productModule .productModuleWrap .proModuleTit h2 {
+    font-size: 32px;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a span i img,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a span i img {
+    max-height: 40px;
+    height: 100%;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a p,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox {
+    flex-direction: column;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li {
+    width: 100%;
+    padding: 23px 20px;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContBox li a span i img,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContBox li a span i img {
+    max-height: 26px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .productModule .productModuleWrap .proModuleTit h2 {
+    font-size: 28px;
+  }
+
+  .productModule .productModuleWrap .proModuleTit span {
+    display: none;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 .proModuleContTit,
+  .productModule .productModuleWrap .proModuleCont .proModuleCont2 .proModuleContTit {
+    font-size: 14px;
+  }
+
+  .productModule .productModuleWrap .proModuleCont .proModuleCont1 {
+    margin-bottom: 30px;
+  }
+
+  .productModule .productModuleWrap {
+    margin-bottom: 70px;
+  }
+}

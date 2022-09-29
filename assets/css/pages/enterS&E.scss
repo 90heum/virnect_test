@@ -1,0 +1,139 @@
+.enter_SE {
+  width: 100%;
+}
+
+.enter_SE .SE_Wrap {
+  max-width: 1200px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 110px 24px;
+  margin: 0 auto;
+}
+
+.enter_SE .SE_Wrap .SE_Tit h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.55px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 93px;
+}
+
+.enter_SE .SE_Wrap .SE_Cont ul li {
+  border-bottom: solid 1px #c5c8cf;
+}
+
+.enter_SE .SE_Wrap .SE_Cont ul li:first-child p {
+  margin-top: 0;
+}
+
+.enter_SE .SE_Wrap .SE_Cont ul li p {
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.2px;
+  color: #092e6e;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.enter_SE .SE_Wrap .SE_Cont ul li span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: -0.25px;
+  color: #121212;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .enter_SE .SE_Wrap {
+    padding: 90px 24px;
+  }
+
+  .enter_SE .SE_Wrap .SE_Tit h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: -0.45px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 103px;
+  }
+
+  .enter_SE .SE_Wrap .SE_Cont ul li p {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.17px;
+    color: #092e6e;
+  }
+
+  .enter_SE .SE_Wrap .SE_Cont ul li span {
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: -0.23px;
+    color: #121212;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .enter_SE .SE_Wrap .SE_Tit h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 50px;
+  }
+
+  .enter_SE .SE_Wrap .SE_Cont ul li p {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.14px;
+    color: #092e6e;
+    margin-bottom: 40px;
+  }
+
+  .enter_SE .SE_Wrap .SE_Cont ul li span {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: -0.18px;
+    color: #121212;
+    margin-bottom: 45px;
+  }
+
+  .enter_SE .SE_Wrap .SE_Cont ul li p {
+    margin-top: 45px;
+  }
+
+  .enter_SE .SE_Wrap {
+    padding: 70px 24px;
+  }
+}

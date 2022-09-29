@@ -1,0 +1,896 @@
+{
+  "pricingText": {
+    "visualText": {
+      "title": "Pricing",
+      "contents": "Select the appropriate plan according to the required amount and number of users."
+    },
+    "visualText2": {
+      "title": "Value Calculator",
+      "contents": "You can check the effect of adopting VIRNECT products from the report that analyze your current business operation status."
+    },
+    "stickyTitle": [
+      {
+        "title": "Public Service",
+        "contents": [
+          {
+            "title": "Public Cloud",
+            "tooltip": "Using VIRNECT cloud service."
+          }
+        ],
+        "price": {
+          "remote": "$300/month <i>(not include vat)</i>",
+          "make": "$300/month <i>(not include vat)</i>",
+          "view": "Free",
+          "workstation": "Comes complimentary with ​<br class='mobile-show'>a purchase of VIRNECT product"
+        }
+      },
+      {
+        "title": "Private Service",
+        "contents": [
+          {
+            "title": "Private Cloud",
+            "tooltip": "Build customer-leased, in-server, VIRNECT services"
+          }, 
+          {
+            "title": "On-Premise",
+            "tooltip": "Building a VIRNECT service Inside a Customer's physical machine server"
+          }
+        ],
+        "price": {
+          "remote": "Contact us",
+          "make": "Contact us",
+          "view": "Contact us",
+          "workstation": "Comes complimentary with ​<br class='mobile-show'>a purchase of VIRNECT product"
+        }
+      }
+    ],
+    "remoteText": {
+      "category": "AR multi-user remote collaboration",
+      "tableArray": [
+        {
+          "title": "Client License",
+          "array": [
+            [
+              {
+                "title": "Min. purchase quantity required for Client License"
+              }, "2", "2"
+            ]
+          ]
+        }, {
+          "title": "Server Licensing",
+          "array": [
+            [
+              {
+                "title": "Pricing"
+              }, "-", "Contact us"
+            ]
+          ]
+        }, {
+          "title": "Limitation",
+          "array": [
+            [
+              {
+                "title": "Talk time"
+              }, "Unlimited", "Unlimited"
+            ]
+          ]
+        },
+        {
+          "title": "Compatible Devices",
+          "array": [
+            [
+              {
+                "title": "PC(Chrome web browser)"
+              }, true, true
+            ], [
+              {
+                "title": "Android OS based <br class='mobile-show'>smartphone, tablet PC"
+              }, true, true
+            ], [
+              {
+                "title": "Realwear HMT-1"
+              }, true, true
+            ], [
+              {
+                "title": "Camera connection (360 neckband, drone, action cam and 360 camera)"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "divide": true
+        },
+        {
+          "title": "Multi-user communication",
+          "array": [
+            [
+              {
+                "title": "Max. number of users for multi-user communication"
+              }, "6 people", "10 people"
+            ], [
+              {
+                "title": "Multi-user texting"
+              }, true, true
+            ], [
+              {
+                "title": "Create public session"
+              }, true, true
+            ], [
+              {
+                "title": "File attachment"
+              }, null, true
+            ], [
+              {
+                "title": "화면 공유"
+              }, true, true
+            ], [
+              {
+                "title": "영상 제한 모드"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Augmented Reality (AR)",
+          "array": [
+            [
+              {
+                "title": "Share AR pointing"
+              }, true, true
+            ], [
+              {
+                "title": "Share AR drawing"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Collaboard",
+          "tooltip": "It is a feature to share files in real-time and perform collaboration from the screen.",
+          "array": [
+            [
+              {
+                "title": "Share a PDF file"
+              }, true, true
+            ], [
+              {
+                "title": "Share a drawing on a PDF file"
+              }, true, true
+            ], [
+              {
+                "title": "Share an image(JPG, PNG file) file"
+              }, true, true
+            ], [
+              {
+                "title": "Share a drawing on an image file"
+              }, true, true
+            ], [
+              {
+                "title": "Share a drawing after a screenshot"
+              }, true, true
+            ], [
+              {
+                "title": "Save the shared PDF, image files and screenshots"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Translation",
+          "array": [
+            [
+              {
+                "title": "Real-time translation"
+              }, true, true
+            ], [
+              {
+                "title": "STT(Speech to Text)"
+              }, true, true
+            ], [
+              {
+                "title": "TTS(Text to Speech)"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Video Quality",
+          "array": [
+            [
+              {
+                "title": "Support HD(720p) video quality"
+              }, true, true
+            ], [
+              {
+                "title": "Support FHD(1080p) video quality"
+              }, null, true
+            ]
+          ]
+        },
+        {
+          "title": "Work log management",
+          "array": [
+            [
+              {
+                "title": "Check user log record"
+              }, true, true
+            ], [
+              {
+                "title": "Download and record personal videos"
+              }, true, true
+            ], [
+              {
+                "title": "Manage and record every videos"
+              }, null, true
+            ], [
+              {
+                "title": "Media storage monitoring"
+              }, null, true
+            ]
+          ]
+        }
+      ]
+    },
+    "makeText": {
+      "category": "Creation and distribution of AR content",
+      "tableArray": [
+        {
+          "title": "Client License",
+          "array": [
+            [
+              {
+                "title": "Min. purchase quantity required for Client License"
+              }, "1", "1"
+            ]
+          ]
+        },
+        {
+          "title": "Server Licensing",
+          "array": [
+            [
+              {
+                "title": "Price"
+              }, "-", "Contact us"
+            ]
+          ]
+        },
+        {
+          "title": "Purchase Add-on",
+          "array": [
+            [
+              {
+                "title": "Storage space 10GB"
+              }, "$50/month", "-"
+            ]
+          ]
+        },
+        {
+          "title": "Limitation",
+          "array": [
+            [
+              {
+                "title": "Max. storage space for content"
+              }, "Client license count X 20GB", "Unlimited"
+            ], [
+              {
+                "title": "Max. size of single AR content(ARES) file"
+              }, "200MB", "Contact us"
+            ]
+          ]
+        },
+        {
+          "title": "Compatible Hardware",
+          "array": [
+            [
+              {
+                "title": "PC (Windows 10)"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "divide": true
+        },
+        {
+          "title": "Select Resolution",
+          "array": [
+            [
+              {
+                "title": "Select device-specific resolutions",
+                "tooltip": "Select a resolution from the Make based on the device you are using for View."
+              }, true, true
+            ], [
+              {
+                "title": "User resolution settings",
+                "tooltip": "Users can set the desired resolution."
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Creation of Cross-platform Content",
+          "tooltip": "Create content that can be viewed from Augmented reality and Assisted reality devices.",
+          "array": [
+            [
+              {
+                "title": "Create Augmented Reality Content",
+                "tooltip": "Create content that is fixed to the target."
+              }, true, true
+            ], [
+              {
+                "title": "Create Assisted Reality Content",
+                "tooltip": "Create content that is fixed to the screen."
+              }, true, true
+            ], [
+              {
+                "title": "Create Cross-platform content​",
+                "tooltip": "The augmented reality content is automatically converted to show on the assisted reality device."
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Target​",
+          "array": [
+            [
+              {
+                "title": "Create QR targeted content",
+                "tooltip": "Create content that directly connects with QR target."
+              }, true, true
+            ], [
+              {
+                "title": "Create V targeted content",
+                "tooltip": "Create multiple content from one target."
+              }, true, true
+            ], [
+              {
+                "title": "Change type of target",
+                "tooltip": "Change target that is connected with the content. <br>(QR Target < > V Target)"
+              }, true, true
+            ], [
+              {
+                "title": "Create content of corporated dedicated target",
+                "tooltip": "Create a content by registering a corporate dedicated target to replace the V target."
+              }, null, true
+            ]
+          ]
+        },
+        {
+          "title": "Edition and Creating of Objects",
+          "array": [
+            [
+              {
+                "title": "Create scene group",
+                "tooltip": "Group multiple scenes."
+              }, true, true
+            ], [
+              {
+                "title": "Guide",
+                "tooltip": "Set up a field site photo to use as a guide in creating an AR content."
+              }, true, true
+            ], [
+              {
+                "title": "Rectangle / Sphere / Triangle / Polygon"
+              }, true, true
+            ], [
+              {
+                "title": "3D Figure​"
+              }, true, true
+            ], [
+              {
+                "title": "Text"
+              }, true, true
+            ], [
+              {
+                "title": "Image (JPG, PNG file) <br class='mobile-show'>(Less than 10MB per file)"
+              }, true, true
+            ], [
+              {
+                "title": "3D Model (FBX, OBJ file) <br class='mobile-show'>(Less than 15MB)​"
+              }, true, true
+            ], [
+              {
+                "title": "Video (MP4, AVI file) <br class='mobile-show'>(Less than 30MB)"
+              }, true, true
+            ], [
+              {
+                "title": "Graph / Table / Checklist <br class='mobile-show'>/ Paper(responsive document)",
+                "tooltip": "You can check the paper result of AR content registered as a task from the Workstation."
+              }, true, true
+            ], [
+              {
+                "title": "Asset support extensions, Add size"
+              }, null, true
+            ]
+          ]
+        },
+        {
+          "title": "Edition and Addition of Components",
+          "array": [
+            [
+              {
+                "title": "Animation"
+              }, true, true
+            ], [
+              {
+                "title": "Interaction(Create responsive content)"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Preview",
+          "array": [
+            [
+              {
+                "title": "Preview content by devices"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Project and Content Management",
+          "array": [
+            [
+              {
+                "title": "Upload content / update",
+                "tooltip": "Provide features such as delete, edit sharing settings and update detail of AR content that are uploaded to Workstation."
+              }, true, true
+            ], [
+              {
+                "title": "Sharing status settings"
+              }, true, true
+            ], [
+              {
+                "title": "View only me settings",
+                "tooltip": "Prototype the content being created from the View."
+              }, true, true
+            ], [
+              {
+                "title": "Local save of project file"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Real-time data interlock",
+          "array": [
+            [
+              {
+                "title": "IoT data interlock"
+              }, null, true
+            ], [
+              {
+                "title": "Customer system data interlock"
+              }, null, true
+            ]
+          ]
+        }
+      ]
+    },
+    "viewText": {
+      "category": "AR visualization of data and information",
+      "tableArray": [
+        {
+          "title": "Client License",
+          "array": [
+            [
+              {
+                "title": "Min. purchase quantity required for Client License"
+              }, "1", "1"
+            ]
+          ]
+        },
+        {
+          "title": "Contents Server License",
+          "array": [
+            [
+              {
+                "title": "Price"
+              }, "-", "Contact us"
+            ]
+          ]
+        },
+        {
+          "title": "Purchase add-on",
+          "array": [
+            [
+              {
+                "title": "1000 views of online AR content"
+              }, "$50/month", "-"
+            ]
+          ]
+        },
+        {
+          "title": "Limitation",
+          "array": [
+            [
+              {
+                "title": "Max. monthly view count of online content"
+              }, "100,000 views Workspace(Unlimited)", "Unlimited"
+            ]
+          ]
+        },
+        {
+          "title": "Compatible Devices",
+          "array": [
+            [
+              {
+                "title": "Android OS based smartphone, tablet PC"
+              }, true, true
+            ], [
+              {
+                "title": "Realwear HMT-1"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "divide": true
+        },
+        {
+          "title": "Login",
+          "line": true,
+          "array": [
+            [
+              {
+                "title": "Auto Login"
+              }, true, true
+            ], [
+              {
+                "title": "QR Login"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Content Visualization​​",
+          "array": [
+            [
+              {
+                "title": "Augmented reality"
+              }, true, true
+            ], [
+              {
+                "title": "Assisted reality"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Target",
+          "array": [
+            [
+              {
+                "title": "QR target"
+              }, true, true
+            ], [
+              {
+                "title": "V target",
+                "tooltip": "Visualize mulitiple content using single target."
+              }, true, true
+            ], [
+              {
+                "title": "Plane target​​",
+                "tooltip": "Augment selected target by recognizing a plane."
+              }, true, true
+            ], [
+              {
+                "title": "Corporate dedicated target"
+              }, null, true
+            ]
+          ]
+        },
+        {
+          "title": "Optional Features of Content Visualization",
+          "array": [
+            [
+              {
+                "title": "Scene group list",
+                "tooltip": "Muliple scenes that are grouped is called Scene Group. Select scene group from the list to visualize a desired content."
+              }, true, true
+            ], [
+              {
+                "title": "Real-time content edit"
+              }, true, true
+            ], [
+              {
+                "title": "Play animaton",
+                "tooltip": "Play animation embedded in 3D model or content created from Make."
+              }, true, true
+            ], [
+              {
+                "title": "Initiate responsive content",
+                "tooltip": "Initiate interaction content created from Make."
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Perform Task",
+          "array": [
+            [
+              {
+                "title": "Task issue / Create trouble memo"
+              }, true, true
+            ], [
+              {
+                "title": "Check task schedule"
+              }, true, true
+            ], [
+              {
+                "title": "Report task issue / trouble memo",
+                "tooltip": "Record issues occurred during the task or record field site issues."
+              }, true, true
+            ], [
+              {
+                "title": "Report task progress / result",
+                "tooltip": "Task progress is calculated and then reported based on the progress of AR content visualization."
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Real-time data visualization",
+          "array": [
+            [
+              {
+                "title": "IoT data visualization"
+              }, null, true
+            ], [
+              {
+                "title": "Customer’s system data visualization"
+              }, null, true
+            ]
+          ]
+        }
+      ]
+    },
+    "workStation": {
+      "category": "AR / DT integrated management",
+      "tableArray": [
+        {
+          "title": "Client License",
+          "array": [
+            [
+              {
+                "title": "Min. purchase quantity required for Client License"
+              }, "Free", "Free"
+            ]
+          ]
+        },
+        {
+          "title": "User Account",
+          "array": [
+            [
+              {
+                "title": "Max. number of user accounts"
+              }, "49 people", "unlimited"
+            ]
+          ]
+        },
+        {
+          "title": "Compatible Device",
+          "array": [
+            [
+              {
+                "title": "PC Chrome web browser"
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "divide": true
+        },
+        {
+          "title": "Member Management​",
+          "array": [
+            [
+              {
+                "title": "Workspace settings"
+              }, true, true
+            ], [
+              {
+                "title": "Workspace member invitation",
+                "tooltip": "Invite a VIRNECT member to use the product and service together."
+              }, true, null
+            ], [
+              {
+                "title": "Workspace member registration",
+                "tooltip": "Create user account from the master account."
+              }, null, true
+            ], [
+              {
+                "title": "Usage management of product / service by members"
+              }, true, true
+            ], [
+              {
+                "title": "Assign Workspace manager",
+                "tooltip": "Assign a manager with an authority to manage members."
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Content Management",
+          "array": [
+            [
+              {
+                "title": "Overall content management"
+              }, true, true
+            ], [
+              {
+                "title": "Save / print target content"
+              }, true, true
+            ], [
+              {
+                "title": "Content sharing status settings",
+                "tooltip": "Set the content distribution status to be shown in the View for Workspace members."
+              }, true, true
+            ]
+          ]
+        },
+        {
+          "title": "Task Management​",
+          "array": [
+            [
+              {
+                "title": "Add Task / edit / Add another",
+                "tooltip": "Set up the assignee and schedule for AR created from Make to perform task management."
+              }, true, true
+            ], [
+              {
+                "title": "Task progress rate graph"
+              }, true, true
+            ], [
+              {
+                "title": "Issue task target / save / print"
+              }, true, true
+            ], [
+              {
+                "title": "Real-time information of task progress status"
+              }, true, true
+            ], [
+              {
+                "title": "Task schedule / task management"
+              }, true, true
+            ], [
+              {
+                "title": "Subtask schedule / Assignee management"
+              }, true, true
+            ], [
+              {
+                "title": "Check paper report information",
+                "tooltip": "You can check the result of paper of AR content that is registered as a task"
+              }, true, true
+            ], [
+              {
+                "title": "Check task issue / trouble memo",
+                "tooltip": "You can check the work issue / trouble memo reported in the View."
+              }, true, true
+            ]
+          ]
+        }
+      ]
+    },
+    "calculator": {
+      "title": "Calculate the outcome<br>when implementing our products",
+      "required": "Required field.",
+      "array": [
+        {
+          "title": "Maintenance Contract Cost",
+          "list": [
+            {
+              "qus": "How much does the annual maintenance contract cost?",
+              "placeholder": "Won(￦)",
+              "length": 0
+            },
+            {
+              "qus": "How much is the cost to repair the equipment, devices and system error annually? <br>(Please exclude if it is already included in your Maintenance Contract)",
+              "placeholder": "Won(￦)",
+              "length": 0
+            }
+          ]
+        },
+        {
+          "title": "Maintenance labor cost",
+          "list": [
+            {
+              "qus": "How many people perform maintenance labor annually?",
+              "placeholder": "person",
+              "length": 2
+            },
+            {
+              "qus": "What is their average daily salary?",
+              "placeholder": "Won(￦)",
+              "length": 2
+            },
+            {
+              "qus": "What is the average number of days spent for the maintenance annually?",
+              "placeholder": "Days",
+              "length": 2
+            }
+          ]
+        },
+        {
+          "title": "Training Cost",
+          "list": [
+            {
+              "qus": "How much does it cost to create a user's manual for one manufacturing process?",
+              "placeholder": "Won(￦)",
+              "length": 5
+            },
+            {
+              "qus": "What is the annual cost of in-house maintenance training?",
+              "placeholder": "Won(￦)",
+              "length": 5
+            }
+          ]
+        },
+        {
+          "title": "Cost due to failure of equipment, devices and system error",
+          "list": [
+            {
+              "qus": "How many times do operations stop annually caused by failures?",
+              "placeholder": "Times",
+              "length": 7
+            },
+            {
+              "qus": "How many managers work at the field site?",
+              "placeholder": "people",
+              "length": 7
+            },
+            {
+              "qus": "What is their average daily salary?",
+              "placeholder": "Won(￦)",
+              "length": 7
+            },
+            {
+              "qus": "How many days do downtimes last usually if there is a failure?",
+              "placeholder": "Days",
+              "length": 7
+            }
+          ]
+        },
+        {
+          "title": "Incurred Cost due to Travel",
+          "list": [
+            {
+              "qus": "What is the cost of travel per person other than maintenance contract cost?",
+              "placeholder": "Won(￦)",
+              "length": 11
+            },
+            {
+              "qus": "How many people are required per travel?",
+              "placeholder": "people",
+              "length": 11
+            },
+            {
+              "qus": "**(Please reflect COVID-19 quarantine policy, 2 weeks quarantine cost)",
+              "placeholder": "Won(￦)",
+              "length": 11
+            }
+          ]
+        }
+      ]
+    },
+    "purchase": "Subscribe",
+    "report": "Receive report",
+    "reportText": {
+      "main": "Please enter basic details to receive the <br>report. The below information is included <br>in the report.",
+      "sub": "Annual estimated saving"
+    },
+    "roiDone": "Your report is sent to the email address you entered.",
+    "inquiryBtnText": "Purchase inquiry​",
+    "purchaseBanner": {
+      "sub": "2.0 beta launch celebration",
+      "tit": "1 month free trial event of VIRNECT product",
+      "link": "Issue coupon"
+    },
+    "tailText": "Do you want to know more about how AR technology can revolutionize your industry?",
+    "stickyUse": "Feature indication",
+    "common": {
+      "koreanCurrency": "Won(￦)" 
+    }
+  }
+}

@@ -1,0 +1,79 @@
+// .banner 는 사용 안함 테스트용 껍데기
+/* 배너라인 */
+.banner {
+    width: 100%;
+    background-color: #000;
+
+
+    .bannerWrap {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        padding: 50px 30px;
+
+        // 실제사용 모듈용 css 구역!!!!!!!!!!!!!!
+        .bannerMoule {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 76%);
+            padding: 0 30px;
+
+            .banner1024 {
+                display: block;
+                max-width: 1200px;
+                width: 100%;
+                margin: 0 auto;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .banner768 {
+                display: none;
+
+                a {
+                    display: block;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        // 실제사용 모듈용 css 구역 여기까지!!!!!!!!!!!
+
+
+
+    }
+}
+
+@media screen and(max-width:768px) {
+    .banner .bannerWrap .bannerMoule .banner1024 {
+        display: none;
+    }
+
+    .banner .bannerWrap .bannerMoule .banner768 {
+        display: block;
+    }
+
+    .banner .bannerWrap .bannerMoule {
+        padding: 0 24px;
+        transform: translate(-50%, 60%);
+    }
+}
+
+
+
+
+// 메인배너 끝
+
+
+/* 배너라인 끝 */

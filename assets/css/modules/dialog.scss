@@ -1,0 +1,23 @@
+@import url('~/assets/css/reset.scss');
+
+.el-dialog {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.el-tooltip__popper.is-dark {
+  max-width: 300px;
+  padding: 0;
+  background: none;
+
+  div {
+    word-break: break-all;
+  }
+
+  .popper__arrow {
+    display: none;
+  }
+}

@@ -1,0 +1,90 @@
+.dataModule {
+  max-width: 600px;
+  min-height: 107px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #f7f8f9;
+}
+
+.dataModule li {
+  border-right: 1px solid #c5c8cf;
+  display: flex;
+  gap: 13px;
+  text-align: center;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px;
+}
+
+.dataModule li:last-child {
+  border-right: none;
+}
+
+.dataModule li span:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #121212;
+}
+
+.dataModule li span:first-child p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #121212;
+}
+
+.dataModule li span:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.dataModule li span:last-child p:first-child {
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #121212;
+}
+
+.dataModule li span:last-child p:last-child img {
+  max-width: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .dataModule {
+    flex-wrap: wrap;
+    padding: 25px 0;
+  }
+
+  .dataModule li {
+    width: 50%;
+    border: none;
+  }
+
+  .dataModule li:nth-child(1),
+  .dataModule li:nth-child(3) {
+    border-right: 1px solid #c5c8cf;
+  }
+
+  .dataModule li:nth-child(1),
+  .dataModule li:nth-child(2) {
+    padding-bottom: 55px;
+  }
+}

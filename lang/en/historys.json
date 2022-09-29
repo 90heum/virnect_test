@@ -1,0 +1,431 @@
+{
+  "historys": {
+    "title": "We are leading changes in working environments with our advanced AR and DT technologies.",
+    "contents": "VIRNECT is composed of top AR and DT specialists, providing our clients the best value. Take a look at VIRNECT's history that we have created with our clients.",
+    "category": {
+      "all": "ALL",
+      "company": "COMPANY",
+      "award": "AWARD",
+      "perform": "PERFORMANCE"
+    },
+    "lists": [
+      {
+        "2021": [
+          {
+            "month": "06",
+            "array": {
+              "perform": [
+                "(The Korean Ministry of SMEs and Startups) Development of on-site smart factory technology in demand"
+              ]
+            }
+          }, {
+            "month": "03",
+            "array": {
+              "company": [
+                "Held VIRTUAL CONNECT"
+              ]
+            }
+          }, {
+            "month": "01",
+            "array": {
+              "company": [
+                "Updated VIRNECT Remote 2.2"
+              ],
+              "perform": [
+                "(Korea Evaluation Institute of Industrial Technology) Remote joint research based on virtual reality for emergency patients from disaster/accident in islands (1st)",
+                "(Korea Energy Technology Evaluation and Planning) Development of location-based accident prevention and response monitoring system for thermal power plant workers"
+              ]
+            }
+          }
+        ]
+      }, {
+        "2020": [
+          {
+            "month": "12",
+            "array": {
+              "award": [
+                "Selected as an excellent company for job invention by the Korean Intellectual Property Office",
+                "Korea Communications Agency, A company creating excellence in the information and communications sector"
+              ],
+              "perform": [
+                "(Korea Atomic Energy Research Institute) Advanced the classification of radioactive waste object recognition and designed digital twins in detail",
+                "(The Korean Ministry of Trade, Industry and Energy) Established digital operation system for XR-based manufacturing facility ",
+                "(Korea Evaluation Institute of Industrial Technology) Project for developing 5G-based aviation maintenance system to support AR work for aviation mechanics",
+                "(Korea Agency for Infrastructure Technology Advancement) Development of video-based mobile maintenance support system (2nd)",
+                "(The Korean Ministry of Trade, Industry and Energy) Development of augmented reality devices and support system for welding process (2nd)",
+                "(The Korean Ministry of Science and ICT) Development of contactless solution AR glasses technology (1st)",
+                "(Gyeonggi Business & Science Accelerator) Transfer of industrial manufacturing know-how and AR platform development support",
+                "(Korea Radioactive Waste Agency) Establishment of AR content system",
+                "(SK Telecom) Development of CCTV installation app using 3D spatial information",
+                "(The Korean Ministry of Trade, Industry and Energy) Improvement of worker productivity and development of safety guarantee technology for process linked with cooperative robots",
+                "(Korea Expressway Corporation) Development of augmented reality (AR) safety inspection system"
+              ]
+            }
+          }, {
+            "month": "11",
+            "array": {
+              "award": [
+                "2020 The Korean Ministry of Employment and Labor, Selected as an Excellent Work Innovation Company SS Grade",
+                "Awarded Technology Innovation Grand Prize in AR Category, Smart Factory Award"
+              ],
+              "perform": [
+                "Participated in the domestic launching demo of Microsoft HOLOLENS2"
+              ]
+            }
+          }, {
+            "month": "10",
+            "array": {
+              "award": [
+                "VIRNECT Remote was designated as Innovative Prototype by the Public Procurement Service ",
+                "VIRNECT Make was designated as an Innovative Prototype by the Public Procurement Service"
+              ],
+              "perform": [
+                "(Smart Manufacturing Innovation Center) Visualization of demo factory information"
+              ]
+            }
+          }, {
+            "month": "09",
+            "array": {
+              "company": [
+                "Released VIRNECT AR solution ver. 2.0 "
+              ],
+              "perform": [
+                "Signed MOU for public-private partnership on Digital New Deal​",
+                "Signed an agreement with Shinan-gun for remote emergency medical treatment"
+              ]
+            }
+          }, {
+            "month": "08",
+            "array": {
+              "company": [
+                "Selected as Baby Unicorn for the 2020 K-unicorn Project"
+              ]
+            }
+          }, {
+            "month": "07",
+            "array": {
+              "perform": [
+                "(National Research Institute of Cultural Heritage) Created augmented reality content for Hwangnyongsa Temple Jungmun and South Corridor"
+              ]
+            }
+          }, {
+            "month": "05",
+            "array": {
+              "company": [
+                "Established Vienna Research Center"
+              ]
+            }
+          }, {
+            "month": "03",
+            "array": {
+              "company": [
+                "Opened the VIRNECT Experience Center"
+              ],
+              "perform": [
+                "(Smart Manufacturing Innovation Center) Established smart factory immersive 3D operation system"
+              ]
+            }
+          }, {
+            "month": "02",
+            "array": {
+              "perform": [
+                "(Korea SMEs and Startups Agency) Visualized vehicle cluster manufacturing lines",
+                "(Korea Creative Content Agency) Development of intelligent UI/UX technology for AR glasses-based docent operation (2nd)"
+              ]
+            }
+          }, {
+            "month": "01",
+            "array": {
+              "award": [
+                "Selected as a youth-friendly small giant by the Korean Ministry of Employment and Labor"
+              ],
+              "perform": [
+                "(Korea Atomic Energy Research Institute) Concept design of object recognition and digital twin platform based on image information of radioactive waste",
+                "(The Korean Ministry of Science and ICT) Development of contactless solution AR glasses technology (1st)"
+              ]
+            }
+          }
+        ]
+      }, {
+        "2019": [
+          {
+            "month": "12",
+            "array": {
+              "award": [
+                "3D FIA Achievement Plaque",
+                "Army M&S International Conference & National Defense ICT Exhibition, Plaque of Appreciation"
+              ],
+              "perform": [
+                "(Korea University Hospital) Establishment of a plastic surgery platform based on wearable augmented reality technology",
+                "(Hyundai Steel) AR visualization of large rolling RTM information in Pohang",
+                "(Doosan Heavy Industries & Construction) 3D Visualization System for IGCC Gasification Plant",
+                "(Korea Agency for Infrastructure Technology Advancement) Development of video-based mobile maintenance support system (1st)",
+                "(Institute for Information and Communications Technology Promotion) Development of a tabletop system for intuitive guidance in AR remote image communications (2nd)",
+                "(Korea Communications Agency) 5G AR manual service for vehicles"
+              ]
+            }
+          }, {
+            "month": "11",
+            "array": {
+              "award": [
+                "Commendation from the Korean Minister of Science and ICT",
+                "2019 Selected as Work-Life Balance Practice Company",
+                "VIRNECT Make v1.0 acquired GS certification 1st grade"
+              ],
+              "perform": [
+                "(Smart Manufacturing Innovation Center) AR visualization of logistics data",
+                "(Korea Coast Guard) Creation of AR promotion content for Government Innovation Fair",
+                "(Korea Communications Agency) 5G AR manual service for vehicles",
+                "(Dong Yang Piston) Visualized the manifold assembly process"
+              ]
+            }
+          }, {
+            "month": "10",
+            "array": {
+              "award": [
+                "KES Innovation Awards Best Content"
+              ],
+              "perform": [
+                "(KEPCO Research Institute) Development of AR-based pilot content for large-scale earthquake training",
+                "(KEPCO Research Institute) Development of virtual and augmented reality content for power facility construction/monitoring/maintenance"
+              ]
+            }
+          }, {
+            "month": "09",
+            "array": {
+              "perform": [
+                "(Sammi Information Systems) Visualization of equipment BOM information"
+              ]
+            }
+          }, {
+            "month": "06",
+            "array": {
+              "award": [
+                "Korean Institute of BIM 2019 Regular Academic Conference, Excellent Research Presentation Award"
+              ]
+            }
+          }, {
+            "month": "05",
+            "array": {
+              "company": [
+                "Signed MOU with Hyundai HDS"
+              ]
+            }
+          }, {
+            "month": "04",
+            "array": {
+              "award": [
+                "WIS 2019 Innovation Ministerial Award from the Korean Ministry of Science and ICT"
+              ],
+              "perform": [
+                "(Korea University of Technology and Education) Development of virtual training content for lifelong competency – Thermal power plant maintenance",
+                "(Korea University of Technology and Education) Development of virtual training content for lifelong competency - Siemens PLC control basics"
+              ]
+            }
+          }, {
+            "month": "03",
+            "array": {
+              "perform": [
+                "(Daemyeong E&C) Development of HMI screen recognition program ",
+                "(END Electric) Visualization of electrical wiring guides",
+                "(Doosan Heavy Industries & Construction) Development of augmented reality application solutions based on intelligent cognitive technology for manufacturing sites "
+              ]
+            }
+          }, {
+            "month": "01",
+            "array": {
+              "award": [
+                "Selected as a youth-friendly small giant by the Korean Ministry of Employment and Labor"
+              ]
+            }
+          }
+        ]
+      }, {
+        "2018": [
+          {
+            "month": "12",
+            "array": {
+              "award": [
+                "Selected as a family-friendly company by the Korean Ministry of Gender Equality and Family",
+                "Remote AR v1.0 acquired GS certification 1st grade",
+                "Challenge! K-Startup Special Job Award"
+              ],
+              "perform": [
+                "(Smart Manufacturing Innovation Center) Production of a prototype to test the real-time operation of 5G-based OPC UA",
+                "(Chong Kun Dang) SmartGlasses-based AR exhibition system",
+                "(Smart Manufacturing Innovation Center) Production of test bed for IoT convergence production automation for standard interoperability test",
+                "(KT) AR relative position, absolute position conversion S/W",
+                "(Hanyang University) Development of voice recognition PoC",
+                "(Korea Creative Content Agency) Development of intelligent UI/UX technology for AR glasses-based docent operation (1st)",
+                "(Institute for Information and Communications Technology Promotion) Development of a tabletop system for intuitive guidance in AR remote image communications (1st) "
+              ]
+            }
+          }, {
+            "month": "10",
+            "array": {
+              "perform": [
+                "(Korea Creative Content Agency) Development of a mini screen (Gyeongbokgung Palace) based on mixed reality technology"
+              ]
+            }
+          }, {
+            "month": "09",
+            "array": {
+              "award": [
+                "The Korean Ministry of Science and ICT, Selected as one of the top 10 companies at the Smart City Business Fair",
+                "2018 Korea ICT Innovation Special Award"
+              ]
+            }
+          }, {
+            "month": "08",
+            "array": {
+              "award": [
+                "Registered copyright for 'Remote AR' software"
+              ]
+            }
+          }, {
+            "month": "07",
+            "array": {
+              "company": [
+                "Signed partnership with KAIST KI-ICT Augmented Reality Research Center"
+              ],
+              "perform": [
+                "(SK Incheon Petrochem) Development of AR-based structure verification solutions",
+                "(Daejeon National Research Institute of Cultural Heritage) Development of AR-based exhibition technology and content for exhibition halls",
+                "(National IT Industry Promotion Agency) Development of indoor sports screen/body-recognition interactive AR content for children"
+              ]
+            }
+          }, {
+            "month": "06",
+            "array": {
+              "perform": [
+                "(National Research Institute of Cultural Heritage) Creation of AR-based immersive content for Hwangnyongsa Temple Jungmun"
+              ]
+            }
+          }, {
+            "month": "04",
+            "array": {
+              "award": [
+                "Korea Credit Guarantee Fund, Selected as a Start-Up NEST company",
+                "Seoul VRAR Awards AR Award"
+              ]
+            }
+          }, {
+            "month": "03",
+            "array": {
+              "company": [
+                "Launched 'VIRNECT Make ver 1.0' an industrial AR content production solution",
+                "Registered as a sponsor for the public-private joint Smart Factory"
+              ],
+              "perform": [
+                "(KT) AR remote technical support solutions",
+                "(Korea University of Technology and Education) Development of virtual training content for vocational trainers​"
+              ]
+            }
+          }
+        ]
+      }, {
+        "2017": [
+          {
+            "month": "12",
+            "array": {
+              "award": [
+                "Challenge! K-Startup Special Job Award",
+                "'Remote AR' passed TTA test"
+              ],
+              "perform": [
+                "(Korea Institute of Science and Technology Information) Development of AR-based technology for visualizing complex disasters",
+                "(APROS) AR visualization of IoT sensor data",
+                "(Smart Manufacturing Innovation Center) Production of open IOT platform for standard interoperability test",
+                "(KEPCO Research Institute) Development and demonstration of immersive interactive service technology",
+                "(KEPCO Research Institute) Development of AR content for training/facility inspection in the power sector",
+                "(Electronics and Telecommunications Research Institute) Prototype for power equipment image processing",
+                "(The Korean Ministry of Science, ICT and Future Planning) Optical transmission-type AR glasses-based remote facility maintenance solutions",
+                "(The Korean Ministry of Science, ICT and Future Planning) VR Culture and Art Design LAB"
+              ]
+            }
+          }, {
+            "month": "11",
+            "array": {
+              "company": [
+                "Established corporate research institute"
+              ],
+              "award": [
+                "KT, 5G Network Service Contest, Grand Prize"
+              ],
+              "perform": [
+                "(Mokpo Natural History Museum) Development of exhibition system for AR/VR switchable immersive experience"
+              ]
+            }
+          }, {
+            "month": "10",
+            "array": {
+              "perform": [
+                "(Electronics and Telecommunications Research Institute) S/W implementation of AR/VR-based personalized manufacturing services"
+              ]
+            }
+          }, {
+            "month": "06",
+            "array": {
+              "perform": [
+                "(Doosan Heavy Industries & Construction) Improvement of the functions of 3D visualization system"
+              ]
+            }
+          }, {
+            "month": "05",
+            "array": {
+              "company": [
+                "Launched 'SEEREAL Viewer v1.0' a smartphone AR creation tool"
+              ]
+            }
+          }, {
+            "month": "04",
+            "array": {
+              "perform": [
+                "(Electronics and Telecommunications Research Institute) UI/UX and network for power facility information, UI for transmission/reception of 3D data"
+              ]
+            }
+          }, {
+            "month": "01",
+            "array": {
+              "perform": [
+                "(KEPCO Research Institute) Production of power facility monitoring platform using 360 degree VR"
+              ]
+            }
+          }
+        ]
+      }, {
+        "2016": [
+          {
+            "month": "12",
+            "array": {
+              "perform": [
+                "(Electronics and Telecommunications Research Institute) Development of AR space learning S/W",
+                "(Electronics and Telecommunications Research Institute) Prototype of mobile AR verification content",
+                "(Doosan Heavy Industries & Construction) 3D visualization system to be linked for combustion optimization"
+              ]
+            }
+          }, {
+            "month": "11",
+            "array": {
+              "perform": [
+                "(Electronics and Telecommunications Research Institute) Creation of AR application"
+              ]
+            }
+          }, {
+            "month": "04",
+            "array": {
+              "award": ["Geneva International Invention Exhibition, Special Prize, Gold Prize "]
+            }
+          }, {
+            "month": "03",
+            "array": {
+              "perform": [
+                "(National IT Industry Promotion Agency) Creation of AR-based realistic experience content​"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

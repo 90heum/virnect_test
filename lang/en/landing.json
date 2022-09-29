@@ -1,0 +1,138 @@
+{
+  "landing": {
+    "introduceText": {
+      "title": "VIRNECT, the global leader of AR and DT",
+      "contents": "AR and DT technologies are applied at various industrial sites to improve efficiency and safety in workplaces. <br class='mobile-hidden'>With the right solution and devices, a digital transformation can be made. <br class='mobile-hidden'>Check out what the global leader of AR and DT can do for you.",
+      "contentsList": [
+        "View the work process, facility drawing operation data, and other essential information whenever you need it, wherever you are. Operation is made more efficient by enhancing the understanding of work.",
+        "You can immediately receive danger zone alerts and safety information. Raise safety awareness and enhance management.",
+        "Receive real-time field situation information and data and make immediate decisions. Save unnecessary costs and time consumption."
+      ]
+    },
+    "solutionText": {
+      "solutionTitle": {
+        "title": "Clear-cut solutions by experts",
+        "contents": "VIRNECT has completed over 130 projects, including proof of concept to commercialization. With our expertise in various types of industries, our Extended reality(XR) consulting can provide you with the best solutions for your problems. We propose and implement customized solutions based on close consulting with our clients."
+      },
+      "solutionBenefitLists": [
+        {
+          "title": "infra_resource",
+          "contents": "The infrastructure/resource industry suffers from a declining management efficiency, caused by overly-complicated facilities and data problems."
+        },
+        {
+          "title": "manufacture_construction​",
+          "contents": "In the manufacturing/construction project sites, various workplace accidents, risks to workers and problems in the manufacturing process may occur originating."
+        },
+        {
+          "title": "public_education",
+          "contents": "The traditional training scheme currently used in the public/training sector is less effective than the costs."
+        },
+        {
+          "title": "entertainment",
+          "contents": "In the entertainment sector, a need for immersive content is being highlighted for its realism, as customers enjoy experiencing the content in a safe manner."
+        },
+        {
+          "title": "etc",
+          "contents": "XR technology can be applied to various sectors including industrial project sites, but also those closely related to day-to-day life such as medical and health care projects."
+        }
+      ]
+    },
+    "productText": {
+      "title": "AR and DT products for <br>solving industrial problems",
+      "contents": "VIRNECT's products support productive communications and efficient working styles in industrial worksites. <br class='mobile-hidden'>We provide the right solutions with the right products for each of our clients <br class='mobile-hidden'>by combining our original AR technology with various IT technologies.",
+      "productBenefitLists": [
+        {
+          "title": "Multi-party AR remote collaboration",
+          "contents": "With VIRNECT's real-time remote collaboration service, working remotely is now possible by enabling sharing of necessary information immediately from wherever you are. You can collaborate quickly and easily, with enhanced work accuracy and efficiency, all while maintaining a familiar working environment."
+        },
+        {
+          "title": "Production and distribution of AR content",
+          "contents": "VIRNECT Make is a tool for creating AR content with industrial knowledge and information such as facility operation manuals and working processes. It is an all-in-one product that enables AR content creation, distribution, and modification for various industrial devices at once. Companies can create and manage a secure and efficient work ecosystem."
+        },
+        {
+          "title": "AR visualization of information and data",
+          "contents": "With VIRNECT View, work information such as work manuals and safety guides and operational data such as IoT sensors and SCADA are visualized in front of the eyes of users. Appropriate decision-making and quick response are made possible as essential data can be reviewed on the spot and problems can be identified intuitively."
+        },
+        {
+          "title": "Virtual monitoring and simulation by data connection",
+          "contents": "VIRNECT Twin reproduces an industrial worksite in a virtual model and associates it with actual data, allowing monitoring of field management and work processes. It optimizes business management by predicting, controlling, and managing the overall processes of facilities and worksites."
+        },
+        {
+          "title": "VIRNECT Track for detection and tracing of digital objects",
+          "contents": "VIRNECT Track is an AR engine developed by VIRNECT for fast and accurate learning, recognition, detection, and tracing of digital objects. It can detect a target with a speed below 15 ms at an accuracy of 90% or more and stably augment content based on the SLAM engine."
+        }
+      ]
+    },
+    "awardsText": {
+      "awardsContents": "The product and service quality of <br class='mobile-hidden'>VIRNECT has been widely recognized through numerous awards.",
+      "awardsList": [
+        {
+          "image": "../images/pages/landing/logo-01",
+          "text": "The Korean Ministry of Science and ICT, SW Marketability Support Project (Remote) Grand Prize"
+        },
+        {
+          "image": "../images/pages/landing/logo-01",
+          "text": "The Korean Ministry of Science and ICT, Awarded for contributing to the Digital Content Industry"
+        },
+        {
+          "image": "../images/pages/landing/logo-02",
+          "text": "The Korean Ministry of Science and ICT, WIS 2019 Innovation Award"
+        },
+        {
+          "image": "../images/pages/landing/logo-03",
+          "text": "The Korean Ministry of Science and ICT, selected as the top 10 companies in the Smart City Business Fair​​"
+        },
+        {
+          "image": "../images/pages/landing/logo-04",
+          "text": "Korea Communications Agency, Awarded for excellent performance in the information and communications sector​​"
+        },
+        {
+          "image": "../images/pages/landing/logo-05",
+          "text": "Army M&S International Conference & National Defense ICT Exhibition, Plaque of Appreciation​"
+        },
+        {
+          "image": "../images/pages/landing/logo-06",
+          "text": "2020 Smart Factory Award, Technology Innovation Grand Prize in AR Category"
+        },
+        {
+          "image": "../images/pages/landing/logo-07",
+          "text": "Seoul VRAR Awards, AR Award"
+        },
+        {
+          "image": "../images/pages/landing/logo-08",
+          "text": "3D Fusion Industry Association, Plaque of Merit​​​"
+        },
+        {
+          "image": "../images/pages/landing/logo-09",
+          "text": "Korea Electronics Association (KEA), Innovation Award Best Content"
+        },
+        {
+          "image": "../images/pages/landing/logo-10",
+          "text": "Korean Institute of BIM 2019 Regular Academic Conference, Excellent Research Presentation Award"
+        },
+        {
+          "image": "../images/pages/landing/logo-11",
+          "text": "The Korea Federation of ICT Organizations, 2018 Korea ICT Innovation Special Award"
+        },
+        {
+          "image": "../images/pages/landing/logo-12",
+          "text": "The Public Procurement Service, Innovation Procurement Certifications (VIRNECT Remote)"
+        },
+        {
+          "image": "../images/pages/landing/logo-12",
+          "text": "The Public Procurement Service, Innovation Procurement Certifications (VIRNECT Make & View)"
+        },
+        {
+          "image": "../images/pages/landing/logo-13",
+          "text": "GS certifications (VIRNECT Remote)"
+        },
+        {
+          "image": "../images/pages/landing/logo-13",
+          "text": "GS cetifications (VIRNECT Make & View)"
+        }
+      ]
+    },
+    "newsText": "View VIRNECT's latest news.",
+    "tailText": "AR and DT innovation in your worksite. Make it happen now."
+  }
+}

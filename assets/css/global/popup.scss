@@ -1,0 +1,434 @@
+@charset "utf-8";
+@import '~/assets/css/mixin.scss';
+//news popup start
+$side: 106px;
+$sideMobile: 60px;
+.popup-container {
+    $tutorialVideoSize: 135px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+
+    .popup-area {
+        $height: 76px;
+        $top: 70px;
+        $bottom: 84px + $height;
+        position: relative;
+        z-index: 101;
+        width: 100%;
+        max-width: 720px;
+        height: 100%;
+        margin: auto;
+
+        .popup-wrap {
+            padding: $top $side $bottom;
+            text-align: center;
+        }
+
+        @media (max-width: $tablet) {
+            .popup-wrap {
+                margin: 0;
+                padding: 60px 38px 100px;
+            }
+        }
+    }
+
+    .popup-wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 103;
+        box-sizing: border-box;
+        width: 94%;
+        min-width: calc(94% - 212px);
+        max-width: calc(94% - 172px);
+        color: $baseColor;
+        font-family: $noto;
+        background: #fff;
+        transform: translate(-50%, -50%);
+        @media (max-width: $tablet) {
+            max-width: inherit;
+        }
+    }
+
+    .popup-video-area {
+        position: relative;
+        z-index: 102;
+        width: 100%;
+        max-width: 1280px;
+        height: 100%;
+        margin: auto;
+
+        .popup-wrap {
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+        }
+
+        .popup-body {
+            box-sizing: border-box;
+            height: $tutorialVideoSize;
+            padding: 28px 40px 36px;
+
+            .title {
+                margin-bottom: 3px;
+                font-weight: 500;
+                font-size: 26px;
+                font-family: $noto;
+            }
+
+            .sub {
+                font-weight: 300;
+                font-size: 16px;
+                font-family: $noto;
+            }
+        }
+
+        @media (max-width: $tablet) {
+            .popup-body {
+                padding: 20px;
+                .title {
+                    font-size: 18px;
+                }
+                .sub {
+                    font-size: 12px;
+                }
+            }
+            #dim {
+                height: 100%;
+                background: #000;
+            }
+        }
+    }
+
+    .popup-close-btn {
+        $posi: 30px;
+        $size: 24px;
+        position: absolute;
+        top: $posi;
+        right: $posi;
+        z-index: 105;
+        width: $size;
+        height: $size;
+
+        img {
+            width: 24px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: $tablet) {
+            top: 20px;
+            right: 20px;
+            img {
+                width: 20px;
+            }
+        }
+    }
+
+    .popup-video-close-btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        width: $tutorialVideoSize;
+        height: $tutorialVideoSize;
+        text-align: center;
+        background: #d9d9d9;
+        transition: background-color 0.5s;
+
+        &:hover,
+        &:active {
+            background: #bbb;
+        }
+
+        img {
+            width: 34px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: $tablet) {
+            top: 10px;
+            right: 10px;
+            bottom: auto;
+            box-sizing: content-box;
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background: none;
+        }
+    }
+
+    .popup-ok-btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 75px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        background-color: $point;
+        &.fail {
+            background-color: $danger;
+        }
+
+        @media (max-width: $tablet) {
+            height: 48px;
+            font-size: 18px;
+        }
+    }
+
+    .popup-body {
+        .heading {
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 30px;
+            font-family: $mont;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 18px;
+            font-family: $noto;
+            word-break: keep-all;
+        }
+
+        @media (max-width: $tablet) {
+            .heading {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+#mainVideoPopup {
+    .popup-container {
+        .popup-close-btn {
+            $posi: 52px;
+            $size: 34px;
+            top: $posi;
+            right: $posi;
+            width: $size;
+            height: $size;
+            img {
+                width: 34px;
+            }
+
+            @media (max-width: $tablet) {
+                top: 20px;
+                right: 20px;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+.policy-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    .policy-area {
+        $top: 44px;
+        $bottom: 120px;
+        position: fixed;
+        left: 50%;
+        width: 100%;
+        max-width: 800px;
+        height: 100%;
+        margin: auto;
+        transform: translateX(-50%);
+
+        .policy-wrap {
+            padding: $top $sideMobile $bottom;
+            text-align: center;
+        }
+
+        @media (max-width: $tablet) {
+            .policy-wrap {
+                height: 85%;
+                margin: 0 30px;
+                padding: 40px 30px 80px;
+            }
+        }
+    }
+
+    .policy-wrap {
+        position: relative;
+        top: 50%;
+        left: 0;
+        z-index: 103;
+        box-sizing: border-box;
+        width: 100%;
+        min-width: calc(100% - 60px * 2);
+        max-width: calc(100% - 60px);
+        margin: auto;
+        color: $baseColor;
+        font-family: $noto;
+        background: #fff;
+        transform: translateY(-50%);
+    }
+
+    .policy-close-btn {
+        $posi: 30px;
+        $size: 24px;
+        position: absolute;
+        top: $posi;
+        right: $posi;
+        z-index: 105;
+        width: $size;
+        height: $size;
+
+        img {
+            width: 24px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: $tablet) {
+            top: 20px;
+            right: 20px;
+            img {
+                width: 20px;
+            }
+        }
+    }
+
+    .policy-ok-btn {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        width: 220px;
+        height: 60px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        background-color: $point;
+        border-radius: 40px;
+        transform: translateX(-50%);
+
+        @media (max-width: $tablet) {
+            bottom: 0;
+            width: 100%;
+            height: 48px;
+            font-size: 18px;
+            border-radius: 0;
+        }
+    }
+
+    .policy-body {
+        .heading {
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 30px;
+            font-family: $noto;
+            @media (max-width: $tablet) {
+                font-size: 18px;
+                font-family: $noto;
+            }
+        }
+
+        .policy-body-text {
+            padding: 10px 0 30px;
+            text-align: left;
+            border-top: 2px solid #ccc;
+            border-bottom: 2px solid #ccc;
+            @media (max-width: $tablet) {
+                padding: 10px 0 5px;
+                overflow: hidden;
+                border-bottom: 0;
+            }
+
+            .bold {
+                padding-top: 20px;
+                font-weight: bold;
+                font-size: 18px;
+                font-family: $noto;
+                @media (max-width: $tablet) {
+                    font-size: 14px;
+                }
+            }
+
+            .sub {
+                padding-top: 5px;
+                font-weight: 400;
+                font-size: 15px;
+                font-family: $noto;
+                @media (max-width: $tablet) {
+                    font-size: 13px;
+                }
+            }
+            ul {
+                margin-top: 8px;
+            }
+            li {
+                position: relative;
+                padding-left: 8px;
+                font-weight: 400;
+                font-size: 15px;
+                font-family: $noto;
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    content: "-";
+                }
+            }
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 18px;
+            font-family: $noto;
+            word-break: keep-all;
+        }
+
+        @media (max-width: $tablet) {
+            position: relative;
+            box-sizing: content-box;
+            height: 100%;
+            margin-bottom: 60px;
+            overflow-y: scroll;
+            .heading {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+//news popup end
+
+// #dim {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 1;
+//     width: 100vw;
+//     height: 100vh;
+// }
+
+.dim-check {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: hidden;
+}

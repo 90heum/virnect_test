@@ -1,0 +1,140 @@
+{
+    "effectList": {
+        "effectTit": {
+            "category": "도입효과",
+            "title": "자유로운 원격 협업으로 즉시<br>해결하는 현장 대응",
+            "contents": "강력한 원격 커뮤니케이션을 지원하는 VIRNECT Remote는 관계자간 신속한 협의와 정확한 조치를 통해 작업 편의성과 생산성을 강화합니다.<br>전문 인력의 잦은 출장을 줄이고 문제 조치까지의 다운 타임을 감소시켜 전체 운영을 효율화 합니다."
+        },
+        "Speedy": {
+            "title": "Speedy",
+            "contents": "사내 제작으로 외주 대비<br>3배 이상의 제작 시간 단축"
+        },
+        "Reliable": {
+            "title": "Reliable",
+            "contents": "외주 대비 99% 이상의<br>제작 비용 및 유지보수 비용 절감"
+        },
+        "Immediately": {
+            "title": "Immediately",
+            "contents": "현장 상황이나 작업 변동 시,<br>빠른 콘텐츠 수정 및 배포"
+        },
+        "Security": {
+            "title": "Security",
+            "contents": "중요한 산업 정보의<br>외부 유출에 대한 보안 우려 감소"
+        }
+    },
+    "viewList": {
+        "Tit": {
+            "category": "도입효과",
+            "title": "실시간 데이터에 기반한 신속하고 정확한 의사 결정",
+            "contents": "강력한 원격 커뮤니케이션을 지원하는 VIRNECT View는 관계자간 신속한 협의와 정확한 조치를 통해 작업 편의성과 생산성을 강화합니다. 전문 인력의 잦은 출장을 줄이고 문제 조치까지의 다운 타임을 감소시켜 전체 운영을 효율화합니다."
+        },
+        "Speedy": {
+            "title": "Visualize",
+            "contents": "설비 및 데이터 XR 시각화를 통해 현황 파악의 편의성 증대"
+        },
+        "Reliable": {
+            "title": "Intuitive",
+            "contents": "업무 정보를 현장 설비에서 직관적으로 증강하여 작업 오류 최소화"
+        },
+        "Immediately": {
+            "title": "Real-Time",
+            "contents": "현장 실시간 보고를 통한 보고 프로세스 최적화와 공정 관리 효율 증가"
+        },
+        "Security": {
+            "title": "Speedy",
+            "contents": "문제 발생 위치 및 이상 유형 등 알람 정보 시각화로 대응 속도 향상"
+        }
+    },
+    "remoteList": {
+        "Tit": {
+            "category": "도입효과",
+            "title": "자유로운 원격 협업으로 즉시<br>해결하는 현장 대응",
+            "contents": "강력한 원격 커뮤니케이션을 지원하는 VIRNECT View는 관계자간 신속한 협의와 정확한 조치를 통해 작업 편의성과 생산성을 강화합니다. 전문 인력의 잦은 출장을 줄이고 문제 조치까지의 다운 타임을 감소시켜 전체 운영을 효율화합니다."
+        },
+        "Speedy": {
+            "title": "Speedy",
+            "contents": "출장 비용 감소 및 문제 대응 속도 증가"
+        },
+        "Reliable": {
+            "title": "Accurate",
+            "contents": "커뮤니케이션의 오류 감소와 작업 정확도 향상"
+        },
+        "Immediately": {
+            "title": "Hands-Free",
+            "contents": "스마트글라스 사용 시, 원격 지원 중 양손 사용 작업 가능"
+        },
+        "Security": {
+            "title": "Efficient",
+            "contents": "미숙련자의 업무 훈련 및 작업 속도 향상"
+        }
+    },
+    "makeList": {
+        "Tit": {
+            "category": "도입효과",
+            "title": "신속 명확한 정보 제공으로 현장의 업무 속도 향상",
+            "contents": "VIRNECT Make를 통해 업무 정보의 전달력을 극대화하고, 합리적인 비용으로 XR 서비스를 지속적으로 운영할 수 있게 됩니다. XR 자체 제작 방식은 산업 정보의 보안성을 지원하며, 작업 및 프로세스 변동을 현장에 빠르게 안내하고 적용할 수 있도록 합니다."
+        },
+        "Speedy": {
+            "title": "Speedy",
+            "contents": "사내 제작으로 외주 대비 3배 이상의 제작 시간 단축"
+        },
+        "Reliable": {
+            "title": "Reliable",
+            "contents": "외주 대비 99% 이상의 제작 비용 및 유지보수 비용 절감"
+        },
+        "Immediately": {
+            "title": "Immediately",
+            "contents": "현장 상황이나 작업 변동 시, 빠른 콘텐츠 수정 및 배포"
+        },
+        "Security": {
+            "title": "Security",
+            "contents": "중요한 산업 정보의 외부 유출에 대한 보안 우려 감소"
+        }
+    },
+    "twinList": {
+        "Tit": {
+            "category": "도입효과",
+            "title": "최고의 의사결정을 위한 가장 정확한 현장 확인 방법",
+            "contents": "관리자는 VIRNECT Twin을 통해 모든 현장에 강력한 모니터링 시스템을 구축하여, 운영 전반의 통찰력과 판단력을 강화할 수 있습니다. VIRNECT Twin의 데이터 분석 및 예측 기능은 프로세스 전반을 최적화하고 제품의 품질을 향상할 수 있도록 합니다."
+        },
+        "Speedy": {
+            "title": "Real-Time",
+            "contents": "현장의 모습을 복제한 모델에서 연결된 실시간 데이터를 확인"
+        },
+        "Reliable": {
+            "title": "Prediction",
+            "contents": "데이터 기반의 장비 다운 타임 방지 및 정비 시기 예측"
+        },
+        "Immediately": {
+            "title": "Efficiency",
+            "contents": "가상 환경 시뮬레이션을 통한 현장 운영 효율화"
+        },
+        "Security": {
+            "title": "Safe",
+            "contents": "현장 작업자 위치 정보 공유를 통한 안전 사고 예방"
+        }
+    },
+    "trackList": {
+        "Tit": {
+            "category": "도입효과",
+            "title": "자유로운 커스터마이징으로 현장형 XR 서비스 개발",
+            "contents": "개발자는 VIRNECT Track을 사용하여 혁신적인 XR 서비스를 구축하고 사용자에게 긍정적인 XR 경험을 제공할 수 있습니다. VIRNECT Track의 탁월한 유연성과 안정성은 실제 사용환경에 강한 XR 서비스를 개발할 수 있도록 합니다."
+        },
+        "Speedy": {
+            "title": "Faster",
+            "contents": "간편한 AR 기능 구현, 빠른 서비스 개발 및 배포"
+        },
+        "Reliable": {
+            "title": "Reliable",
+            "contents": "정확하고 안정적인 AR 기능으로 서비스 품질 및 신뢰도 향상"
+        },
+        "Immediately": {
+            "title": "Stable",
+            "contents": "자체 SDK로 라이선스 이슈에서 자유롭고 안정적인 서비스 운영"
+        },
+        "Security": {
+            "title": "Convenient",
+            "contents": "사용 환경에 따른 SDK 최적화로 XR 서비스의 편의성 강화"
+        }
+    }
+}

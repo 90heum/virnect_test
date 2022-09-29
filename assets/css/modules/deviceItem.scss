@@ -1,0 +1,79 @@
+.deviceItem {
+  padding: 65px 30px 150px;
+}
+
+.deviceItem .deviceItemWrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 62px;
+}
+
+.deviceItem .deviceItemWrap span {
+  width: 50%;
+}
+
+.deviceItem .deviceItemWrap span i {
+  display: block;
+}
+
+.deviceItem .deviceItemWrap span i img {
+  max-width: 569px;
+  width: 100%;
+}
+
+.deviceItem .deviceItemWrap span p {
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: -0.58px;
+  color: #0a51b7;
+  margin-bottom: 10px;
+}
+
+.deviceItem .deviceItemWrap span h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: -0.75px;
+  color: #121212;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .deviceItem {
+    padding: 60px 30px 100px;
+  }
+
+  .deviceItem .deviceItemWrap {
+    flex-direction: column;
+  }
+
+  .deviceItem .deviceItemWrap span {
+    width: 100%;
+  }
+
+  .deviceItem .deviceItemWrap span i img {
+    max-width: none;
+  }
+
+  .deviceItem .deviceItemWrap span h2 {
+    font-size: 36px;
+  }
+
+  .deviceItem .deviceItemWrap span p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .deviceItem .deviceItemWrap span h2 {
+    font-size: 26px;
+  }
+
+  .deviceItem .deviceItemWrap span p {
+    font-size: 18px;
+  }
+}

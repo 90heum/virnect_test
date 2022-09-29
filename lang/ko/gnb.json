@@ -1,0 +1,225 @@
+{
+  "gnb": [
+    {
+      "text": "value",
+      "page": "infra_energy",
+      "to": "/value/infra_energy",
+      "array": [
+        {
+          "text": "인프라/에너지",
+          "page": "infra_energy",
+          "to": "/value/infra_energy"
+        },
+        {
+          "text": "제조/건설",
+          "page": "manufacture_construction",
+          "to": "/value/manufacture_construction"
+        },
+        {
+          "text": "공공/교육",
+          "page": "public_education",
+          "to": "/value/public_education"
+        },
+        {
+          "text": "문화/전시",
+          "page": "culture_exhibition",
+          "to": "/value/culture_exhibition"
+        },
+        {
+          "text": "헬스케어",
+          "page": "health_care",
+          "to": "/value/health_care"
+        }
+      ]
+    },
+    {
+      "text": "Products",
+      "page": "remote",
+      "to": "/products/remote",
+      "array": [
+        {
+          "text": "VIRNECT Remote",
+          "page": "remote",
+          "to": "/products/remote"
+        },
+        {
+          "text": "VIRNECT Make",
+          "page": "make",
+          "to": "/products/make"
+        },
+        {
+          "text": "VIRNECT View",
+          "page": "view",
+          "to": "/products/view"
+        }
+      ]
+    },
+    {
+      "text": "Products",
+      "page": "twin",
+      "to": "/products/twin",
+      "array": [
+        {
+          "text": "VIRNECT Twin",
+          "page": "twin",
+          "to": "/products/twin"
+        },
+        {
+          "text": "VIRNECT Track",
+          "page": "track",
+          "to": "/products/track"
+        },
+        {
+          "text": "XR Devices",
+          "page": "ms",
+          "to": "/products/ms"
+        }
+      ]
+    },
+    {
+      "text": "Pricing",
+      "page": "pricing",
+      "to": "/pricing/remote",
+      "array": [
+        {
+          "text": "가격 안내",
+          "page": "pricing_remote",
+          "to": "/pricing/remote",
+          "depth": [
+            {
+              "text": "VIRNECT Remote",
+              "page": "pricing_remote",
+              "to": "/pricing/remote"
+            },
+            {
+              "text": "VIRNECT Make",
+              "page": "pricing_make",
+              "to": "/pricing/make"
+            },
+            {
+              "text": "VIRNECT View",
+              "page": "pricing_view",
+              "to": "/pricing/view"
+            },
+            {
+              "text": "VIRNECT Workstation",
+              "page": "pricing_workstation",
+              "to": "/pricing/workstation"
+            }
+          ]
+        },
+        {
+          "text": "Value Calculator(ROI)",
+          "page": "pricing_calculator",
+          "to": "/pricing/calculator",
+          "depth": []
+        }
+      ]
+    },
+    {
+      "text": "Resources",
+      "page": "resources",
+      "to": "/resources/library",
+      "array": [
+        {
+          "text": "Library",
+          "page": "resources_library",
+          "to": "/resources/library"
+        }
+      ]
+    },
+    {
+      "text": "Company",
+      "page": "summary",
+      "to": "/company/summary",
+      "array": [
+        {
+          "text": "버넥트 소개",
+          "page": "summary",
+          "to": "/company/summary",
+          "depth": [
+            {
+              "text": "기업 소개",
+              "page": "summary",
+              "to": "/company/summary"
+            },
+            {
+              "text": "브랜드",
+              "page": "brand",
+              "to": "/company/brand"
+            }
+          ]
+        },
+        {
+          "text": "뉴스 센터",
+          "page": "pr",
+          "to": "/media/pr",
+          "depth": [
+            {
+              "text": "PR",
+              "page": "pr",
+              "to": "/media/pr"
+            },
+            {
+              "text": "IR",
+              "page": "ir",
+              "to": "/media/ir"
+            }
+          ]
+        },
+        {
+          "text": "인재 채용",
+          "page": "recruitment",
+          "to": "/company/recruitment"
+        }
+      ]
+    },
+    {
+      "text": "Contact",
+      "page": "inquiry",
+      "to": "/contact/inquiry",
+      "array": [
+        {
+          "text": "문의",
+          "page": "inquiry",
+          "to": "/contact/inquiry"
+        },
+        {
+          "text": "고객센터",
+          "page": "blank",
+          "to": "https://support.virnect.com/"
+        },
+        {
+          "text": "찾아오는 길",
+          "page": "location",
+          "to": "/contact/location"
+        },
+        {
+          "text": "익스피리언스 센터 투어",
+          "page": "blank",
+          "to": "https://moaform.com/q/r76zkv"
+        }
+      ]
+    }
+  ],
+  "gnbInnerText": {
+    "SupportText": {
+      "noteText1": "릴리즈 노트",
+      "noteText2": "안내",
+      "faqText1": "회원",
+      "faqText2": "서비스",
+      "faqText3": "제품",
+      "faqText4": "기기",
+      "faqText5": "결제",
+      "faqText6": "기타"
+    }
+  },
+  "service": {
+    "text1": "서비스 로그인",
+    "text2": "다운로드 센터"
+  },
+  "supportAvenger": {
+    "text1": "학습센터",
+    "text2": "문의하기"
+  }
+}

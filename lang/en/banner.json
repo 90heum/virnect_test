@@ -1,0 +1,37 @@
+{
+  "bannerText": {
+    "bannerList": [
+      {
+        "category": "EVENT",
+        "title": "VIRNECT<br>AR Solution 2.0<br><strong>Launching Promotion​</strong>​",
+        "content": "Gearing you up with many benefits,<br><strong>including the rock solid SmartGlasses<br> and free AR content service program​</strong>",
+        "router": "prDetail",
+        "seq": 168
+      }
+    ]
+  },
+  "nomore": "Nomore",
+  "close": "Close",
+  "mainTit": {
+    "title1": "A world where XR technology permeate every aspect of our life",
+    "title2": "Global No.1 XR Platform Company VIRNECT",
+    "title3": "View the solutions forinnovating your worksites."
+  },
+  "bannerTit": {
+    "text1": "See more",
+    "text2": "Free Trials",
+    "text3": "We always welcome inquiries on AR and DT.",
+    "text4": "+82-70-7733-2025",
+    "text5": "Inquiry"
+  },
+  "valueBannerModule": {
+    "text1": "Virtual monitoring and simulationby data connection",
+    "text2": "Multi-partyAR remote collaboration",
+    "text3": "Production and distribution of XR content",
+    "text4": "AR visualization of information and data Multi-party AR remote collaboration",
+    "text5": "검출/추적용 XR 개발 엔진"
+  },
+  "OfferPartdigital": {
+    "text": "VIRNECT<br> products make<br> safer and more efficient<br> industrial worksites"
+  }
+}

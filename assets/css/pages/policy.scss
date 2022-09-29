@@ -1,0 +1,343 @@
+@charset "utf-8";
+
+* {
+  color: #0d2a58;
+}
+
+
+.wrapper {
+  width: 1200px;
+
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+h1 {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 36px;
+
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+p {
+  display: block;
+  margin-bottom: 20px;
+
+
+}
+
+ol {
+  text-align: left;
+  list-style: auto;
+
+  margin-bottom: 10px;
+
+}
+
+li {
+  list-style: auto;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0d2a58;
+  font: inherit;
+  cursor: pointer;
+}
+
+
+// /* privacyPolicy */
+// $policy-primary: #0d2a58;
+
+// /* realwear */
+// .overlay {
+//   --overlay_show_text: false;
+//   --overlay_show_number: false;
+//   --overlay_show_dot: false;
+//   --overlay_persists: false;
+//   --overlay_anchor_hv: "100,50";
+// }
+
+// #policyViewSection {
+//   // @include area-flex(1200px);
+//   padding: 132px 0 240px;
+//   text-align: left;
+// }
+
+// .policy-type {
+//   overflow-x: auto;
+//   font-size: 0;
+//   white-space: nowrap;
+
+//   button,
+//   a {
+//     display: inline-block;
+//     padding: 17px 60px;
+//     color: #979fae;
+//     font-size: 16px;
+//     background: #fff;
+//     border: solid 1px #eaedf3;
+
+//     &.active {
+//       color: #fafbfc;
+//       background: $policy-primary;
+//       border-color: $policy-primary;
+//     }
+//   }
+// }
+
+// .policy-date {
+//   width: 164px;
+// }
+
+// .policy-date /deep/ {
+//   .el-input__inner {
+//     height: 52px;
+//     font-size: 15px;
+//     text-indent: 24px;
+//     border: 2px solid #e6e9ee;
+//     transition: 0.3s;
+//   }
+
+//   .el-input.is-focus .el-input__inner {
+//     color: #fafbfc;
+//     background: #4d5d74;
+//     border-color: #4d5d74;
+//   }
+
+//   .el-input__inner:focus {
+//     border-color: #4d5d74;
+//   }
+
+//   .el-select__caret {
+//     margin-top: -1px;
+//     margin-right: 6px;
+//     color: #fafbfc;
+//     font-weight: bold;
+//   }
+
+//   .el-select-dropdown__item {
+//     font-weight: 500;
+//   }
+
+//   .el-select-dropdown__item.selected {
+//     color: inherit;
+//   }
+// }
+
+// .policy-style {
+//   padding: 60px 0 24px;
+//   color: $policy-primary;
+//   font-weight: 500;
+//   font-size: 16px;
+
+//   line-height: 1.6;
+// }
+
+// .policy-body /deep/ {
+//   h1 {
+//     margin-bottom: 32px;
+//     font-weight: bold;
+//     font-size: 40px;
+//   }
+
+//   h2 {
+//     margin-bottom: 20px;
+//     font-size: 24px;
+//   }
+
+//   h3 {
+//     margin-bottom: 20px;
+//   }
+
+//   // 여백
+//   ol,
+//   ul,
+//   li,
+//   p {
+
+//     &+h2,
+//     &+h3 {
+//       margin-top: 32px;
+//     }
+//   }
+
+//   p {
+//     margin-top: 20px;
+//   }
+
+//   li {
+//     margin-top: 16px;
+
+//     &>p {
+//       margin: 0;
+//     }
+//   }
+
+//   ol,
+//   ul {
+
+//     ul li,
+//     ol li {
+//       margin-top: 4px;
+//     }
+//   }
+
+//   // 리스트
+//   ol,
+//   ul {
+//     &>li {
+//       margin-left: 13px;
+//       text-indent: -13px;
+//     }
+
+//     &>li:before {
+//       display: inline;
+//       margin-right: 4px;
+//       content: "- ";
+//     }
+
+//     p {
+//       display: inline;
+//     }
+//   }
+
+//   ol {
+//     counter-reset: unit;
+
+//     &>li {
+//       margin-left: 22px;
+//       text-indent: -22px;
+//     }
+
+//     &>li:before {
+//       content: counter(unit, decimal) ". ";
+//       counter-increment: unit;
+//     }
+//   }
+
+//   ol ol>li:before {
+//     content: counter(unit, decimal) ") ";
+//   }
+
+//   ul ul ul {
+//     li:before {
+//       content: "\2022";
+//     }
+//   }
+
+//   hr {
+//     margin: 32px 0;
+//     background-color: $policy-primary;
+//   }
+// }
+
+// // policy
+// .policy-body.policy /deep/ {
+//   &>ol>li {
+//     margin-top: 4px;
+//   }
+
+//   ol li {
+//     padding-left: 20px;
+
+//     &:first-child {
+//       margin-top: 16px;
+//     }
+
+//     &:lang(en) {
+//       padding-left: 0;
+//     }
+//   }
+
+//   ol ul li:first-child {
+//     margin-top: 4px;
+//   }
+
+//   ul li {
+//     margin-left: 23px;
+//     text-indent: -23px;
+
+//     &:lang(ko):before {
+//       display: none;
+//     }
+
+//     &:lang(en) {
+//       margin-left: 13px;
+//       text-indent: -13px;
+//     }
+//   }
+
+//   ul ul li {
+//     margin-left: 13px;
+//     text-indent: -13px;
+
+//     &:lang(ko):before {
+//       display: inline;
+//     }
+
+//     &:lang(en) {
+//       margin-left: 20px;
+//       text-indent: -13px;
+//     }
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   #policyViewSection {
+//     padding: 0;
+//   }
+
+//   .policy-type {
+//     position: fixed;
+//     z-index: 2;
+//     width: 100%;
+//     margin-top: 60px;
+
+//     button,
+//     a {
+//       z-index: 99;
+//       padding: 12px 20px;
+//       font-size: 14px;
+//       border-bottom: 0;
+//     }
+
+//     &.web-view {
+//       margin: 0;
+//       background: #fff;
+//       border-bottom: 1px solid #eaedf3;
+
+//       &+.policy-style {
+//         padding-top: 0;
+//       }
+//     }
+//   }
+
+//   .policy-body {
+//     padding: 80px 24px 0;
+//   }
+
+//   .policy-date {
+//     margin: 0 24px 181px;
+//   }
+
+//   .policy-body /deep/ {
+//     h1 {
+//       font-size: 36px;
+//     }
+
+//     h2 {
+//       font-size: 24px;
+//     }
+//   }
+// }

@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import "../mixin.scss";
+
+.sub-visual-section {
+  text-align: center;
+  background-color: #333;
+  background-position: center;
+  background-size: cover;
+
+  .visual-text-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    // 조성우 수정
+    height: 480px;
+    margin-top: 80px;
+    justify-content: center;
+  }
+
+  &.sm .visual-text-wrap {
+    /* height: 480px; */
+  }
+
+
+
+  .category {
+    margin-bottom: 46px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: $poppins;
+    color: #bfdcff;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 44px;
+    font-family: $poppins, $noto;
+    line-height: 1.45;
+    color: #fff;
+  }
+
+  .contents {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #fff;
+  }
+
+  .contents span{
+    display: block;
+  }
+
+  .search-group {
+    @include area-flex(788px);
+    position: relative;
+    margin: 48px auto 0;
+
+    input {
+      width: calc(100% - 52px);
+      height: 32px;
+      padding: 18px 26px 14px;
+      font-size: 16px;
+      background-color: #fff;
+      border: solid 1px #979797;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        color: #7a869a;
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
+
+    img {
+      position: absolute;
+      top: 12px;
+      right: 20px;
+      width: 42px;
+      cursor: pointer;
+    }
+
+    .del-btn {
+      position: absolute;
+      top: 12px;
+      right: 68px;
+    }
+  }
+
+  @media (max-width: $mobile) {
+
+    .category {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 0 32px;
+
+    }
+
+    .title {
+      margin-bottom: 16px;
+      font-size: 26px;
+    }
+
+    .contents { font-size: 14px;}
+
+    .contents span{
+      display: inline;
+    }
+
+    .search-group {
+      margin: 34px 0 0;
+
+      input {
+        padding: 8px 24px;
+
+        &::placeholder {
+          color: #7a869a;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+
+      img {
+        top: 13px;
+        right: 40px;
+        width: 24px;
+      }
+    }
+  }
+}

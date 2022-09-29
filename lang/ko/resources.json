@@ -1,0 +1,50 @@
+{
+  "resources": {
+    "filter": "필터",
+    "visualText": {
+      "title": "리소스 센터",
+      "contents": "고객과 솔루션에 대한 다양하고 유용한 자료들로<br class='mobile-hidden'> 제품의 활용도를 향상할 수 있습니다."
+    },
+    "filterArr": {
+      "type": {
+        "title": "유형별",
+        "arr": {
+          "CUSTOMER": "고객사례", 
+          "VIDEO":"동영상", 
+          "BROCHURE": "브로셔", 
+          "MANUAL": "매뉴얼", 
+          "IR": "IR", 
+          "PR": "PR", 
+          "REPORT":"리포트"
+        }
+      },
+      "product": {
+        "title": "제품별",
+        "arr": {
+          "REMOTE": "VIRNECT Remote",
+          "MAKE": "VIRNECT Make",
+          "VIEW": "VIRNECT View",
+          "TWIN": "VIRNECT Twin",
+          "TRACK": "VIRNECT Track"
+        }
+      },
+      "solution": {
+        "title": "솔루션별",
+        "arr": {
+          "ENERGY": "에너지/자원",
+          "EPC": "EPC",
+          "CAR": "자동차/부품",
+          "AIRPLANE": "항공/철도",
+          "OIL": "정유/석유화학/배터리",
+          "MICE": "마케팅",
+          "EDUCATION": "교육"
+        }
+      }
+    },
+    "filterText": "선택 해제",
+    "noData": {
+      "title": "검색결과가 없습니다.",
+      "contents": "다른 검색어를 입력해보세요."
+    }
+  }
+}

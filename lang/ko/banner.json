@@ -1,0 +1,38 @@
+{
+  "bannerText": {
+    "bannerList": [
+      {
+        "category": "NOTICE",
+        "title": "VIRNECT <br>AR Solution<br><strong>무료 지원</strong>​",
+        "content": "​",
+        "router": "prDetail",
+        "period": "2021.02.19 - 06.30",
+        "seq": 197
+      }
+    ]
+  },
+  "nomore": "오늘 하루 보지 않기",
+  "close": "닫기",
+  "mainTit": {
+    "title1": "업무 현장의 운영 및 관리를 위한 XR 솔루션",
+    "title2": "비즈니스 성공을 위한 업무 혁신을 이루어 내세요",
+    "title3": "버넥트 솔루션으로 시간과 비용을 절감하세요"
+  },
+  "bannerTit": {
+    "text1": "자세히 보기",
+    "text2": "데모신청",
+    "text3": "준비된 기술 컨설턴트가 직접 도움을 드립니다.",
+    "text4": "070.7733.2025",
+    "text5": "문의하기"
+  },
+  "valueBannerModule": {
+    "text1": "원격 현장관리 XR 솔루션",
+    "text2": "디지털 정보 제작 XR 솔루션",
+    "text3": "디지털 정보 시각화 XR 솔루션",
+    "text4": "3차원 디지털 트윈 솔루션",
+    "text5": "버넥트 XR 소프트웨어 개발 키트"
+  },
+  "OfferPartdigital": {
+    "text": "비즈니스 성공을 위한 국내 최고의 XR 솔루션"
+  }
+}

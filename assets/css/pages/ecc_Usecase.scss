@@ -1,0 +1,266 @@
+.ecc_usecase {
+  width: 100%;
+  padding: 150px 24px;
+  background-color: #f7f8f9;
+}
+
+.ecc_usecase .usecaseWrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.ecc_usecase .usecaseWrap .usecaseTit h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -0.55px;
+  text-align: center;
+  color: #0a51b7;
+  margin-bottom: 72px;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont {
+  display: flex;
+  border: solid 1px #c5c8cf;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid 1px #c5c8cf;
+  background: #fff;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap {
+  padding: 45px 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span>p {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  width: 100%;
+  height: 108px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: -0.22px;
+  color: #092e6e;
+  padding-right: 28.5px;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 28.5px;
+  min-width: 244.5px;
+  height: 100%;
+  border-left: 1px solid #c5c8cf;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img {
+  display: block;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img:first-child {
+  max-width: 167px;
+  width: 100%;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img.normal {
+  margin-top: 30px;
+  display: block;
+  max-width: 48px;
+  width: 100%;
+  height: 48px;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img.hover {
+  margin-top: 30px;
+  display: none;
+  max-width: 48px;
+  width: 100%;
+  height: 48px;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listInner {
+  padding: 45px 50px;
+  /* display: none; */
+  width: 100%;
+  background: #f7f8f9;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listInner li {
+  list-style: disc;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listInner li ul li {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.94;
+  letter-spacing: -0.15px;
+  color: #121212;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listInner li ul li:last-child {
+  margin-bottom: 22px;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listInner li i img {
+  display: block;
+  max-width: 455px;
+  width: 100%;
+  height: 224px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li:last-child {
+  border: none;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li.active .listWrap i .normal,
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li:hover .listWrap i .normal {
+  display: none;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li.active .listWrap i .hover,
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li:hover .listWrap i .hover {
+  display: block;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li.active .listWrap {
+  border-bottom: 1px solid #c5c8cf;
+}
+
+.ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li.active .listInner {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .ecc_usecase {
+    padding: 115px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ecc_usecase {
+    padding: 115px 24px 90px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseTit h2 {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #0a51b7;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span>p {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color: #092e6e;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap,
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listInner {
+    padding: 45px 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li.active .listWrap span>p::after {
+    top: 235px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap {
+    flex-direction: column;
+    padding: 45px 24px 0;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span .listInner li p:nth-last-child(2) {
+    margin-bottom: 7px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li.active .listWrap span .listInner {
+    top: 235px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span .listInner li i img {
+    width: 100%;
+    height: 166px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span>p {
+    justify-content: center;
+    height: auto;
+    margin-bottom: 34px;
+    padding: 0;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-left: none;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img.hover,
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img.normal {
+    margin-top: 15px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span>p::after {
+    top: 235px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap span .listInner li i img {
+    margin: 0 auto;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img.hover,
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listWrap>i img.normal {
+    position: relative;
+    top: 5px;
+  }
+
+  .ecc_usecase .usecaseWrap .usecaseCont .usecaseList>li .listInner li i img {
+    max-width: 100%;
+  }
+}

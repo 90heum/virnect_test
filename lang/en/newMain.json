@@ -1,0 +1,40 @@
+{
+    "newMainText": {
+        "supportmodulText": {
+            "kokacktext1": "We will do our best to assist with",
+            "kokacktext2": "issues related to the service.",
+            "kokacktext3": "More"
+        },
+        "supportInfo":{
+            "text1": "Leaning Center",
+            "text2": "inquiries"
+        },
+        "remoteText": {
+            "title": "XR Remote Collaboration",
+            "contents": "VIRNECT Remote enables seamless collaboration overcoming time and space constraints."
+        },
+        "makeText": {
+            "title": "All-In-One Extended Reality (XR) Content Creation",
+            "contents": "VIRNECT Make enables fast and stable XR content creation.<br> Translate industrial knowledge and operation manuals into engaging immersive content."
+        },
+        "viewText": {
+            "title": "Extended Reality (XR) Content visualization",
+            "contents": "VIRNECT View delivers XR content anywhere, anytime, over<br> commercial devices, increasing work efficiency and allowing on-site reporting."
+        },
+        "twinText": {
+            "title": "Digital Twins for analysis, monitoring, and simulation",
+            "contents": "VIRNECT Twin service allows companies to have industrial<br> site virtual models linked to real-time data enabling analysis, monitoring,<br> and simulation."
+        },
+        "trackText": {
+            "title": "Detection and tracking engine",
+            "contents": "VIRNECT Track XR engine learns, detects, and tracks objects<br> quickly and accurately. VIRNECT Track engine is in each VIRNECT <br>product and service, granting outstanding performance."
+        },
+        "companyText": {
+            "title": "About VIRNECT",
+            "contents": "VIRNECT virtually connects people and info right where is needed.<br>Using XR (extended reality), we enable our customers to access <br> knowledge anywhere, anytime."
+        },
+        "supportText": {
+            "contents": "We will do our best to assist with issues related to the service."
+        }
+    }
+}

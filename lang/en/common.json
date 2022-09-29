@@ -1,0 +1,11 @@
+{
+    "valueCommon": {
+        "subTabText": {
+            "text1": "Infrastructures/Resources",
+            "text2": "Manufacturing/Construction",
+            "text3": "Publicservices/Education ",
+            "text4": "Entertainment",
+            "text5": "Others"
+        }
+    }
+}

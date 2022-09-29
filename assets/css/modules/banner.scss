@@ -1,0 +1,376 @@
+@charset "utf-8";
+@import url('~/assets/css/reset.scss');
+@import '~assets/css/mixin.scss';
+
+#bannerSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  @media (max-width: $tablet) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.main-scroll-newsletter {
+  position: relative;
+  z-index: 99;
+  height: 80px;
+  overflow: hidden;
+  background: #092e6e;
+
+  button,
+  a {
+    color: #fff;
+  }
+
+  .area-flex {
+    position: relative;
+    height: 100%;
+    @include area-flex(1200px);
+  }
+
+  .popup-foot {
+    display: none;
+  }
+
+  @media (max-width: $tablet) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 74px);
+    height: 316px;
+    transform: translate(-50%, -50%);
+
+    .area-flex {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    .popup-foot {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 5;
+      display: block;
+      width: 100%;
+      font-size: 0;
+
+      li {
+        display: inline-block;
+        width: 50%;
+        height: 42px;
+        color: #fff;
+        font-size: 13px;
+        line-height: 42px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        &:after {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 1px;
+          height: 12px;
+          margin-top: -6px;
+          background-color: #fff;
+          content: "";
+        }
+      }
+    }
+  }
+}
+
+//배너 바디
+.banner-list {
+  position: relative;
+
+  li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+    >div {
+      height: 100%;
+
+      .mobile-hidden {
+        font-family: $roboto, $noto;
+      }
+    }
+
+    &:first-child {
+      background-image: linear-gradient(218deg, #3f97d3, #092e6e);
+      // background: url('~assets/home/images/banner/group-11@2x.png');
+      // background: url('~assets/home/images/banner/smartfactory-bg-02.png');
+      background-size: cover;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+
+    &:last-child {
+      background-image: linear-gradient(214deg, #c5c8cf, #3f97d3);
+
+      .title {
+        font-weight: bold;
+        font-size: 24px;
+      }
+    }
+
+    &.active {
+      z-index: 2;
+      opacity: 1;
+    }
+  }
+
+  button {
+    height: 100%;
+  }
+
+  a {
+    display: inline-block;
+    height: 100%;
+    line-height: 80px;
+  }
+
+  .category {
+    height: 36px;
+    margin-right: 18px;
+    padding: 0 24px;
+    font-size: 16px;
+    // font-family: $roboto;
+    line-height: 36px;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 16px;
+  }
+
+  span {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: $noto;
+    line-height: 28px;
+  }
+
+  i {
+    position: relative;
+    margin-right: 14px;
+    padding-right: 15px;
+
+    &:after {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      display: block;
+      width: 1px;
+      height: 16px;
+      background: #fff;
+      transform: translateY(-50%);
+      opacity: 0.4;
+      content: "";
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: $tablet) {
+
+    // .category {
+    //     &:after {
+    //         content: "]";
+    //     }
+    //     &:before {
+    //         content: "[";
+    //     }
+    // }
+    li {
+      height: 316px;
+
+      .place {
+        display: block;
+        width: 100%;
+        // height: 40px;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: $noto;
+      }
+
+      button {
+        text-align: left;
+      }
+
+      span {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 1.42;
+      }
+
+      .category {
+        display: block;
+        padding: 0;
+        font-weight: normal;
+        font-size: 13px;
+        background: none;
+      }
+
+      .title {
+        font-size: 22px;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .txt {
+        margin-top: 2px;
+        font-size: 15px;
+        line-height: 1.47;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .period {
+        margin-top: 22px;
+        font-size: 16px;
+        font-family: $noto;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      // .period {
+      //     margin-top: 0;
+      //     font-weight: 300;
+      //     font-size: 14px;
+      //     font-family: $roboto;
+      // }
+      .place {
+        display: block;
+        margin-top: 4px;
+        font-size: 13px;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .noti {
+        font-size: 11px;
+      }
+
+      button,
+      a {
+        padding-top: 16px;
+        text-align: left;
+      }
+
+      img {
+        position: absolute;
+        right: 0;
+        bottom: 40px;
+        width: 197px;
+      }
+
+      a {
+        line-height: inherit;
+      }
+    }
+
+    button.area-flex {
+      height: auto;
+    }
+
+    i {
+      display: block;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+      padding-right: 0;
+      padding-bottom: 13px;
+
+      &:after {
+        top: 100%;
+        right: 50%;
+        width: 16px;
+        height: 1px;
+        transform: translate(50%, -50%);
+        opacity: 1;
+      }
+
+      &:last-child {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+//배너 페이지네이션
+.banner-pagination {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  font-size: 0;
+  transform: translateY(-50%);
+
+  li {
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity 0.4s;
+
+    button {
+      width: 7px;
+      height: 7px;
+      text-indent: -9999px;
+      vertical-align: middle;
+      border: 1px solid #fff;
+      transition: background-color 0.4s;
+    }
+
+    &.active {
+      opacity: 0.9;
+
+      button {
+        background: #fff;
+      }
+    }
+  }
+
+  @media (max-width: $tablet) {
+    top: auto;
+    bottom: 40px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      width: 16px;
+
+      button {
+        width: 6px;
+        height: 6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,217 @@
+.featuresView {
+  max-width: 2400px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.featuresView .featuresWrap {
+  max-width: 1200px;
+  width: 100%;
+  height: 556px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: flex-start;
+  padding: 0 0 120px;
+  border-bottom: 1px solid #c5c8cf;
+}
+
+.featuresView .featuresWrap .title>p {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.23px;
+  color: #0a51b7;
+  margin-bottom: 16px;
+}
+
+.featuresView .featuresWrap .contents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.featuresView .featuresWrap .contents .featuresTit p {
+  color: #121212;
+  font-size: 17.5px;
+
+}
+
+
+.featuresView .featuresWrap .contents .featuresTit {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.featuresView .featuresWrap .contents .featuresTit h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.54;
+  letter-spacing: -0.43px;
+  color: #121212;
+  margin-bottom: 50px;
+}
+
+.featuresView .featuresWrap .contents .featuresTit h2 p {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.54;
+  letter-spacing: -0.43px;
+  color: #121212;
+}
+
+.featuresView .featuresWrap .contents .featuresTit ul li {
+  grid-gap: 10px;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #121212;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.featuresView .featuresWrap .contents .featuresTit ul li i {
+  display: flex;
+  align-items: center;
+}
+
+.featuresView .featuresWrap .contents .featuresTit ul li i img {
+  width: 16px;
+}
+
+.featuresView .featuresWrap .contents .featuresTit ul li p {
+  display: block;
+}
+
+.featuresView .featuresWrap .contents .featuresCont {
+  width: 50%;
+}
+
+.featuresView .featuresWrap .contents .featuresCont img {
+  max-width: 575px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  .featuresView {
+    padding: 0 24px;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit {
+    margin-right: 42px;
+  }
+
+  .featuresView .featuresWrap .contents .featuresCont img {
+    max-width: 472px;
+  }
+
+  .featuresView .featuresWrap {
+    height: auto;
+    padding: 0 0 90px;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit ul li {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.71;
+    letter-spacing: normal;
+    color: #121212;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit h2,
+  .featuresView .featuresWrap .contents .featuresTit h2 p {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: -0.38px;
+    color: #121212;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit h2 {
+    margin-bottom: 60px;
+  }
+
+  .featuresView .featuresWrap .title>p {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.23px;
+    color: #0a51b7;
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .featuresView .featuresWrap .contents {
+    flex-direction: column;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit,
+  .featuresView .featuresWrap .contents .featuresCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    margin: 0 auto;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit {
+    margin-right: 0;
+    flex-direction: column;
+  }
+
+  .featuresView .featuresWrap .title>p {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.18px;
+    text-align: center;
+    color: #0a51b7;
+    margin-bottom: 40px;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit h2,
+  .featuresView .featuresWrap .contents .featuresTit h2 p {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: -0.33px;
+    text-align: center;
+    color: #121212;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit h2 {
+    margin-bottom: 65px;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit ul {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .featuresView .featuresWrap .contents .featuresCont img {
+    max-width: none;
+  }
+
+  .featuresView .featuresWrap .contents .featuresTit ul {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}

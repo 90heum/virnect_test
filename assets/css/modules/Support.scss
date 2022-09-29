@@ -1,0 +1,436 @@
+.SupportBanner {
+  display: flex;
+  align-items: center;
+  // max-width: 2400px;
+  width: 100%;
+  min-height: 920px;
+  background-image: url("~/assets/images/pages/epc/adsf2326452.png");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #1d55a6;
+}
+
+.SupportBanner .SupportBannerWrap {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  box-sizing: content-box;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit {
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:first-child {
+  margin-bottom: 20px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:first-child h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.55px;
+  color: #fff;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:last-child p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: -0.2px;
+  color: #bfdcff;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:last-child span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:last-child span p{
+  cursor: pointer;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:last-child span p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  text-align: right;
+  color: #f7f8f9;
+}
+
+.SupportBanner .SupportBannerWrap .SupportTit div:last-child span p:last-child img {
+  display: flex;
+  max-width: 12px;
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont {
+  display: flex;
+  width: 100%;
+  margin-bottom: 38px;
+  gap: 25px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div {
+  display: flex;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child {
+  display: flex;
+  flex: 2;
+  gap: 25px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div {
+  max-width: 383px;
+  width: 50%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div a span {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div a span p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.23px;
+  color: #fff;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div a span p:last-child img {
+  max-width: 19px;
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:first-child span {
+  display: flex;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:first-child span a {
+  display: flex;
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:first-child span a img {
+  display: block;
+  max-width: 383px;
+  width: 100%;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:last-child>span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:last-child>span span {
+  max-width: 121px;
+  max-height: 111px;
+  min-height: 111px;
+  width: calc((100% - 20px) / 3);
+  display: flex;
+  padding: 0px 18px;
+  border-radius: 6px;
+  background-color: #001c4d;
+  opacity: 0.25;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:last-child>span span:hover {
+  opacity: 1;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:last-child>span span a img {
+  display: block;
+  max-width: 50px;
+  min-width: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child {
+  display: flex;
+  max-width: 383px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child a span {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child a span p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.23px;
+  color: #fff;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child a span p:last-child img {
+  max-width: 19px;
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child>span {
+  display: flex;
+  gap: 10px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child>span span {
+  max-width: 122px;
+  min-height: 232px;
+  width: calc((100% - 20px) / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.25;
+  border-radius: 6px;
+  background-color: #001c4d;
+  cursor: pointer;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child>span span:hover {
+  opacity: 1;
+}
+
+.SupportBanner .SupportBannerWrap .SupportCont>div:last-child>span span a img {
+  max-width: 56px;
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div {
+  display: flex;
+  height: 100%;
+  gap: 5px;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:first-child p {
+  padding-top: 2px;
+  font-size: 17.6px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  text-align: right;
+  color: #bfdcff;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div {
+  display: flex;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:first-child {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:first-child i {
+  display: flex;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:first-child i img {
+  max-width: 24px;
+  width: 100%;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:first-child p {
+  padding-top: 2px;
+  font-size: 17.6px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #fff;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:last-child {
+  width: 92px;
+  height: 26px;
+  border-radius: 17px;
+  background-color: #fff;
+  padding: 6.5px 10px 5.5px 10px;
+  text-align: center;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:last-child:hover {
+  width: 92px;
+  height: 26px;
+  border-radius: 17px;
+  background-color: #78BBFD;
+  padding: 6.5px 10px 5.5px 10px;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:last-child a {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: #092e6e;
+}
+
+.SupportBanner .SupportBannerWrap .SupportBottomTit div:last-child div:last-child a:hover {
+  color: #000;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 1260px) {
+  .SupportBanner .SupportBannerWrap .SupportCont>div:last-child>span span {
+    min-height: 187px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:last-child>span span {
+    min-height: 88px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:first-child span a img {
+    height: 187px;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .SupportBanner .SupportBannerWrap {
+    padding: 0 24px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont {
+    flex-direction: column;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child div {
+    max-width: 100%;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:first-child span a img {
+    height: 213px;
+    max-width: 100%;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:last-child>span span {
+    min-height: 101.5px;
+    max-width: 100%;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:last-child>span span {
+    height: 213px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:last-child {
+    max-width: 100%;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:last-child>span span {
+    max-width: 100%;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportBottomTit {
+    flex-direction: column;
+  }
+
+  .SupportBanner {
+    height: 1188px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportTit div:last-child {
+    margin-bottom: 70px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont {
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportBottomTit {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child {
+    flex-direction: column;
+  }
+
+  .SupportBanner {
+    height: auto;
+    padding: 85px 0 95px;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child div {
+    width: 100%;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportCont>div:first-child div:first-child span a img {
+    height: auto;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportBottomTit>div:first-child {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SupportBanner .SupportBannerWrap {
+    position: relative;
+  }
+
+  .SupportBanner .SupportBannerWrap .SupportTit div:last-child span {
+    position: absolute;
+    top: 0;
+    right: 24px;
+  }
+}

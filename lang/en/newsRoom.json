@@ -1,0 +1,22 @@
+{
+    "newsRoom": {
+        "topText": {
+            "text": "VIRNECT finds solutions for industrial problems together with our clients, aiming for a safer and more efficient worksite."
+        },
+        "gnbHeaderText": {
+            "text": "We bring you the latest <p>news of the leaping Bernect.</p>"
+        },
+        "title": "  도약하는<p>버넥트의 최신 소식을 전해드립니다.</p>",
+        "type": {
+            "terms": "서비스 이용약관",
+            "policy": "개인정보처리방침",
+            "payment": "유료상품 이용약관"
+        },
+        "menuList": [
+            {
+                "title": "News & Press",
+                "url": "/news/main"
+            }
+        ]
+    }
+}

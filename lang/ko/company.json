@@ -1,0 +1,210 @@
+{
+	"companyText": {
+		"mainNews":{
+			"text1": "VIRNECT 뉴스",
+			"text2": "뉴스 전체보기"
+		},
+		"companySlide":[
+			{"title": "효율적인 업무와 효과적인 학습환경"},
+			{"title": "안전한 작업환경과 현장실습"},
+			{"title": "원격 협업 및 가상 경험을 통한 출장 및 장비 비용 절감"}
+		],
+		"companyAwards":{
+			"title": "인증 및 수상"
+		},
+		"talentText": {
+			"title": "인재 채용",
+			"contents": "버넥트는 사람과 사람/로봇, 현실과 가상, 시간과 공간, 정보와 지식, 그리고 지혜를 서로 연결하여 스마트한 미래, 행복한 미래, 지속가능한 저탄소 미래를 만들어 나갑니다."
+		},
+		"IRtext": {
+			"title": "Investor Relations",
+			"contents": "버넥트는 고객, 주주, 임직원을 비롯한 다양한 파트너들과 가치를 공유하며 생활 전반에 XR 기술이 스며들도록 최선을 다하고 있습니다."
+		},
+		"msText": {
+			"title": "다양한XR (eXtended Reality) 디바이스를 통해 </br> 버넥트확장현실(XR) 솔루션과 완벽한 퍼포먼스를 경험하세요."
+		},
+		"visualText": {
+			"title": "업무현장의 운영 및 관리를 위한 XR 솔루션 공급기업",
+			"contents": "버넥트는 스마트한 미래, 행복한 미래, 지속 가능한 저탄소 미래를 추구하는 확장현실(XR) 기술을 활용한 일상의 디지털 트랜스포메이션을 제시합니다.<br>국내 주요 대기업 및 공공기업에서 버넥트의 XR 솔루션을 이미 사용하고 있으며 혁신적인 솔루션으로 인정받아 기술 및 시장의 리더로서 인정받고 있습니다."
+		},
+		"tailText": "산업 문제의 AR/DT 해답. <br class='mobile-show'>VIRNECT가 알려드립니다.",
+		"summaryText": {
+			"summaryTitle": {
+				"title": "더 안전하고 효율적인 현장을 <br>고객과 함께 만듭니다",
+				"contents": "VIRNECT는 AR 기술을 통해 현장의 문제를 해결하고 개선하기 위해 노력합니다.<br>현장에서 일어나는 문제를 고객의 입장에서 분석하고, 현장에서 가장 필요한 가장 진보된 솔루션을 제공합니다.<br>항상 고객 중심으로 생각하며 고객과 함께 AR 혁신을 만듭니다."
+			},
+			"weProudArr": [
+				{
+					"contents": "설립연도",
+					"count": "2016년"
+				},
+				{
+					"contents": "임직원",
+					"count": "90명+"
+				},
+				{
+					"contents": "지식재산권",
+					"count": "90건+"
+				},
+				{
+					"contents": "AR 프로젝트 수행",
+					"count": "110건+"
+				},
+				{
+					"contents": "인증 및 수상",
+					"count": "20건+"
+				}
+			],
+			"weProudText": "* 2021년 4월 기준",
+			"missionText": {
+				"title": "미션",
+				"contents": "Better industrial sites with AR / DT",
+				"subContents": "우리는 고객에게 향상된 산업 안전성, 최상의 업무 효율성, 최고의 편의성을 제공하기 위해서 노력합니다."
+			},
+			"vissionText": {
+				"title": "비전",
+				"contents": "고객의 문제를 해결할 수 있는 <strong>‘가장 고객 중심적인 회사’</strong>"
+			},
+			"businessAreaTitle": {
+				"category": "사업 영역",
+				"title": "혁신적인 증강현실 / 디지털 트윈 기술로 <br class='mobile-hidden'>더 안전하고 효율적인 산업 현장을 위한 최고의 해결책을 제공합니다."
+			},
+			"customers": {
+				"public": "공공",
+				"private": "민간",
+				"education": "교육"
+			}
+		},
+		"brandText": {
+			"headingTitle": {
+				"title": "글로벌 No.1 XR 플랫폼 기업",
+				"contents": "버넥트는 Smart future, Safe future, Low-Carbon future라는 세 가 지 관점으로확장현실(XR) 기술을 활용한 산업현장의 디지털 트랜스포메이션을<br/> 이끌 고 있습니다 .자체 개발한 컴퓨터 비전 기반의 증강현실 원천기술을 바탕으로 메타버스 기술 트렌드를 선도하는 XR 솔루션 전문 기업입니다."
+			},
+			"brandLogoText": {
+				"title": "기업 로고 (CI)",
+				"contents": "VIRNECT CI는 신뢰 중시 / 시장 선도 / 상생 추구의 가치를 가지고 있으며 VIRNECT의 아이덴티티를 일관성있게 표현하기 위한 핵심 디자인 요소이자 상징적으로 시각화하는 기준점입니다."
+			},
+			"biTextLists": [
+				{
+					"title": "신뢰 중시 (Blue)",
+					"contents": "블루 색상은 고객과의 신뢰 관계를 중요하게 생각하고, 고객의 업무 환경 개선의 청사진을 함께 만들어가는 VIRNECT를 의미합니다."
+				},
+				{
+					"title": "시장 선도 (Bold)",
+					"contents": "볼드 타입의 로고 타이프는 AR/DT 시장을 선도하여 지속가능한 솔루션을 제공하겠다는 VIRNECT 의지를 나타냅니다."
+				},
+				{
+					"title": "상생 추구 (Vertical & Round)",
+					"contents": "사회의 일원으로서 더불어 살아간다는 마음을 가지고 사회, 국가, 인류의 공동 번영을 위해 다름의 융화와 조화의 가치를 추구함을 의미합니다."
+				}
+			],
+			"ciDownload": "CI 다운로드",
+			"biTransList": {
+				"array": [
+					{
+						"title": "기본형",
+						"image": "../images/pages/company/logo-basic"
+					},
+					{
+						"title": "한글조합형",
+						"image": "../images/pages/company/logo-kor-type"
+					},
+					{
+						"title": "영문조합형",
+						"image": "../images/pages/company/logo-eng-type"
+					}
+				],
+				"contents": "버넥트의 심벌마크 및 로고타이프는 어떤 상황에서도 변형이나 재조합이 불가능합니다. 시그니처, 로고 타입 등을 사용하기 위해서는 CI 파일을 다운로드받아 활용하시기 바랍니다."
+			},
+			"biText": {
+				"title": "제품 로고 (BI)",
+				"contents": "VIRNECT 제품의 육각형 모티브 로고는 산업을 구성하는 모든 정보와 구성원의 융화와 결합을 의미합니다. VIRNECT의 다양한 제품을 사용자가 쉽게 구별하기 위한 목적으로 사용됩니다."
+			}
+		},
+		"mediaText": {
+			"title": "뉴스 센터",
+			"contents": "VIRNECT는 고객과 함께 산업 현장의 <br class='mobile-show'>문제를 해결하고, <br class='mobile-hidden'>더 안전하고 효율적인 현장을 <br class='mobile-show'>만들어 가고 있습니다. ",
+			"mention": "산업 문제의 AR/DT 해답.<br class='mobile-show'> VIRNECT가 알려드립니다."
+		},
+		"recruitText": {
+			"visualText": {
+				"title": "인재 채용",
+				"contents": "VIRNECT는 AR 기술을 통한 산업 현장의 안전과 효율성 증진을 목표로 합니다. <br class='mobile-hidden'>세계 최고의 기술진과 VIRNECT에서 함께 AR 혁신을 이루세요."
+			},
+			"btnText": "버넥트 인재 채용",
+			"headingTitle": {
+				"title": "VIRNECT의 기술은 <br class='mobile-show'>현장 속 삶을 바꿉니다",
+				"contents": "VIRNECT는  현장의 안전과 효율성 증진을 위한 AR 솔루션을 개발합니다.<br class='mobile-hidden'>현장의 AR 혁신은 산업 관계자와 현장 근로자의 삶을 더욱 안전하고, 풍요롭게 만듭니다.<br class='mobile-hidden'>더 많은 사람들의 삶을 이롭게 만들어갈 진취적 동행자를 VIRNECT가 기다립니다."
+			},
+			"careerTitle": "버넥트는 즐거운 열정이 넘치는 여러분의 지원을 언제나 환영합니다.<br class='mobile-hidden'> 긍정적인 마인드를 가진 당신과 함께 글로벌 AR/VR의 미래를 만들어 가겠습니다.",
+			"talentTextLIst": [
+				"자발적인 동기부여를 통해 업무에 몰입하며, <br>열정을 가지고 맡은바 최선을 다합니다.",
+				"자유로운 분위기 속에서 스스로<br>권한과 책임을 가지고 일합니다.",
+				"효율적이고 능동적으로 협업하기 위해,<br>의사소통 능력을 중요시 생각합니다."
+			],
+			"weWork": "VIRNECT는 <br class='mobile-show'>이렇게 일합니다",
+			"welfare": "능률은 높이고, <br>든든하고 즐거운 일터를 <br>지원합니다.",
+			"welfareTextList": [
+				{
+					"title": "수평적인 업무문화",
+					"contents": "수평 호칭 등 편한 소통과 존중을 통한 자율,책임에 기반한 자기주도적 문화입니다."
+				},
+				{
+					"title": "최신/최고급 HW 및 SW",
+					"contents": "최신/최고급 HW 및 SW를 지급하며 스마트글라스를 다수 보유하였습니다."
+				},
+				{
+					"title": "유연한 업무시간",
+					"contents": "유연근무제(08:30 - 10:30 사이 자율 출근)를 도입했으며, 월 1회 조기퇴근이 가능합니다."
+				},
+				{
+					"title": "안식휴가/편의시설",
+					"contents": "장기근속포상(3년 근속 200만원)과 부서 활동비/회식비를 지원하며 중/석식 및 커피, 간식 제공합니다."
+				},
+				{
+					"title": "역량개발 지원",
+					"contents": "외부 교육/전시/학회/세미나를 지원하며 사내 세미나 진행과 도서 구매를 지원합니다."
+				},
+				{
+					"title": "각종 경조사/기념일/기타 지원",
+					"contents": "생일인 직원에게 상품권 10만원 지급하며 경조사 지원과 상하반기 문화활동 및 워크샵을 진행합니다."
+				}
+			]
+		},
+		"newsletterText": {
+			"contents": "버넥트 뉴스레터를 신청하세요. <br>고객사례, 교육안내, 이벤트 등 산업용 AR 관련 다양한 소식을 받아보실 수 있습니다."
+		},
+		"recruitBoardText": {
+			"chapter": "챕터",
+			"position": "모집분야",
+			"part": "고용형태",
+			"period": "모집기간",
+			"headingTitle": {
+				"title": "AR 기술의 혁신, <br class='mobile-show'>가치있는 변화를 함께 하세요",
+				"contents": "VIRNECT는 산업 현장의 최첨단 기술을 이끌 차세대 리더, 가치있는 변화를 만들어갈 동행자를 기다립니다.<br class='mobile-hidden'> VIRNECT에서 일한다는 것은 기술을 활용한 현장의 혁신을 리드하며, 더 나아가 여러분의 삶에서도 가치있는 변화가 시작된다는 것을 의미합니다."
+			}
+		},
+		"careerBenefit": {
+			"workPosition": "주요업무",
+			"careerType": "직원유형",
+			"recruitment": "영입인원",
+			"priority": "자격요건",
+			"quality": "우대사항",
+			"location": "근무장소",
+			"condition": "전형절차",
+			"welfare": "입사지원방법 및 문의",
+			"howTo": "제출양식",
+			"manager": "담당자",
+			"mail": "지원메일",
+			"call": "문의전화",
+			"fullTime": "정규직",
+			"partTime": "계약직",
+			"internship": "인턴",
+			"person": "명"
+		},
+		"banner":{
+			"text1": "VIRNECT 회사소개",
+			"text2": "회사소개서 다운로드(PDF)"
+		}
+	}
+}

@@ -1,0 +1,492 @@
+@charset "utf-8";
+@import "../mixin.scss";
+@import url('~/assets/css/reset.scss');
+
+.board-module {
+  @include area-flex(1200px);
+  margin-top: 130px;
+  margin-bottom: 300px;
+
+  @media (max-width: $mobile) {
+    margin-top: 72px;
+    margin-bottom: 140px;
+  }
+}
+
+table {
+  position: relative;
+  width: 100%;
+  font-family: $noto;
+  border-top: 2px solid $baseColor;
+  border-bottom: 1px solid #d4d9e1;
+
+  th {
+    padding: 20px 24px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  td {
+    padding: 20px 24px;
+    color: #000;
+    font-size: 16px;
+    border-top: 1px solid #d4d9e1;
+    cursor: pointer;
+  }
+
+  .num {
+    width: 10%;
+  }
+
+  .middle {
+    width: 20%;
+  }
+
+  .small {
+    width: 5%;
+  }
+
+  .title {
+    width: 62%;
+  }
+
+  .date {
+    width: 13%;
+  }
+
+  @media (max-width: $mobile) {
+    border-top-width: 1px;
+
+    th {
+      padding: 15px 0;
+      font-size: 14px;
+    }
+
+    td {
+      padding: 15px 0;
+      font-size: 13px;
+      vertical-align: top;
+      // white-space: nowrap;
+      // overflow: hidden;
+    }
+
+    .num {
+      width: 14%;
+    }
+
+    .middle {
+      width: 28%;
+    }
+
+    .title {
+      max-width: 180px;
+      padding: 15px 8px;
+      font-size: 14px;
+      word-break: break-all;
+      // white-space: nowrap;
+    }
+
+    .date {
+      padding: 15px 8px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.nodata,
+.noresult {
+  text-align: center;
+}
+
+.pagination.numb {
+  margin-top: 100px;
+  text-align: center;
+  $size: 34px;
+
+  .btn {
+    background-position: center;
+    background-size: 24px;
+    border: 1px solid #ced3dc;
+
+    // &.first-btn {
+    //     margin-right: 12px;
+    //     background-image: url("~assets/images/common/icon-arrow-first.png");
+    // }
+    &.prev-btn {
+      margin-right: 24px;
+      background-image: url("~assets/images/common/ic-keyboard-arrow-prev@2x.png");
+    }
+
+    &.next-btn {
+      margin-left: 24px;
+      background-image: url("~assets/images/common/ic-keyboard-arrow-next@2x.png");
+    }
+
+    // &.last-btn {
+    //     margin-left: 12px;
+    //     background-image: url("~assets/images/common/icon-arrow-last.png");
+    // }
+  }
+
+  ul,
+  li {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  li {
+    width: $size;
+    height: $size;
+
+    &:hover,
+    &.active {
+      button {
+        color: #1655bf;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  button {
+    width: $size;
+    height: $size;
+    font-size: 16px;
+    font-family: $noto;
+  }
+}
+
+// 보드 디테일 상세페이지
+.news-view {
+  padding-top: 120px;
+
+  .align-center {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    text-align: center;
+
+    button {
+      padding: {
+        right: 50px;
+        left: 70px;
+      }
+
+      height: 50px;
+      color: #5c6373;
+      font-weight: 500;
+      font-size: 16px;
+      font-family: $noto;
+      background: url("~assets/images/common/list-ico@2x.png") no-repeat;
+      background-position: 52px 19px;
+      background-size: 12px;
+      border: 1px solid #ced3dc;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    .align-center {
+      padding-top: 30px;
+      padding-bottom: 80px;
+
+      button {
+        // width: 136px;
+        height: 46px;
+
+        padding: {
+          right: 24px;
+          left: 52px;
+        }
+
+        font-size: 12px;
+        font-size: 14px;
+        background-position: 32px 17px;
+        // border-radius: 23px;
+      }
+    }
+  }
+}
+
+.view-head {
+  $dateBottom: 20px;
+  padding-bottom: $dateBottom;
+  border-bottom: 1px solid #d4d9e1;
+
+  .category {
+    position: relative;
+    padding-bottom: $dateBottom;
+    color: $point;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: $poppins;
+  }
+
+  .title {
+    .download-icon {
+      display: none;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+
+    padding-top: $dateBottom;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: $noto;
+    border-top: 2px solid $deepBlue;
+  }
+
+  .date {
+    position: absolute;
+    right: 0;
+    bottom: $dateBottom;
+    color: #858a90;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: $poppins;
+  }
+
+  @media (max-width: $mobile) {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+
+    .category {
+      margin-bottom: 10px;
+      padding-bottom: 0;
+      font-size: 16px;
+    }
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      padding-top: 12px;
+      font-size: 18px;
+      border-top: 1px solid #000;
+
+      .download-icon {
+        display: inline !important;
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .date {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+.view-body {
+  margin: 0 60px;
+  padding-top: 60px;
+  padding-bottom: 160px;
+
+  .thumbnail-img {
+    text-align: center;
+
+    img {
+      max-width: 900px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .view-body-text {
+    color: $deepBlue;
+    font-weight: 300;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: $noto;
+    line-height: 1.88;
+    white-space: pre-wrap;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  .source-wrap {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+
+    p {
+      margin-bottom: 8px;
+      color: $point;
+    }
+
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    margin: 0;
+
+    &.area-flex-inner {
+      padding: 0;
+      padding-bottom: 30px;
+    }
+
+    .thumbnail-img {
+      min-height: 108px;
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;
+        margin: 0;
+      }
+    }
+
+    .view-body-text {
+      font-size: 14px;
+    }
+
+    .right-align {
+      text-align: right;
+    }
+
+    .source-wrap {
+      margin-top: 52px;
+      margin-bottom: 80px;
+      font-size: 14px;
+
+      p {
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
+
+.view-foot {
+  font-size: 0;
+  border-top: 1px solid #d4d9e1;
+  @include clearfix();
+
+  button {
+    position: relative;
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    font-family: $noto;
+    white-space: nowrap;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: 46px;
+    border-bottom: 1px solid #d4d9e1;
+
+    &.prev-btn {
+      .direction {
+        background-image: url("~assets/images/common/ic-keyboard-arrow-up@2x.png");
+      }
+    }
+
+    &.next-btn {
+      .direction {
+        background-image: url("~assets/images/common/ic-keyboard-arrow-down@2x.png");
+      }
+    }
+
+    &:hover,
+    &:active {
+      color: $point;
+
+      &.prev-btn {
+        .direction {
+          background-image: url("~assets/images/common/ic-keyboard-arrow-up@2x.png");
+        }
+      }
+
+      &.next-btn {
+        .direction {
+          background-image: url("~assets/images/common/ic-keyboard-arrow-down@2x.png");
+        }
+      }
+    }
+
+    p {
+      display: inline-block;
+      padding: 24px 30px;
+      font-weight: 500;
+      vertical-align: top;
+    }
+
+    .direction {
+      font-size: 18px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 24px;
+    }
+
+    .title {
+      position: relative;
+      width: 79%;
+      padding-left: 72px;
+      overflow: hidden;
+      font-size: 16px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .date {
+      color: #858a90;
+      font-weight: normal;
+      font-size: 16px;
+      font-family: $poppins;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    margin-top: 70px;
+
+    &.closer {
+      margin-top: 0;
+    }
+
+    button {
+      p {
+        padding: 14px 8px;
+        vertical-align: top;
+      }
+
+      .direction {
+        padding-right: 24px;
+        font-size: 14px;
+      }
+
+      .date {
+        display: none;
+      }
+
+      .title {
+        width: 82%;
+        padding-left: 20px;
+        overflow: hidden;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.view-download {
+  & .link {
+    color: #31313b;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: $noto;
+    line-height: 1.25;
+    text-decoration: underline;
+  }
+
+  display: flex;
+  align-items: center;
+  height: 72px;
+  background-color: rgba($color: #e6e9ee, $alpha: 0.5);
+}

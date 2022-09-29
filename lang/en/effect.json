@@ -1,0 +1,140 @@
+{
+    "effectList": {
+        "effectTit": {
+            "category": "What to expect",
+            "title": "Efficient work with accurate and precise information delivery.",
+            "contents": "VIRNECT Make enables cost-effective and secure knowledge transmission, allowing you to convey workflows and processes and get immediate feedback."
+        },
+        "Speedy": {
+            "title": "Fast",
+            "contents": "Produce in-house XR content and avoid long outsourcing processes"
+        },
+        "Reliable": {
+            "title": "Reliable",
+            "contents": "Produce and manage XR content without depending on external creators."
+        },
+        "Immediately": {
+            "title": "Ready-available",
+            "contents": "Update XR content and tasks as they evolve in real- time."
+        },
+        "Security": {
+            "title": "Secure",
+            "contents": "Protect your professional secrets with the highest industry standards."
+        }
+    },
+    "viewList": {
+        "Tit": {
+            "category": "What to expect",
+            "title": "Fast and accurate decision-making based on real-time data",
+            "contents": "VIRNECT View supports a powerful remote and asynchronous knowledge-sharing system enabling timely work and enhancing productivity. Improve your operation with accurate guidance while reducing the burden on experts."
+        },
+        "Speedy": {
+            "title": "Visual",
+            "contents": "Understand operations and data with visual AR content"
+        },
+        "Reliable": {
+            "title": "Intuitive",
+            "contents": "Minimize errors with intuitive AR facilities"
+        },
+        "Immediately": {
+            "title": "Connected",
+            "contents": "Know the current situation with real-time reporting"
+        },
+        "Security": {
+            "title": "Fast",
+            "contents": "Get information when you need it and deal with problems on-site"
+        }
+    },
+    "remoteList": {
+        "Tit": {
+            "category": "What to expect",
+            "title": "Timely response and collaboration<br> in industrial environments",
+            "contents": "VIRNECT Remote level up teams’ synergies by overcoming time and distance limitations. Leverage XR and enjoy a more productive and connected work environment."
+        },
+        "Speedy": {
+            "title": "Fast",
+            "contents": "Reduce off time and travel time"
+        },
+        "Reliable": {
+            "title": "Accurate",
+            "contents": "Avoid miscommunication with precise visual guidance."
+        },
+        "Immediately": {
+            "title": "Hands-Free",
+            "contents": "Receive field support through head-mounted devices."
+        },
+        "Security": {
+            "title": "Efficient",
+            "contents": "Level up your workforce with engaging XR training"
+        }
+    },
+    "makeList": {
+        "Tit": {
+            "category": "What to expect",
+            "title": "Efficient work with accurate and precise<br> information delivery.",
+            "contents": "VIRNECT Make enables cost-effective and secure knowledge transmission, allowing you to convey workflows and processes and get immediate feedback."
+        },
+        "Speedy": {
+            "title": "Fast",
+            "contents": "Produce in-house XR content and avoid long outsourcing processes"
+        },
+        "Reliable": {
+            "title": "Reliable",
+            "contents": "Produce and manage XR content without depending on external creators."
+        },
+        "Immediately": {
+            "title": "Ready-available",
+            "contents": "Update XR content and tasks as they evolve in real- time."
+        },
+        "Security": {
+            "title": "Secure",
+            "contents": "Protect your professional secrets with the highest industry standards."
+        }
+    },
+    "twinList": {
+        "Tit": {
+            "category": "What to expect",
+            "title": "Precise field monitoring & informed decision-making",
+            "contents": "VIRNECT Twin will deliver a powerful monitoring system of all your industrial sites, empowering managers with insights for data-backed decision-making. With historical data and simulation features, VIRNECT Twin optimizes the overall process and enhances the quality of outcomes."
+        },
+        "Speedy": {
+            "title": "Updated",
+            "contents": "Get real-time data collected from the field on an identical digital model"
+        },
+        "Reliable": {
+            "title": "Informed",
+            "contents": "Have accurate predictions with simulations based on historical data. Be able to schedule maintenance and prevent off times accurately."
+        },
+        "Immediately": {
+            "title": "Efficient",
+            "contents": "Increase efficiency by simulating different layout configurations, times, and processes."
+        },
+        "Security": {
+            "title": "Safe",
+            "contents": "Prevent accidents with team-shared information"
+        }
+    },
+    "trackList": {
+        "Tit": {
+            "category": "What to expect",
+            "title": "Freely customize spatial AR systems.",
+            "contents": "With VIRNECT Track, developers can create innovative AR services and seamlessly extend reality. The exceptional flexibility and stability of VIRNECT Track enable the development of stable AR services."
+        },
+        "Speedy": {
+            "title": "Fast",
+            "contents": "Bring AR systems to life easily and deploy services faster."
+        },
+        "Reliable": {
+            "title": "Reliable",
+            "contents": "Rely on a high-quality and precise engine to deploy stable AR applications."
+        },
+        "Immediately": {
+            "title": "Stable",
+            "contents": "Trust a stable service from an in-house developed SDK that does not depend on external licensing."
+        },
+        "Security": {
+            "title": "Convenient",
+            "contents": "Enjoy a convenient AR service with optimized an SDK"
+        }
+    }
+}
